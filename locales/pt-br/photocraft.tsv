@@ -3007,11 +3007,8 @@ cameraRaw	Saturation	Saturação
 	Save these settings as a Camera Raw .xmp file	Salvar estas configurações como arquivo .xmp do Camera Raw
 	Save these shortcuts as a .kys file	Salvar estes atalhos como arquivo .kys
 	Save these shortcuts as a new set	Salvar estes atalhos como um novo conjunto
- pt-br/photocraft
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Salve no arquivo SVG aberto. Cada alteração salva se torna uma etapa de desfazer no PhotoCraft.
-
 	Save Transparency	Salvar transparência
- main
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salve seu trabalho e reinicie o PhotoCraft para tentar a aceleração por GPU novamente. A renderização pela CPU continua ativa nesta sessão.
 	Saved a copy as {path}	Cópia salva como {path}
 	Saved contours to {file}	Contornos salvos em {file}
@@ -3819,11 +3816,8 @@ cameraRaw	Yellow	Amarelo
 	ZigZag	Zigue-zague
 	Zigzag	Zigue-zague
 	ZigZag…	Ziguezague…
- pt-br/photocraft
 navigator	Zoom	Zoom
-
 	ZIP	ZIP
- main
 	Zoom clicked point to center	Centralizar o ponto clicado ao aplicar zoom
 	Zoom In	Aumentar zoom
 	Zoom In (hold, drag to scrub)	Mais zoom (manter pressionado, arrastar para ampliar)
