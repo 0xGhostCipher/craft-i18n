@@ -54,10 +54,10 @@
 	; 1 page skipped	; 1 página ignorada
 	; 1 signed file kept its images	; 1 arquivo assinado manteve suas imagens
 	; cancelled — {n} files were not run	; cancelado — {n} arquivos não foram processados
-	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; convertido para {level}, mas nem tudo está em conformidade ainda ({first}); consulte Aplicar padrões de PDF ▸ Salvar como PDF/A
+	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; convertido para {level}, mas nem tudo está em conformidade ainda ({first}); consulte Aplicar normas PDF > Salvar como PDF/A
 	; corrected {n} pages	; {n} páginas corrigidas
 	; failed: {list}	; falharam: {list}
-	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; ainda não é PDF/A: {list} (abra em Aplicar padrões de PDF ▸ Salvar como PDF/A)
+	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; ainda não é PDF/A: {list} (abra em Aplicar normas PDF > Salvar como PDF/A)
 	; not saved as {level}: {why}	; não salvo como {level}: {why}
 	; saved as {level}	; salvo como {level}
 	; skipped: {n}	; ignorados: {n}
@@ -1238,7 +1238,7 @@ key	Delete	Delete
 	Each page on its own sheet, named Page 1, Page 2…	Cada página em sua própria planilha, chamada Page 1, Page 2…
 	Each page prints on the standard sheet it matches (A4, US Letter, …); pages of another size print on the paper above. Only with Size.	Cada página é impressa na folha padrão com que corresponde (A4, US Letter, …); páginas de outro tamanho, no papel acima. Somente com “Tamanho”.
 	Each set is a text file in	Cada conjunto é um arquivo de texto em
-	Each set is a text file in the guide-set folder (Preferences ▸ Units and guides ▸ Open folder). Edit it in any text editor, send it to others, or drop theirs into the folder, then click Reload. Distances are measured from the edge you name, so a set fits other page sizes.	Cada conjunto é um arquivo de texto na pasta de conjuntos de guias (Preferências ▸ Unidades e guias ▸ Abrir pasta). Edite-o em qualquer editor de texto, envie a outros ou coloque arquivos recebidos na pasta e clique em Recarregar. As distâncias são medidas a partir da borda indicada, adaptando-se a outros tamanhos de página.
+	Each set is a text file in the guide-set folder (Preferences ▸ Units and guides ▸ Open folder). Edit it in any text editor, send it to others, or drop theirs into the folder, then click Reload. Distances are measured from the edge you name, so a set fits other page sizes.	Cada conjunto é um arquivo de texto na pasta de conjuntos de guias (Preferências > Unidades e guias > Abrir pasta). Edite-o em qualquer editor de texto, envie a outros ou coloque arquivos recebidos na pasta e clique em Recarregar. As distâncias são medidas a partir da borda indicada, adaptando-se a outros tamanhos de página.
 	Earlier in calculation order	Mais acima na ordem de cálculo
 	Earlier in tab order	Mais acima na ordem de tabulação
 	earlier saves are still waiting for the website	salvamentos anteriores ainda aguardam o site
@@ -1724,7 +1724,7 @@ key	Home	Home
 	Horizontal coordinates	Coordenadas horizontais
 	Horizontal reversed	Horizontal invertida
 	Hotbar settings	Configurações da barra de ferramentas rápida
-	Hotbar settings / add tools	Configurações da barra rápida / adicionar ferramentas
+	Hotbar settings / add tools	Configurações da barra de ferramentas rápida / adicionar ferramentas
 	Hotbar tools	Ferramentas da barra de ferramentas rápida
 	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	Como Editar texto lê fontes antigas que não informam quais letras desenham. A detecção automática reconhece fontes hebraicas organizadas segundo ISO 8859-8 ou Windows-1255.
 	HTML web page	Página da Web HTML
@@ -2257,7 +2257,7 @@ calendar weekday	Mo	Seg
 	No release notes were provided.	Nenhuma nota da versão foi fornecida.
 	No saved measurements in this view.	Nenhuma medição salva nesta visualização.
 	No saved sets yet	Nenhum conjunto salvo ainda
-	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	Nenhum conjunto salvo ainda. Clique com o botão direito em uma régua ▸ Salvar guias como conjunto… ou coloque um arquivo de conjunto na pasta.
+	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	Nenhum conjunto salvo ainda. Clique com o botão direito em uma régua > Salvar guias como conjunto… ou coloque um arquivo de conjunto na pasta.
 	No scanned pages were cleaned up.	Nenhuma página digitalizada foi limpa.
 	No scanner found	Nenhum scanner encontrado
 	No scanner is connected.	Nenhum scanner está conectado.
@@ -3007,7 +3007,7 @@ review-suggestion	Replacement text	Texto de substituição
 	Right Header Text	Texto do cabeçalho à direita
 	Right to left (RTL)	Da direita para a esquerda (RTL)
 	Right-click a guide for a colour, Properties… (colour, thickness, label, every page) and Delete. Double-click opens Properties too.	Clique com o botão direito em uma guia para escolher uma cor, Propriedades… (cor, espessura, rótulo, todas as páginas) e Excluir. O clique duplo também abre Propriedades.
-	Right-click a ruler ▸ Save guides as a set… keeps the guides, the unit and, if you like, the grid under a name and a shortcut. {first} … {last} shows and hides a set over any document; Edit in document turns it back into guides you can move.	Clique com o botão direito em uma régua ▸ Salvar guias como conjunto… mantém as guias, a unidade e, se desejar, a grade com um nome e um atalho. {first} … {last} mostra e oculta um conjunto sobre qualquer documento; Editar no documento o transforma novamente em guias móveis.
+	Right-click a ruler ▸ Save guides as a set… keeps the guides, the unit and, if you like, the grid under a name and a shortcut. {first} … {last} shows and hides a set over any document; Edit in document turns it back into guides you can move.	Clique com o botão direito em uma régua > Salvar guias como conjunto… mantém as guias, a unidade e, se desejar, a grade com um nome e um atalho. {first} … {last} mostra e oculta um conjunto sobre qualquer documento; Editar no documento o transforma novamente em guias móveis.
 	Right-to-left page order	Ordem das páginas da direita para a esquerda
 	Right-to-left page order in two-page view	Ordem das páginas da direita para a esquerda na exibição de duas páginas
 	Right-to-left text	Texto da direita para a esquerda
@@ -3466,7 +3466,7 @@ scroll speed	Slow	Lenta
 key	Space	Espaço
 	Space Audit	Auditoria de espaço
 	Spacing between copies	Espaçamento entre as cópias
-	Spacing, offset, subdivisions, colour and thickness are in Preferences ▸ Units and guides.	Espaçamento, deslocamento, subdivisões, cor e espessura estão em Preferências ▸ Unidades e guias.
+	Spacing, offset, subdivisions, colour and thickness are in Preferences ▸ Units and guides.	Espaçamento, deslocamento, subdivisões, cor e espessura estão em Preferências > Unidades e guias.
 	spans two paragraphs	abrange dois parágrafos
 	Speed:	Velocidade:
 	Spelling checks stay on this device.	A verificação ortográfica fica neste dispositivo.
@@ -4303,9 +4303,9 @@ certificate	Version	Versão
 	View release page…	Ver página do lançamento…
 	View revision {n}	Exibir revisão {n}
 	View signed version	Exibir versão assinada
-	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	Exibir ▸ Grade ({grid}) desenha uma grade sobre as páginas; Exibir ▸ Ajustar à grade ({snap}) faz uma guia arrastada se ajustar a ela.
-	View ▸ Guides ({guides}) hides and shows them; View ▸ Clear guides removes this document's guides. Guides are never saved in the PDF.	Exibir ▸ Guias ({guides}) oculta e mostra as guias; Exibir ▸ Limpar guias remove as guias deste documento. As guias nunca são salvas no PDF.
-	View ▸ Rulers ({rulers}) shows a ruler above and beside the pages. Click the corner between them to step to the next unit, or right-click a ruler to choose one.	Exibir ▸ Réguas ({rulers}) mostra uma régua acima e ao lado das páginas. Clique no canto entre elas para avançar para a próxima unidade ou clique com o botão direito em uma régua para escolher uma.
+	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	Exibir > Grade ({grid}) desenha uma grade sobre as páginas; Exibir > Ajustar à grade ({snap}) faz uma guia arrastada se ajustar a ela.
+	View ▸ Guides ({guides}) hides and shows them; View ▸ Clear guides removes this document's guides. Guides are never saved in the PDF.	Exibir > Guias ({guides}) oculta e mostra as guias; Exibir > Limpar guias remove as guias deste documento. As guias nunca são salvas no PDF.
+	View ▸ Rulers ({rulers}) shows a ruler above and beside the pages. Click the corner between them to step to the next unit, or right-click a ruler to choose one.	Exibir > Réguas ({rulers}) mostra uma régua acima e ao lado das páginas. Clique no canto entre elas para avançar para a próxima unidade ou clique com o botão direito em uma régua para escolher uma.
 	Viewing	Visualização
 	Viewport	Janela de visualização
 	Viewport rectangle in page points (x, y, width, height)	Retângulo da janela de visualização em pontos da página (x, y, largura, altura)
@@ -4341,7 +4341,7 @@ document scrollbar width	Wide	Larga
 	Will use the bed.	Usará o vidro.
 	Will use the feeder.	Usará o alimentador.
 	Window Options	Opções de janela
-	Windows store  ·	Loja do Windows  ·
+	Windows store  ·	Repositório do Windows  ·
 	Windows store  ·  	Repositório do Windows  ·  
 	With the control channel on, ui.state lists every guide (in the set format, and where it lies on screen) and the sets with their files and errors. ui.set document-guides <set as JSON or TOML> replaces the document's guides, guide-set <name>:on|off|toggle shows a set, guide-set-file <set> saves one, and guides, grid and snap-to-grid take on or off.	Com o canal de controle ativo, ui.state lista cada guia (no formato de conjuntos e sua posição na tela) e os conjuntos com seus arquivos e erros. ui.set document-guides <conjunto como JSON ou TOML> substitui as guias do documento, guide-set <name>:on|off|toggle mostra um conjunto, guide-set-file <set> salva um, e guides, grid e snap-to-grid aceitam on ou off.
 	WKT definition	Definição WKT
