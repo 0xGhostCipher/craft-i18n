@@ -64,7 +64,7 @@
 	Add another shortcut	Adicionar outro atalho
 	Add another shortcut for {action}	Adicionar outro atalho para {action}
 	Add camera	Adicionar câmera
-	Add colour stop	Adicionar ponto de cor
+	Add colour stop	Adicionar ponto de parada de cor
 	Add event	Adicionar evento
 	Add filter	Adicionar filtro
 	Add to / remove from selection	Adicionar à seleção / remover da seleção
@@ -227,7 +227,7 @@
 	Click a shape to show its points; on a merged drawing, the points of everything connected to it. Drag points or handles to reshape (a shared point moves every shape that has it; a smooth point's handles stay in line, Alt moves one alone); drag a line or fill to move everything connected. Shift adds to the point selection, drag on empty space to marquee points, arrow keys nudge them. Double-click an edge to add a point, Delete removes points, and right-click makes a point smooth or a corner. A motion path's points edit the same way (its ends stay).	Clique em uma forma para exibir seus pontos; em um desenho mesclado, os pontos de tudo o que estiver conectado a ela. Arraste pontos ou alças para remodelar (um ponto compartilhado move todas as formas que o possuem; as alças de um ponto suave permanecem alinhadas, Alt move uma isoladamente); arraste uma linha ou preenchimento para mover tudo conectado. Shift adiciona à seleção de pontos, arrastar em espaço vazio faz seleção retangular de pontos, teclas de seta os movem em incrementos. Clique duas vezes em uma borda para adicionar um ponto, Delete remove pontos e o clique com o botão direito torna um ponto suave ou de canto. Os pontos de uma trajetória de movimento são editados da mesma forma (suas extremidades permanecem).
 	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	Clique dentro de um contorno para preenchê-lo (nas linhas da camada) ou em um preenchimento para recolori-lo. O tamanho da folga fecha pequenas aberturas.
 	Click the movie to give it the keyboard	Clique no filme para atribuir a ele o teclado
-	Click to add a colour stop	Clique para adicionar um ponto de cor
+	Click to add a colour stop	Clique para adicionar um ponto de parada de cor
 	Click to change · right-click to remove	Clique para alterar · clique com o botão direito para remover
 	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point. Alt-click a selected shape, a merged drawing's line or a motion path to add a point to it. Points snap to points and lines while Snap to Objects is on.	Clique para posicionar pontos de canto, arraste para puxar alças suaves (Alt move uma alça isolada). Clique no primeiro ponto para fechar; Enter, Esc ou um clique no último ponto conclui. Backspace remove o último ponto. Alt+clique em uma forma selecionada, na linha de um desenho mesclado ou em uma trajetória de movimento para adicionar um ponto a ela. Os pontos se encaixam em pontos e linhas enquanto o Encaixar em objetos estiver ativado.
 	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	Clique para selecionar, arraste para mover, arraste no espaço vazio para fazer uma seleção retangular. Shift adiciona à seleção.
@@ -245,7 +245,7 @@
 	Colour of the frames after the playhead	Cor dos quadros após o cursor de reprodução
 	Colour of the frames before the playhead	Cor dos quadros antes do cursor de reprodução
 	Colour of {name}	Cor de {name}
-	Colour stop	Ponto de cor
+	Colour stop	Ponto de parada de cor
 	Colour to find	Cor a localizar
 	Colour to replace with	Cor pela qual substituir
 	Colours	Cores
@@ -265,7 +265,7 @@
 	Copy Frames	Copiar quadros
 	Copy on Multiple Frames	Copiar em vários quadros
 	Corner radius	Raio do canto
-	Corners sharper than this are bevelled: how far a point may reach, in stroke widths	Cantos mais agudos que isso são chanfrados: até onde um ponto pode alcançar, em larguras de traço
+	Corners sharper than this are bevelled: how far a point may reach, in stroke widths	Cantos mais agudos que isso são chanfrados: até onde um ponto pode alcançar, em larguras de traçado
 	Could not make the archive: {e}	Não foi possível criar o arquivo compactado: {e}
 	Could not open {name}: {e}	Não foi possível abrir {name}: {e}
 	Could not restore {name}: {error}	Não foi possível restaurar {name}: {error}
@@ -423,7 +423,7 @@
 	Erases fills only, leaving lines alone.	Apaga apenas preenchimentos, deixando linhas inalteradas.
 	Erases lines and fills on the layer.	Apaga linhas e preenchimentos na camada.
 	Erases lines only, leaving fills alone.	Apaga apenas linhas, deixando preenchimentos inalterados.
-	Erases only inside the fill where the stroke starts.	Apaga apenas dentro do preenchimento onde o traço começa.
+	Erases only inside the fill where the stroke starts.	Apaga apenas dentro do preenchimento onde o traçado começa.
 	Erases only the selected fills.	Apaga apenas os preenchimentos selecionados.
 	Esc cancels · click the red button to proceed	Esc cancela · clique no botão vermelho para prosseguir
 	Essentials	Fundamentos
@@ -498,7 +498,7 @@
 	Fit in Window	Ajustar à janela
 	Fit in window	Ajustar à janela
 	Fit stage in window	Ajustar palco à janela
-	Fits smooth curves to the stroke, keeping sharp corners.	Ajusta curvas suaves ao traço, mantendo cantos agudos.
+	Fits smooth curves to the stroke, keeping sharp corners.	Ajusta curvas suaves ao traçado, mantendo cantos agudos.
 	Folders and guide layers don't run actions. Pick another layer in the timeline.	Pastas e camadas guia não executam ações. Escolha outra camada na linha do tempo.
 	Folders hold layers, not frames. Hiding or locking the folder hides or locks everything in it; move layers in under it with Up and Down.	Pastas contêm camadas, não quadros. Ocultar ou bloquear a pasta oculta ou bloqueia tudo nela; mova camadas para dentro dela com Para cima e Para baixo.
 	Follow system	Seguir o sistema
@@ -583,12 +583,12 @@
 	Highlight	Destaque
 	Hit: the area that answers the pointer, never shown (drawn over the other states while you edit them)	Área de clique: a área que responde ao cursor, nunca exibida (desenhada sobre os outros estados enquanto você os edita)
 	Horizontal Center	Centro horizontal
-	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	Passe o cursor sobre um traço para ver seus pontos de largura. Arraste a alça de um ponto para alargar ou estreitar o traço nesse local (Alt: apenas em um lado), arraste seu ponto para deslizá-lo ou arraste em qualquer lugar do traço para adicionar um ponto. Clique em um ponto e pressione Delete para removê-lo.
+	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	Passe o cursor sobre um traçado para ver seus pontos de largura. Arraste a alça de um ponto para alargar ou estreitar o traçado nesse local (Alt: apenas em um lado), arraste seu ponto para deslizá-lo ou arraste em qualquer lugar do traçado para adicionar um ponto. Clique em um ponto e pressione Delete para removê-lo.
 	How corners turn: sharp (Miter), rounded, or cut across (Bevel)	Como os cantos viram: agudos (Meia-esquadria), arredondados ou cortados transversalmente (Chanfro)
 	How far behind the stage this layer is: when the camera pans, a deeper layer moves less (parallax). Negative is in front.	A que distância atrás do palco esta camada está: quando a câmera se move, uma camada mais profunda move-se menos (paralaxe). Valor negativo é na frente.
-	How much the stroke is smoothed: 0 follows the hand closely	O quanto o traço é suavizado: 0 segue o movimento da mão de perto
+	How much the stroke is smoothed: 0 follows the hand closely	O quanto o traçado é suavizado: 0 segue o movimento da mão de perto
 	How open ends finish: flat at the end (None), rounded, or squared off past it	Como as extremidades abertas terminam: retas na ponta (Nenhum), arredondadas ou quadradas além dela
-	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	Como a largura do traço varia ao longo dele. Molde manualmente com a ferramenta Largura (U).
+	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	Como a largura do traçado varia ao longo dele. Molde manualmente com a ferramenta Largura (U).
 	Icons: Lucide (ISC)	Ícones: Lucide (ISC)
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	Se o AniCraft fechar inesperadamente, a próxima inicialização oferecerá restaurá-lo. As cópias permanecem na pasta de configurações, nunca sobre seus arquivos, e desaparecem quando você salva.
 	If you don't save, your changes since the last save will be lost.	Se você não salvar, suas alterações desde o último salvamento serão perdidas.
@@ -842,11 +842,11 @@
 	Onion skin	Papel vegetal
 	Onion skin is off: turn it on in the timeline header to see the frames around the playhead	Papel vegetal desativado: ative-o no cabeçalho da linha do tempo para ver os quadros ao redor do cursor de reprodução
 	Onion skin on every layer again	Papel vegetal em todas as camadas novamente
-	Onion skin on {name} only (Alt-click it again for every layer)	Papel vegetal somente em {name} (Alt-clique novamente para todas as camadas)
+	Onion skin on {name} only (Alt-click it again for every layer)	Papel vegetal somente em {name} (Alt+clique novamente para todas as camadas)
 	Onion skin options	Opções de papel vegetal
 	Onion skin options: markers, outlines, colours	Opções de papel vegetal: marcadores, contornos, cores
 	Onion skin this layer	Papel vegetal nesta camada
-	Onion skin this layer (Alt-click: this layer only, again: every layer)	Papel vegetal nesta camada (Alt-clique: somente esta camada, novamente: todas as camadas)
+	Onion skin this layer (Alt-click: this layer only, again: every layer)	Papel vegetal nesta camada (Alt+clique: somente esta camada, novamente: todas as camadas)
 	Onion skin {name}	Papel vegetal em {name}
 	Onion start marker	Marcador inicial de papel vegetal
 	Onion {n}	Papel vegetal {n}
@@ -912,7 +912,7 @@
 	Picked the radial gradient.	Gradiente radial selecionado.
 	Picked with the Eyedropper. It stays where it was on the stage (lock fill). Pick a colour to fill with a solid colour again.	Selecionado com o Conta-gotas. Permanece onde estava no palco (travar preenchimento). Escolha uma cor para preencher com cor sólida novamente.
 	Picked {color} into the fill colour.	{color} selecionada como cor de preenchimento.
-	Picked {color} into the stroke colour.	{color} selecionada como cor do traço.
+	Picked {color} into the stroke colour.	{color} selecionada como cor do traçado.
 	Pin	Fixar
 	Pin Bone	Fixar osso
 	Pin Here	Fixar aqui
@@ -1150,7 +1150,7 @@
 	Select one button or movie clip instance on the stage	Selecione uma instância de botão ou clipe de filme no palco
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	Selecione uma instância de botão ou clipe de filme no palco para atribuir-lhe eventos (um elemento gráfico não pode tê-los: defina o Tipo do símbolo em Propriedades).
 	Select some artwork first	Selecione uma arte primeiro
-	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {drag} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	Selecione o objeto para ver seu caminho no palco. Arraste o caminho para curvá-lo e suas extremidades para movê-las; {drag} o caminho ou o objeto para mover todo o caminho. Com a ferramenta Subseleção (A), arraste pontos e alças, dê um duplo clique no caminho para adicionar um ponto (ou Alt-clique com a Caneta), Delete remove pontos e o clique com o botão direito os torna suaves ou cantos.
+	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {drag} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	Selecione o objeto para ver seu caminho no palco. Arraste o caminho para curvá-lo e suas extremidades para movê-las; {drag} o caminho ou o objeto para mover todo o caminho. Com a ferramenta Subseleção (A), arraste pontos e alças, dê um duplo clique no caminho para adicionar um ponto (ou Alt+clique com a Caneta), Delete remove pontos e o clique com o botão direito os torna suaves ou cantos.
 	Selected {name}	{name} selecionado
 	Selection Tool Target	Alvo da ferramenta Seleção
 	Set Actions	Definir ações
@@ -1238,15 +1238,15 @@
 	Straighten Path	Endireitar caminho
 	Straighten motion path	Endireitar trajetória de movimento
 	Stream	Fluxo
-	Stroke Style	Estilo do traço
-	Stroke cap	Extremidade do traço
-	Stroke colour	Cor do traço
-	Stroke join	Junção do traço
-	Stroke on/off	Ativar/desativar traço
-	Stroke style	Estilo do traço
-	Stroke width	Largura do traço
-	Stroke width profile	Perfil de largura do traço
-	Strokes	Traços
+	Stroke Style	Estilo do traçado
+	Stroke cap	Extremidade do traçado
+	Stroke colour	Cor do traçado
+	Stroke join	Junção do traçado
+	Stroke on/off	Ativar/desativar traçado
+	Stroke style	Estilo do traçado
+	Stroke width	Largura do traçado
+	Stroke width profile	Perfil de largura do traçado
+	Strokes	Traçados
 	Subselect	Subselecionar
 	Subselect Rectangle	Retângulo de subseleção
 	Subselection	Subseleção
@@ -1317,8 +1317,8 @@
 	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	O plug-in é executado sempre que o cursor de reprodução entra neste quadro-chave, lê o estado do filme e envia ações de volta. Ele não pode alterar o documento.
 	The plug-in “{id}” is no longer installed	O plug-in “{id}” não está mais instalado
 	The point shapes the path only; its frame's X and Y keyframes go	O ponto apenas molda o caminho; os quadros-chave X e Y do seu quadro saem
-	The pointer comes up over it	O cursor sobe sobre ele
-	The pointer goes down on it	O cursor pressiona sobre ele
+	The pointer comes up over it	O botão do mouse é solto sobre ele
+	The pointer goes down on it	O botão do mouse é pressionado sobre ele
 	The pointer moves off it	O cursor sai de cima dele
 	The pointer moves onto it	O cursor se move para cima dele
 	The reference renderer: slower on large stages. Exports always use it.	O renderizador de referência: mais lento em palcos grandes. Exportações sempre o utilizam.
@@ -1362,7 +1362,7 @@
 	Turn the object as its motion path turns	Girar o objeto conforme sua trajetória de movimento curva
 	Turn with the motion guide as it bends	Girar com a guia de movimento conforme ela curva
 	Turns a flattened tip (clockwise)	Gira uma ponta achatada (sentido horário)
-	Turns the stroke into straight segments.	Transforma o traço em segmentos retos.
+	Turns the stroke into straight segments.	Transforma o traçado em segmentos retos.
 	Tween	Interpolação
 	Tween kind	Tipo de interpolação
 	Tween to the next keyframe	Interpolar até o próximo quadro-chave
