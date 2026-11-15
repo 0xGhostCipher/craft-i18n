@@ -24,6 +24,8 @@
 	1 picture	1 Bild
 	1 picture with title	1 Bild mit Titel
 	1.5 lines	1,5 Zeilen
+	100% Stacked Bar	100 % gestapelte Balken
+	100% Stacked Column	100 % gestapelte Säulen
 	2 pictures	2 Bilder
 	2 pictures with title	2 Bilder mit Titel
 	3-D	3D
@@ -31,6 +33,7 @@
 	3-D Rotation	3D-Drehung
 	4 pictures	4 Bilder
 	4 pictures with title	4 Bilder mit Titel
+	A fixed copy that keeps its layout on any device	Eine feste Kopie, die ihr Layout auf jedem Gerät behält
 	A photo album holds at most 48 pictures or text boxes	Ein Fotoalbum enthält höchstens 48 Bilder oder Textfelder
 	About DeckCraft	Über DeckCraft
 	Accent 1	Akzent 1
@@ -53,6 +56,7 @@
 	Add a picture or a text box first	Fügen Sie zuerst ein Bild oder ein Textfeld hinzu
 	Add a title with a picture or some text to get layout ideas.	Fügen Sie einen Titel mit einem Bild oder etwas Text hinzu, um Layoutideen zu erhalten.
 	Add Animation	Animation hinzufügen
+	Add Assistant	Assistenten hinzufügen
 	Add Pictures…	Bilder hinzufügen…
 	Add Point	Punkt hinzufügen
 	Add Section	Abschnitt hinzufügen
@@ -69,6 +73,14 @@
 	ALL pictures black and white	ALLE Bilder schwarz-weiß
 	Accent 5	Akzent 5
 	Accent 6	Akzent 6
+	Add Horizontal Guide	Horizontale Führungslinie hinzufügen
+	Add Shape Above	Form oberhalb hinzufügen
+	Add Shape After	Form danach hinzufügen
+	Add Shape Before	Form davor hinzufügen
+	Add Shape Below	Form unterhalb hinzufügen
+	Add Vertical Guide	Vertikale Führungslinie hinzufügen
+	Add to Quick Access Toolbar	Zur Symbolleiste für den Schnellzugriff hinzufügen
+	After Previous	Nach Vorheriger
 	Align text to the bottom of the cell	Text am unteren Zellenrand ausrichten
 	Align text to the center of the cell	Text in der Zellenmitte ausrichten
 	Align text to the top of the cell	Text am oberen Zellenrand ausrichten
@@ -90,6 +102,10 @@
 	Apply to All	Auf alle anwenden
 	Apply To All	Auf alle anwenden
 	Apply\nTo All	Auf alle\nanwenden
+	Arrow at end	Pfeil am Ende
+	Arrow at start	Pfeil am Anfang
+	Arrows at both ends	Pfeile an beiden Enden
+	Art deco	Art déco
 	Artistic Effects	Künstlerische Effekte
 	Artistic\nEffects	Künstlerische\nEffekte
 	As:	Als:
@@ -105,6 +121,7 @@
 	Back (Esc)	Zurück (Esc)
 	Back or Previous	Zurück oder vorherige
 	Background\nStyles	Hintergrund-\nformate
+	Balanced	Ausgewogen
 	Banded Columns	Gebänderte Spalten
 	Banded Rows	Gebänderte Zeilen
 	Basic Cycle	Einfacher Zyklus
@@ -116,6 +133,9 @@
 	Blank Presentation	Leere Präsentation
 	Body sample  {font}	Beispiel Text  {font}
 	Body:	Textkörper:
+	Box and Whisker	Kastengrafik
+	Brick Scene	Backsteinszene
+	Bright room	Heller Raum
 	Brightness {pct}	Helligkeit {pct}
 	Brightness {pct}%	Helligkeit {pct} %
 	Bring\nForward	Nach vorne\nbringen
@@ -123,16 +143,19 @@
 	Browse for Themes…	Nach Designs suchen…
 	Browsed at a kiosk (full screen)	An einem Kiosk durchgesehen (Vollbild)
 	Browsed by an individual (window)	Von einer Person durchgesehen (Fenster)
+	Bubble	Blase
 	Bulleted	Aufzählung
 	Bullets	Aufzählungszeichen
 	Bullets and Numbering	Aufzählungszeichen und Nummerierung
 	Bullets and Numbering…	Aufzählungszeichen und Nummerierung…
 	By	Um
 	Camera capture is not available yet	Kameraaufnahme ist noch nicht verfügbar
+	Capitalize Each Word	Jedes Wort Großschreiben
 	Capitalize first letter of sentences	Ersten Buchstaben eines Satzes großschreiben
 	Capitalize names of days	Wochentage großschreiben
 	Caps	Großbuchstaben
 	Captions under pictures	Beschriftungen unter Bildern
+	Cartoon	Comic
 	Cell Margins	Zellenränder
 	Center	Zentriert
 	Center Tab	Zentrierter Tabstopp
@@ -156,6 +179,7 @@
 	Chart…	Diagramm…
 	Check for Updates…	Nach Updates suchen…
 	Check\nAccessibility	Barrierefreiheit\nprüfen
+	Chilly	Kühl
 	Choose a SmartArt Graphic	SmartArt-Grafik auswählen
 	Choose a font	Wählen Sie eine Schriftart
 	Choose a slide to show it, or press G to return.	Wählen Sie eine Folie aus, um sie anzuzeigen, oder drücken Sie G, um zurückzukehren.
@@ -182,8 +206,16 @@
 	Click to change this one; Shift-click to change all	Klicken ändert diese Stelle, Umschalt-Klick ändert alle
 	Close Path	Pfad schließen
 	Close\nMaster View	Masteransicht\nschließen
+	Clustered Bar	Gruppierte Balken
+	Clustered Column	Gruppierte Säulen
 	Collapse the Ribbon	Menüband reduzieren
+	Colorful	Farbig
+	Colorful Range - Accent Colors 2 to 3	Farbiger Bereich – Akzentfarben 2 bis 3
+	Colorful Range - Accent Colors 3 to 4	Farbiger Bereich – Akzentfarben 3 bis 4
+	Colorful Range - Accent Colors 4 to 5	Farbiger Bereich – Akzentfarben 4 bis 5
+	Colorful Range - Accent Colors 5 to 6	Farbiger Bereich – Akzentfarben 5 bis 6
 	Columns…	Spalten…
+	Combo	Kombination
 	Command Palette	Befehlspalette
 	Community Links	Community-Links
 	Compare needs the desktop app for now	Vergleichen erfordert vorerst die Desktop-App
@@ -194,12 +226,16 @@
 	Compress Pictures	Bilder komprimieren
 	Compression options	Komprimierungsoptionen
 	Connect Shapes	Formen verbinden
+	Content	Inhalt
 	Contrast {pct}	Kontrast {pct}
 	Contrast {pct}%	Kontrast {pct} %
+	Contrasting	Kontrastreich
 	Convert to Diagram	In Schaubild umwandeln
 	Convert to Shapes	In Formen umwandeln
 	Convert to SmartArt	In SmartArt umwandeln
 	Convert to Text	In Text umwandeln
+	Convex	Konvex
+	Cool slant	Schräge Kante
 	Copied the path	Pfad kopiert
 	Copy path	Pfad kopieren
 	Correct accidental use of cAPS LOCK key	Versehentliches Verwenden der fESTSTELLTASTE korrigieren
@@ -211,6 +247,8 @@
 	Create New Theme Colors	Neue Designfarben erstellen
 	Create New Theme Fonts	Neue Designschriftarten erstellen
 	Crop	Zuschneiden
+	Crop 10% each side	Jede Seite um 10 % zuschneiden
+	Crop 20% each side	Jede Seite um 20 % zuschneiden
 	Crop to Shape	Auf Form zuschneiden
 	Custom character:	Benutzerdefiniertes Zeichen:
 	Custom Show 1	Benutzerdefinierte Präsentation 1
@@ -226,6 +264,7 @@
 	Dark Mode	Dunkler Modus
 	Dark\nMode	Dunkler\nModus
 	Dash	Strichart
+	Dash Dot	Strich-Punkt
 	Dashes	Striche
 	Date & Time	Datum & Uhrzeit
 	Date &\nTime	Datum &\nUhrzeit
@@ -238,6 +277,7 @@
 	DeckCraft has no accounts: there is nothing to sign in to, and your presentations stay on your device.	DeckCraft hat keine Konten: Es gibt nichts, wofür Sie sich anmelden müssten, und Ihre Präsentationen bleiben auf Ihrem Gerät.
 	DeckCraft prints through a PDF: it downloads, ready to print from your browser or PDF viewer.	DeckCraft druckt über eine PDF-Datei: Sie wird heruntergeladen und kann aus Ihrem Browser oder PDF-Viewer gedruckt werden.
 	DeckCraft prints through a PDF: it opens in your PDF viewer, where you choose the printer.	DeckCraft druckt über eine PDF-Datei: Sie öffnet sich in Ihrem PDF-Viewer, dort wählen Sie den Drucker.
+	DeckCraft's own format: everything is kept	DeckCrafts eigenes Format: alles bleibt erhalten
 	Decorative Text	Dekorativer Text
 	Decorative Text style {n}	Format für dekorativen Text {n}
 	Decrease List Level	Listenebene verringern
@@ -273,9 +313,13 @@
 	Distribute Rows	Zeilen verteilen
 	Distribute Vertically	Vertikal verteilen
 	Distributed	Verteilt
+	Divot	Mulde
+	Dk edge	Dunkle Kante
+	Do not Autofit	Nicht automatisch anpassen
 	Do not check spelling or grammar	Rechtschreibung und Grammatik nicht prüfen
 	Don't show on title slide	Nicht auf Titelfolie anzeigen
 	Double	Doppelt
+	Doughnut	Ring
 	Download the file	Datei herunterladen
 	Draw Table	Tabelle zeichnen
 	Duplicate Selected Slides	Ausgewählte Folien duplizieren
@@ -283,6 +327,7 @@
 	Duration	Dauer
 	Duration handle {n}	Ziehpunkt für die Dauer {n}
 	Duration:	Dauer:
+	E-mail (96 ppi): minimise document size for sharing	E-Mail (96 ppi): kleinste Dateigröße zum Teilen
 	e.g. 1-3, 5	z. B. 1-3, 5
 	Edit Alt Text…	Alternativtext bearbeiten…
 	Edit Data	Daten bearbeiten
@@ -314,6 +359,7 @@
 	Extra Large (1920 px wide)	Sehr groß (1920 px breit)
 	Fade in (s):	Einblenden (s):
 	Fade out (s):	Ausblenden (s):
+	Filled Radar	Gefülltes Netz
 	Find what:	Suchen nach:
 	Find whole words only	Nur ganze Wörter suchen
 	First Column	Erste Spalte
@@ -323,6 +369,7 @@
 	Fit to Window	An Fenster anpassen
 	Fit to slide	An Folie anpassen
 	Fit to\nWindow	An Fenster\nanpassen
+	Flood	Flutlicht
 	Follow Path	Pfad folgen
 	Font Color	Schriftfarbe
 	Font name	Schriftartname
@@ -331,6 +378,7 @@
 	Footer	Fußzeile
 	Footers	Fußzeilen
 	For rectangles and rounded rectangles	Für Rechtecke und abgerundete Rechtecke
+	Foreground	Vordergrund
 	Format Background	Hintergrund formatieren
 	Format Background…	Hintergrund formatieren…
 	Format Painter (double-click to keep it on)	Format übertragen (Doppelklick hält es aktiv)
@@ -338,18 +386,33 @@
 	Format\nBackground	Hintergrund\nformatieren
 	Format\nPane	Format-\nbereich
 	Forward or Next	Vorwärts oder nächste
+	Fragment	Fragmentieren
 	Frame shape	Rahmenform
 	Frame Slides	Folien rahmen
 	Freeform	Freihandform
+	Freezing	Eisig
 	French (France)	Französisch (Frankreich)
+	From bottom left	Von unten links
+	From bottom right	Von unten rechts
+	From center	Von der Mitte
 	From slide:	Von Folie:
 	From the top-left corner of the slide	Von der linken oberen Ecke der Folie
+	From top left	Von oben links
+	From top right	Von oben rechts
 	From\nBeginning	Von\nBeginn an
 	From\nCurrent Slide	Ab aktueller\nFolie
 	Full Page Slides	Ganzseitige Folien
+	Funnel	Trichter
 	Go to	Gehe zu
 	Go to slide {n}	Gehe zu Folie {n}
+	Gradient Range - Accent 1	Verlaufsbereich – Akzent 1
+	Gradient Range - Accent 2	Verlaufsbereich – Akzent 2
+	Gradient Range - Accent 3	Verlaufsbereich – Akzent 3
+	Gradient Range - Accent 4	Verlaufsbereich – Akzent 4
+	Gradient Range - Accent 5	Verlaufsbereich – Akzent 5
+	Gradient Range - Accent 6	Verlaufsbereich – Akzent 6
 	Gradient bar	Verlaufsleiste
+	Gradient fill	Farbverlauf
 	Gradient stop {n}	Farbverlaufsstopp {n}
 	Gradient stops	Farbverlaufsstopps
 	Gradient…	Farbverlauf…
@@ -359,6 +422,8 @@
 	Grid\nOptions	Raster-\noptionen
 	Gridlines	Gitternetzlinien
 	Group Objects	Objekte gruppieren
+	HD (330 ppi): good quality for high-definition displays	HD (330 ppi): gute Qualität für hochauflösende Bildschirme
+	Half	Halb
 	Handout Master	Handzettelmaster
 	Handout Placeholders	Handzettel-Platzhalter
 	Handout\nMaster	Handzettel-\nmaster
@@ -369,6 +434,8 @@
 	Handouts (6 slides per page)	Handzettel (6 Folien pro Seite)
 	Handouts (9 slides per page)	Handzettel (9 Folien pro Seite)
 	Hanging	Hängend
+	Hard edge	Harte Kante
+	Harsh	Hart
 	Header &\nFooter	Kopf- und\nFußzeile
 	Header and Footer	Kopf- und Fußzeile
 	Header and Footer…	Kopf- und Fußzeile…
@@ -402,6 +469,7 @@
 	Ink to\nMath	Freihand\nin Formel
 	Ink to\nShape	Freihand\nin Form
 	Ink to\nText	Freihand\nin Text
+	Inner	Innen
 	Insert Above	Oberhalb einfügen
 	Insert Below	Unterhalb einfügen
 	Insert Hyperlink	Hyperlink einfügen
@@ -424,8 +492,18 @@
 	Insert\nPlaceholder	Platzhalter\neinfügen
 	Insert\nRight	Rechts\neinfügen
 	Insert…	Einfügen…
+	Inset	Eingelassen
+	Intense Effect	Intensiver Effekt
 	Interface language:	Sprache der Benutzeroberfläche:
 	Interface size	Größe der Benutzeroberfläche
+	Isometric bottom down	Isometrisch unten nach unten
+	Isometric bottom up	Isometrisch unten nach oben
+	Isometric left down	Isometrisch links nach unten
+	Isometric left up	Isometrisch links nach oben
+	Isometric right down	Isometrisch rechts nach unten
+	Isometric right up	Isometrisch rechts nach oben
+	Isometric top down	Isometrisch oben nach unten
+	Isometric top up	Isometrisch oben nach oben
 	JPEG Picture (*.jpg)	JPEG-Bild (*.jpg)
 	JPEG image (current slide)	JPEG-Bild (aktuelle Folie)
 	Join our community on Discord	Treten Sie unserer Community auf Discord bei
@@ -444,17 +522,22 @@
 	Learn\nMore	Mehr\nerfahren
 	Leave the slide background out: only what is on the slide is drawn	Folienhintergrund weglassen: Nur der Inhalt der Folie wird gezeichnet
 	Left Tab	Linker Tabstopp
+	Legacy wireframe	Drahtmodell (alt)
 	Less Brightness	Weniger Helligkeit
 	Less Contrast	Weniger Kontrast
 	Light/Dark appearance	Helle/dunkle Darstellung
 	Line Spacing	Zeilenabstand
 	Line Spacing Options…	Zeilenabstandsoptionen…
 	Line spacing must be a number	Der Zeilenabstand muss eine Zahl sein
+	Line with Markers	Linie mit Datenpunkten
 	Lock aspect ratio	Seitenverhältnis sperren
+	Long Dash	Langer Strich
+	Long Dash Dot	Langer Strich-Punkt
 	Loop continuously until 'Esc'	Wiederholen, bis „Esc“ gedrückt wird
 	Loop forever	Endlos wiederholen
 	Loop until Stopped	Wiederholen bis zum Beenden
 	Loose	Weit
+	Map	Karte
 	Margins (pt)	Ränder (pt)
 	Mark all text in the presentation as:	Den gesamten Text der Präsentation kennzeichnen als:
 	Mark as decorative	Als dekorativ markieren
@@ -464,12 +547,15 @@
 	Match {n} of {total} on slide {slide}.	Treffer {n} von {total} auf Folie {slide}.
 	Maximize content (else ensure fit)	Inhalt maximieren (sonst Passform sicherstellen)
 	Measurement units:	Maßeinheiten:
+	Media	Medien
 	Media position	Medienposition
 	Medium (960 px wide)	Mittel (960 px breit)
 	Merge Shapes	Formen zusammenführen
 	Merge\nCells	Zellen\nverbinden
 	Merge\nShapes	Formen\nzusammenführen
 	MIT OR Apache-2.0 · © 2026 ArtCraft Team and the DeckCraft contributors	MIT OR Apache-2.0 · © 2026 ArtCraft Team und die Mitwirkenden an DeckCraft
+	Metal	Metall
+	Mirror type	Spiegelungsart
 	Month names and AM/PM are listed for English. Other languages list the numeric date and 24-hour time.	Monatsnamen und AM/PM werden für Englisch aufgeführt. Andere Sprachen zeigen das Datum als Zahl und die Uhrzeit im 24-Stunden-Format.
 	More Brightness	Mehr Helligkeit
 	More Colors… #	Weitere Farben… #
@@ -478,6 +564,7 @@
 	More presentations	Weitere Präsentationen
 	More templates	Weitere Vorlagen
 	More themes	Weitere Designs
+	Morning	Morgen
 	Mouse Click	Mausklick
 	Mouse Over	Mausübergang
 	Move Guide	Hilfslinie verschieben
@@ -488,6 +575,8 @@
 	Move Section Up	Abschnitt nach oben verschieben
 	Move Slide	Folie verschieben
 	Multiple	Mehrfach
+	Mute	Stumm
+	Narrow	Schmal
 	New Comment	Neuer Kommentar
 	New Photo Album…	Neues Fotoalbum…
 	New show name:	Name der neuen Präsentation:
@@ -498,12 +587,15 @@
 	New\nSlide	Neue\nFolie
 	New\nWindow	Neues\nFenster
 	Next Slide	Nächste Folie
+	No Reflection	Keine Spiegelung
 	No Soft Edges	Keine weichen Kanten
 	No accessibility issues found. People with disabilities should not have difficulty reading this document.	Keine Probleme mit der Barrierefreiheit gefunden. Menschen mit Behinderungen sollten dieses Dokument ohne Schwierigkeiten lesen können.
 	No comments.	Keine Kommentare.
 	No contributor data was built into this copy.	In diese Version wurden keine Daten zu Mitwirkenden eingebaut.
 	No differences left.	Keine Unterschiede mehr.
 	No Glow	Kein Leuchten
+	No Shadow	Kein Schatten
+	No fill	Keine Füllung
 	No icons match.	Keine passenden Symbole.
 	No line	Keine Linie
 	No model credits were built into this copy.	In diese Version wurden keine Angaben zu Modellen eingebaut.
@@ -529,6 +621,15 @@
 	Number:	Zahl:
 	Numbered	Nummerierung
 	Numbering	Nummerierung
+	Oblique bottom left	Schräg unten links
+	Oblique bottom right	Schräg unten rechts
+	Oblique top left	Schräg oben links
+	Oblique top right	Schräg oben rechts
+	Offset bottom	Versatz unten
+	Offset left	Versatz links
+	Offset right	Versatz rechts
+	Offset top	Versatz oben
+	On Click	Beim Klicken
 	On Click of {name}	Beim Klicken auf {name}
 	On Click of… (none)	Beim Klicken auf… (keine)
 	On Mouse Click	Bei Mausklick
@@ -540,16 +641,20 @@
 	Open source under MIT OR Apache-2.0. Not affiliated with Microsoft.	Open Source unter MIT OR Apache-2.0. Nicht mit Microsoft verbunden.
 	Opened the presentation as a PDF to print	Präsentation zum Drucken als PDF geöffnet
 	Opening {name}…	{name} wird geöffnet…
+	Opens in PowerPoint and other presentation apps	Lässt sich in PowerPoint und anderen Präsentations-Apps öffnen
 	Opens on any device with a PDF viewer	Lässt sich auf jedem Gerät mit PDF-Viewer öffnen
 	Order Objects	Objekte anordnen
 	Ordinals (1st) with superscript	Ordnungszahlen (1st) hochstellen
+	Orthographic front	Orthogonal von vorne
 	Other Sound…	Anderer Sound…
+	Outer	Außen
 	Outline	Gliederung
 	Outline (*.txt)	Gliederung (*.txt)
 	Outline (.txt)	Gliederung (.txt)
 	Outline View	Gliederungsansicht
 	Outline/RTF (*.rtf)	Gliederung/RTF (*.rtf)
 	Outline/RTF (.rtf)	Gliederung/RTF (.rtf)
+	Oval ends	Ovale Enden
 	PDF document (.pdf)	PDF-Dokument (.pdf)
 	PNG Picture (*.png)	PNG-Bild (*.png)
 	PNG images (all slides)	PNG-Bilder (alle Folien)
@@ -563,11 +668,27 @@
 	Paste Formatting	Formatierung einfügen
 	Paste or type an outline. Unindented lines become slide titles; tab-indented lines become bullets.	Fügen Sie eine Gliederung ein oder tippen Sie sie. Nicht eingerückte Zeilen werden Folientitel, mit Tab eingerückte Zeilen werden Aufzählungspunkte.
 	Paste Special…	Inhalte einfügen…
+	Pattern fill	Musterfüllung
 	Pause animated GIF	Animiertes GIF anhalten
 	Pen Color	Stiftfarbe
 	Pen Style	Stiftart
 	Pen Weight	Stiftstärke
 	Percent:	Prozent:
+	Perspective above	Perspektive von oben
+	Perspective above left facing	Perspektive von oben, nach links
+	Perspective above right facing	Perspektive von oben, nach rechts
+	Perspective below	Perspektive von unten
+	Perspective contrasting left facing	Kontrastierende Perspektive, nach links
+	Perspective contrasting right facing	Kontrastierende Perspektive, nach rechts
+	Perspective front	Perspektive von vorne
+	Perspective heroic extreme left facing	Extrem heroische Perspektive, nach links
+	Perspective heroic extreme right facing	Extrem heroische Perspektive, nach rechts
+	Perspective heroic left facing	Heroische Perspektive, nach links
+	Perspective heroic right facing	Heroische Perspektive, nach rechts
+	Perspective left	Perspektive links
+	Perspective relaxed	Entspannte Perspektive
+	Perspective relaxed moderately	Mäßig entspannte Perspektive
+	Perspective right	Perspektive rechts
 	Photo Album	Fotoalbum
 	Photo Album options	Fotoalbum-Optionen
 	Photo Album…	Fotoalbum…
@@ -582,8 +703,11 @@
 	Picture layout	Bildlayout
 	Picture source	Bildquelle
 	Picture Styles	Bildformatvorlagen
+	Picture or texture fill	Bild- oder Texturfüllung
 	Pictures	Bilder
 	Pictures in album	Bilder im Album
+	Pie	Kreis
+	Plastic	Kunststoff
 	Play Across Slides	Folienübergreifend wiedergeben
 	Play animated GIF	Animiertes GIF abspielen
 	Play from\nCurrent Slide	Ab aktueller\nFolie
@@ -595,10 +719,12 @@
 	Play this slide's transition	Übergang dieser Folie abspielen
 	Playback	Wiedergabe
 	Point Type	Punkttyp
+	Polished	Poliert
 	Position and Size	Position und Größe
 	Position Objects	Objekte positionieren
 	Post	Senden
 	Poster Frame	Vorschaubild
+	Powder	Puder
 	PowerPoint Presentation (*.pptx)	PowerPoint-Präsentation (*.pptx)
 	PowerPoint Presentation (.pptx)	PowerPoint-Präsentation (.pptx)
 	Presentations	Präsentationen
@@ -611,6 +737,7 @@
 	Preview Animations	Animationsvorschau
 	Previewing animations	Vorschau der Animationen
 	Previous Slide	Vorherige Folie
+	Print (220 ppi): excellent quality on most printers and screens	Druck (220 ppi): sehr gute Qualität auf den meisten Druckern und Bildschirmen
 	Print Hidden Slides	Ausgeblendete Folien drucken
 	Print layout	Drucklayout
 	Print layout:	Drucklayout:
@@ -623,6 +750,7 @@
 	Quick Access Toolbar	Symbolleiste für den Schnellzugriff
 	Quick Styles	Schnellformatvorlagen
 	Quick\nStyles	Schnell-\nformate
+	Radar	Netz
 	Reading View	Leseansicht
 	Reading the file: {seconds} s	Datei wird gelesen: {seconds} s
 	Recolor	Neu einfärben
@@ -634,9 +762,12 @@
 	Rehearse\nTimings	Neue Zeiten\nüben
 	Reject	Ablehnen
 	Reject All ({n})	Alle ablehnen ({n})
+	Relaxed inset	Sanft eingelassen
 	Remove All Animations	Alle Animationen entfernen
 	Remove All Sections	Alle Abschnitte entfernen
 	Remove Animation	Animation entfernen
+	Remove Less (tighter)	Weniger entfernen (enger)
+	Remove More (looser)	Mehr entfernen (weiter)
 	Remove bullets and numbering	Aufzählungszeichen und Nummerierung entfernen
 	Remove from Quick Access Toolbar	Aus der Symbolleiste für den Schnellzugriff entfernen
 	Remove from Recent	Aus „Zuletzt geöffnet“ entfernen
@@ -668,12 +799,14 @@
 	Rescan Installed Fonts	Installierte Schriftarten neu einlesen
 	Reset 3-D	3D zurücksetzen
 	Reset Background	Hintergrund zurücksetzen
+	Reset Crop	Zuschnitt zurücksetzen
 	Reset Effects	Effekte zurücksetzen
 	Reset Picture	Bild zurücksetzen
 	Reset Slide	Folie zurücksetzen
 	Reset Slide Background	Folienhintergrund zurücksetzen
 	Reset Style	Formatvorlage zurücksetzen
 	Reset to Defaults	Auf Standard zurücksetzen
+	Resize shape to fit text	Größe der Form an Text anpassen
 	Resolve	Erledigen
 	Resolve Thread	Unterhaltung erledigen
 	Return	Zurückkehren
@@ -683,6 +816,7 @@
 	Reuse Slides…	Folien wiederverwenden…
 	Rewind after Playing	Nach Wiedergabe zurückspulen
 	Ribbon Tab	Registerkarte des Menübands
+	Riblet	Rippe
 	Right Tab	Rechter Tabstopp
 	Right-click any ribbon button to add it.	Klicken Sie mit der rechten Maustaste auf eine Schaltfläche im Menüband, um sie hinzuzufügen.
 	Right-to-Left Text Direction	Textrichtung von rechts nach links
@@ -690,7 +824,10 @@
 	Rotate Left 90°	90° nach links drehen
 	Rotate Right	Nach rechts drehen
 	Rotate Right 90°	90° nach rechts drehen
+	Rotate all text 270°	Gesamten Text um 270° drehen
+	Rotate all text 90°	Gesamten Text um 90° drehen
 	Rotate with shape	Mit Form drehen
+	Round Dot	Runder Punkt
 	Rounded	Abgerundet
 	Run program:	Programm ausführen:
 	Saturation {pct}	Sättigung {pct}
@@ -699,6 +836,9 @@
 	Save to the page	Auf der Seite speichern
 	Saved {name}	{name} gespeichert
 	Saving a copy needs a file picker, which this window doesn't have.	Zum Speichern einer Kopie wird eine Dateiauswahl benötigt, die dieses Fenster nicht hat.
+	Scale Height	Höhe skalieren
+	Scale Width	Breite skalieren
+	Scatter	Punkt (XY)
 	Scheme name	Name des Schemas
 	Screenshot	Bildschirmfoto
 	Screenshot (not available yet)	Bildschirmfoto (noch nicht verfügbar)
@@ -714,6 +854,7 @@
 	Seconds per slide:	Sekunden pro Folie:
 	Seconds per slide: enter {min} to {max}	Sekunden pro Folie: {min} bis {max} eingeben
 	Section	Abschnitt
+	Section Zoom	Abschnittszoom
 	Segment Type	Segmenttyp
 	Select a Diagram graphic to edit its text.	Wählen Sie ein Schaubild aus, um seinen Text zu bearbeiten.
 	Select a chart first.	Wählen Sie zuerst ein Diagramm aus.
@@ -726,6 +867,7 @@
 	Selection Pane…	Auswahlbereich…
 	Selection\nPane	Auswahl-\nbereich
 	Send\nBackward	Nach hinten\nstellen
+	Sentence case.	Ersten Buchstaben im Satz großschreiben.
 	Set as Default Shape	Als Standardform festlegen
 	Set Text	Text festlegen
 	Set Transparent Color	Transparente Farbe bestimmen
@@ -746,6 +888,8 @@
 	Show without narration	Präsentation ohne Kommentar
 	Show/Hide	Ein-/Ausblenden
 	Show\nComments	Kommentare\nanzeigen
+	Shrink text on overflow	Text bei Überlauf verkleinern
+	Simple Fill	Einfache Füllung
 	Simple, white	Einfach, weiß
 	Single	Einfach
 	Size (% of text):	Größe (% des Texts):
@@ -757,6 +901,8 @@
 	Slide Show	Bildschirmpräsentation
 	Slide Size	Foliengröße
 	Slide Sorter	Foliensortierung
+	Slide Zoom	Folienzoom
+	Slide background fill	Folienhintergrundfüllung
 	Slide text	Folientext
 	Slide timings recorded.	Folienzeiten aufgezeichnet.
 	Slide title	Folientitel
@@ -778,6 +924,7 @@
 	Slides:	Folien:
 	Slides: choose a range from 1 to {n}	Folien: Bereich von 1 bis {n} wählen
 	Slide…	Folie…
+	Slope	Abfallend
 	Small (640 px wide)	Klein (640 px breit)
 	Small caps	Kapitälchen
 	SmartArt Design	SmartArt-Entwurf
@@ -789,6 +936,11 @@
 	Snap objects to grid	Objekte am Raster ausrichten
 	Snap objects to other objects	Objekte an anderen Objekten ausrichten
 	Soft Edges	Weiche Kanten
+	Soft edge	Weiche Kante
+	Soft round	Weich abgerundet
+	Softmetal	Weiches Metall
+	Solid	Durchgehend
+	Solid fill	Einfarbige Füllung
 	Solid line	Durchgehende Linie
 	Sound	Sound
 	Source on GitHub	Quellcode auf GitHub
@@ -802,12 +954,24 @@
 	Spelling is checked for languages marked (dictionary).	Die Rechtschreibung wird für Sprachen geprüft, die mit (dictionary) markiert sind.
 	Split Cells	Zellen teilen
 	Split\nCells	Zellen\nteilen
+	Square Dot	Quadratischer Punkt
+	Stacked Area	Gestapelte Fläche
+	Stacked Bar	Gestapelte Balken
+	Stacked Column	Gestapelte Säulen
+	Stacked Line	Gestapelte Linie
 	Standard Colors	Standardfarben
 	Start Automatically	Automatisch starten
 	Start time (s):	Startzeit (s):
+	Stealth end	Spitzer Pfeil am Ende
 	Still opening {name}	{name} wird noch geöffnet
+	Stock	Kurs
 	Stopped opening {name}	Öffnen von {name} abgebrochen
 	Style {n}	Format {n}
+	Subtle Effect	Dezenter Effekt
+	Summary Zoom	Zusammenfassungszoom
+	Sunrise	Sonnenaufgang
+	Sunset	Sonnenuntergang
+	Surface	Oberfläche
 	Swedish	Schwedisch
 	System language	Systemsprache
 	Tab stop position (in):	Tabstoppposition (Zoll):
@@ -839,8 +1003,12 @@
 	The Eyedropper takes colours from a slide	Die Pipette nimmt Farben von einer Folie auf
 	The audience window has closed.	Das Publikumsfenster wurde geschlossen.
 	The audience window is not responding.	Das Publikumsfenster reagiert nicht.
+	The current slide as a compressed picture	Die aktuelle Folie als komprimiertes Bild
+	The current slide as a picture	Die aktuelle Folie als Bild
 	The picture list is invalid	Die Bilderliste ist ungültig
 	The presentation keeps its own file	Die Präsentation behält ihre eigene Datei
+	The slide titles and bullet text as plain text	Folientitel und Aufzählungstext als reiner Text
+	The slide titles and bullet text for word processors	Folientitel und Aufzählungstext für Textverarbeitungen
 	The spelling check is complete. No issues found.	Die Rechtschreibprüfung ist abgeschlossen. Keine Probleme gefunden.
 	The web build inserts album pictures from data passed to insert.photoAlbum	Die Webversion fügt Albumbilder aus Daten ein, die an insert.photoAlbum übergeben werden
 	Theme Colors	Designfarben
@@ -851,6 +1019,7 @@
 	This presentation has no custom shows (Slide Show ▸ Custom Slide Show).	Diese Präsentation hat keine benutzerdefinierten Präsentationen (Bildschirmpräsentation ▸ Benutzerdefinierte Bildschirmpräsentation).
 	This slide has no animations	Diese Folie hat keine Animationen
 	Three a page leaves lines for notes	Drei pro Seite lässt Linien für Notizen frei
+	Three pt	Drei Punkte
 	Tick at least one slide to insert	Wählen Sie mindestens eine Folie zum Einfügen aus
 	Tight	Eng
 	Tile picture as texture	Bild als Textur nebeneinander anordnen
@@ -862,10 +1031,12 @@
 	Transition	Übergang
 	Transitions	Übergänge
 	Translation needs a language model (not bundled)	Für Übersetzungen wird ein Sprachmodell benötigt (nicht enthalten)
+	Translucent powder	Durchscheinender Puder
 	Transparent background	Transparenter Hintergrund
 	Trigger	Auslöser
 	Trim	Kürzen
 	Trim Media	Medien kürzen
+	Two pt	Zwei Punkte
 	Type an equation in linear form (e.g. a^2+b^2=c^2, x=(-b±√(b^2-4ac))/2a).	Geben Sie eine Formel in linearer Form ein (z. B. a^2+b^2=c^2, x=(-b±√(b^2-4ac))/2a).
 	Type and organise the diagram's text	Text des Diagramms eingeben und gliedern
 	Type Text	Text eingeben
@@ -878,14 +1049,21 @@
 	User Information	Benutzerinformationen
 	Variants	Varianten
 	Vertical alignment	Vertikale Ausrichtung
+	Very Loose	Sehr weit
+	Very Tight	Sehr eng
 	Very loose	Sehr weit
 	Very tight	Sehr eng
 	Video from File…	Video aus Datei…
 	Volume	Lautstärke
 	Waiting for the audience window…	Warten auf das Publikumsfenster…
+	Warm matte	Warm matt
+	Waterfall	Wasserfall
 	Wavy	Gewellt
+	Web (150 ppi): good for web pages and projectors	Web (150 ppi): gut für Webseiten und Projektoren
 	Web Page or File	Webseite oder Datei
+	White Outline	Weiße Kontur
 	Whole presentation	Gesamte Präsentation
+	Wide	Breit
 	Widescreen (16:9)	Breitbild (16:9)
 	Width (pixels):	Breite (Pixel):
 	Width ({abbr}):	Breite ({abbr}):
@@ -893,6 +1071,7 @@
 	Width: enter {min} to {max} pixels	Breite: {min} bis {max} Pixel eingeben
 	Window title bar	Titelleiste des Fensters
 	With	Mit
+	With Previous	Mit Vorheriger
 	With:	Mit:
 	WordArt style {n}	WordArt-Format {n}
 	Wrap text in shape	Text in Form umbrechen
