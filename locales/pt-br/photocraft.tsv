@@ -11,10 +11,8 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
-
 	(coming soon)	(em breve)
 	(No neutral color exists for {mode} mode.)	(Não existe cor neutra para o modo {mode}.)
-	(none)	(none)
 	(print to the printer)	(imprimir na impressora)
 	+ Add variable	+ Adicionar variável
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 desativa este limite; grupos SVG aninhados em mais de 100 níveis são sempre rasterizados.
@@ -3599,7 +3597,7 @@ cameraRaw	Tint	Tonalidade
 	Transmission Reference	Referência de transmissão
 	Transparency & Gamut	Transparência e gama
 	Transparency & Gamut…	Transparência e gama…
-	Transparency Shapes Layer	Transparência forma a camada
+	Transparency Shapes Layer	A transparência define a forma da camada
 	Transparency Threshold	Limiar de transparência
 	Transparent (default)	Transparente (padrão)
 	Trap	Encaixe
