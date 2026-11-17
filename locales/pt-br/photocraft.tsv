@@ -208,6 +208,7 @@ cameraRaw	Amount	Quantidade
 	Animated zoom	Zoom animado
 	Animation Options	Opções de animação
 	Anisotropic	Anisotrópico
+	Answer the open import question first, then import this file again.	Responda primeiro à pergunta de importação aberta e importe este arquivo novamente.
 	Answer the unsaved-changes prompt first	Responda primeiro ao aviso de alterações não salvas
 	Anti-Alias	Suavização de serrilhado
 	Anti-alias	Suavização de serrilhado
@@ -250,6 +251,8 @@ cameraRaw	Aqua	Aqua
 	Are you sure?	Tem certeza?
 	Around Center	Ao redor do centro
 	Arrangement	Disposição
+	Arrowhead options	Opções de ponta de seta
+	Arrowheads	Pontas de seta
 	Art & Illustration	Arte e ilustração
 	Art History Brush	Pincel do histórico da arte
 	Art History Brush Tool	Ferramenta Pincel do histórico da arte
@@ -460,6 +463,7 @@ fontWeight	Bold	Negrito
 	Cache Level:	Nível do cache:
 	Cache levels	Níveis do cache
 	Cache tile size	Tamanho do bloco do cache
+	Calculating…	Calculando…
 	Calculations	Cálculos
 	Calculations…	Cálculos…
 	Calibration	Calibração
@@ -586,6 +590,7 @@ cameraRaw	Clarity	Claridade
 	Click to fill similar colours	Clique para preencher cores semelhantes
 	Click to pick · Esc to cancel	Clique para escolher · Esc para cancelar
 	Click to place · Alt-click or drag off-canvas to remove	Clique para posicionar · Alt-clique ou arraste para fora da tela para remover
+	Click to refresh histogram with uncached data	Clique para atualizar o histograma com dados sem cache
 	Click to restore the current color	Clique para restaurar a cor atual
 	Click to restore the current colour	Clique para restaurar a cor atual
 	Click to sample the foreground color  ·  {key}-click for background	Clique para obter a cor de primeiro plano  ·  {key}-clique para a cor de fundo
@@ -715,6 +720,7 @@ cameraRaw	Color Mixer	Misturador de cores
 	Commit warp ({key})	Confirmar deformação ({key})
 	Commit warp (↩)	Confirmar deformação (↩)
 	Compose	Compor
+	Concavity	Concavidade
 	Concise	Conciso
 	Condensed	Condensado
 	Conditional Mode Change	Alteração de modo condicional
@@ -774,6 +780,9 @@ cameraRaw	Contrast	Contraste
 	Convert to srgb	Converter para sRGB
 	Convert to the working space ({profile})	Converter para o espaço de trabalho ({profile})
 	Cool	Frio
+	Cooling Filter (80)	Filtro frio (80)
+	Cooling Filter (82)	Filtro frio (82)
+	Cooling Filter (LBB)	Filtro frio (LBB)
 	Cooling L B B	Filtro frio LBB
 	Cooling80	Filtro frio (80)
 	Cooling82	Filtro frio (82)
@@ -813,11 +822,13 @@ cameraRaw	Contrast	Contraste
 	Count	Contagem
 	Count Jitter	Variação da contagem
 	Count Tool	Ferramenta Contagem
+	Count:	Contagem:
 	Count: {n}	Contagem: {n}
 	Cove - Deep	Enseada - profunda
 	Cove - Shallow	Enseada - rasa
 	CPU (no GPU acceleration)	CPU (sem aceleração por GPU)
 	CPU / Compatibility	CPU / compatibilidade
+	CPU Rendering	Renderização por CPU
 	Crack Brightness	Brilho das rachaduras
 	Crack Depth	Profundidade das rachaduras
 	Crack Spacing	Espaçamento das rachaduras
@@ -1013,6 +1024,7 @@ cameraRaw	Dehaze	Remover névoa
 	Delete Filter Mask	Excluir máscara de filtro
 	Delete Frame	Excluir quadro
 	Delete Group	Excluir grupo
+	Delete Hidden Layers	Excluir camadas ocultas
 	Delete layer	Excluir camada
 	Delete layer comp	Excluir composição de camadas
 	Delete Layer Mask	Excluir máscara de camada
@@ -1154,6 +1166,7 @@ cameraRaw	Detail	Detalhe
 	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	Arrastar: desenhar à mão livre · {alt}-clique: segmento reto · Soltar no ponto inicial: fechar
 	Draw to modify the curve	Desenhar para modificar a curva
 	Draw with the Pen tool (P) or make a work path from a selection.	Desenhe com a ferramenta Caneta (P) ou crie um demarcador de trabalho a partir de uma seleção.
+	Drawn on the CPU: {reason}. Click for System Info.	Desenhado na CPU: {reason}. Clique para ver Informações do sistema.
 	Driver: {driver}	Driver: {driver}
 	Drop an image or PSD anywhere to open it.	Solte uma imagem ou um PSD em qualquer lugar para abri-lo.
 	Drop shadow	Sombra projetada
@@ -1232,6 +1245,7 @@ cameraRaw	Effects	Efeitos
 	Enable Vector Mask	Ativar máscara vetorial
 	Enable {name}	Ativar {name}
 	Enabled	Ativado
+	End	Fim
 	End X	Fim X
 	End Y	Fim Y
 	Enhance Edge	Aprimorar borda
@@ -1722,6 +1736,8 @@ cameraRaw	Hue	Matiz
 	Image Size:	Tamanho:
 	Image Size…	Tamanho da imagem…
 	Import .GRD	Importar .GRD
+	Import as New Group	Importar como novo grupo
+	Import as New Group keeps “{group}” and adds the file as a new group beside it.	Importar como novo grupo mantém “{group}” e adiciona o arquivo como um novo grupo ao lado dele.
 	Import Brush from Image…	Importar pincel de imagem…
 	Import Brushes	Importar pincéis
 	Import brushes (.abr)	Importar pincéis (.abr)
@@ -1939,6 +1955,7 @@ cameraData	Lens	Lente
 	Lens Info	Informações da lente
 	Letter Spacing	Espaçamento entre letras
 	Level Based	Baseado em níveis
+	Level:	Nível:
 	Ligature	Ligadura
 	Light	Leve
 cameraRaw	Light	Luz
@@ -2312,9 +2329,11 @@ layerLabel	No Color	Sem cor
 	No favorite fonts yet: click the star beside a font to add it.	Ainda não há fontes favoritas: clique na estrela ao lado de uma fonte para adicioná-la.
 	No fonts match these filters.	Nenhuma fonte corresponde a estes filtros.
 	No Image	Nenhuma imagem
+	No import is waiting. Import the file again.	Nenhuma importação está aguardando. Importe o arquivo novamente.
 	No Layer Comps	Nenhuma composição de camadas
 	No Layers	Nenhuma camada
 	No layers	Nenhuma camada
+	No matching fonts	Nenhuma fonte correspondente
 	No matching settings	Nenhuma configuração encontrada
 	No model credits were built into this copy.	Esta cópia não inclui créditos de modelos.
 	No object found there — drag a rectangle around it	Nenhum objeto encontrado ali — arraste um retângulo ao redor dele
@@ -2520,6 +2539,7 @@ smartSvg	Other application	Outro aplicativo
 	Pen Tilt	Inclinação da caneta
 	Pencil Width	Largura do lápis
 	Per-document RAM limit (MB)	Limite de RAM por documento (MB)
+	Percentile:	Percentil:
 	Perceptual	Perceptivo
 	Performance…	Desempenho…
 	Permission denied	Permissão negada
@@ -2846,6 +2866,7 @@ fontWeight	Regular	Normal
 	Replace Contents	Substituir conteúdo
 	Replace Contents…	Substituir conteúdo…
 	Replace Contours…	Substituir contornos…
+	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	Substituir exclui tudo em “{group}” primeiro, incluindo predefinições editadas ou movidas para lá. Isso não pode ser desfeito.
 	Replace Footage	Substituir gravação
 	Replace Footage…	Substituir filmagem…
 	Replace Image…	Substituir imagem…
@@ -3107,6 +3128,7 @@ fontWeight	SemiBold	Seminegrito
 	Sessions only	Somente sessões
 	Set additional Crop options	Definir opções adicionais de corte
 	Set additional smoothing options	Definir opções adicionais de suavização
+	Set as default	Definir como padrão
 	Set background color	Definir cor de fundo
 	Set Black Point	Definir ponto preto
 	Set Colors	Definir cores
@@ -3182,6 +3204,7 @@ cameraRaw	Shadows	Sombras
 	Show Backdrop	Mostrar pano de fundo
 	Show bounding box when dragging layer	Mostrar caixa delimitadora ao arrastar a camada
 	Show canvas dots	Mostrar pontos da tela de pintura
+	Show Channels in Color	Mostrar canais em cores
 	Show channels in color	Mostrar canais em cores
 	Show Cropped Area	Mostrar área cortada
 	Show crosshair in brush tip	Mostrar mira na ponta do pincel
@@ -3219,6 +3242,7 @@ cameraRaw	Shadows	Sombras
 	Show Similar Fonts	Mostrar fontes semelhantes
 	Show Skin Tone Indicator	Mostrar indicador de tom de pele
 	Show slice numbers	Mostrar números das fatias
+	Show Statistics	Mostrar estatísticas
 	Show Styles	Mostrar estilos
 	Show the layer mask as an overlay	Mostrar a máscara de camada como sobreposição
 	Show the layer's effects  ({key}-click: all layers)	Mostrar os efeitos da camada  ({key}-clique: todas as camadas)
@@ -3316,6 +3340,7 @@ curves	Smooth	Suavizar
 	Source1 Invert	Inverter origem 1
 	Source2 Channel	Canal da origem 2
 	Source2 Invert	Inverter origem 2
+	Source:	Origem:
 	Source: not set ({key}-click with Clone Stamp)	Origem: não definida ({key}-clique com o Carimbo)
 	Source: set	Origem: definida
 	Source: {name}	Origem: {name}
@@ -3367,6 +3392,7 @@ curves	Smooth	Suavizar
 	Star ratio	Proporção da estrela
 	Star Ratio:	Proporção da estrela:
 	Stars	Estrelas
+	Start	Início
 	Start Recording	Iniciar gravação
 	Start X	Início X
 	Start Y	Início Y
@@ -3618,6 +3644,7 @@ cameraRaw	Tint	Tonalidade
 	Ultra Light	Ultrafino
 	Unaltered	Inalterado
 	Unavailable in this color mode	Indisponível neste modo de cor
+	Uncached Refresh	Atualizar sem cache
 	Uncoated CMYK	CMYK para papel não revestido
 	Undefined Areas	Áreas não definidas
 	Underlying Layer:	Camada subjacente:
@@ -3677,6 +3704,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	As 
 	Use tablet pressure	Usar a pressão da mesa digitalizadora
 	Use tablet pressure to change pen width	Usar a pressão da mesa digitalizadora para alterar a largura da caneta
 	Use the embedded profile ({profile})	Usar o perfil incorporado ({profile})
+	Use these settings for new arrows	Usar estas configurações para novas setas
 	Use:	Usar:
 	Uses the foreground and background colors.	Usa as cores de primeiro plano e de fundo.
 	Uses the foreground and background colours.	Usa as cores de primeiro plano e de fundo.
@@ -3730,7 +3758,9 @@ cameraRaw	Vibrance	Vibração
 	Wait for the current job to finish.	Aguarde a conclusão da tarefa atual.
 	Wand	Varinha
 	Warm	Quente
+	Warming Filter (81)	Filtro quente (81)
 	Warming Filter (85)	Filtro quente (85)
+	Warming Filter (LBA)	Filtro quente (LBA)
 	Warming L B A	Filtro quente LBA
 	Warming81	Filtro quente (81)
 	Warming85	Filtro quente (85)
@@ -3829,6 +3859,7 @@ navigator	Zoom	Zoom
 	{label} is writing the file and can no longer be cancelled	{label} está gravando o arquivo e não pode mais ser cancelado
 	{message} (notes: {n}; {warning})	{message} (observações: {n}; {warning})
 	{message} ({note})	{message} ({note})
+	{message} into “{group}”	{message} em “{group}”
 	{mode} Color · {bits} bit	Cor {mode} · {bits} bits
 	{name} (Photoshop)	{name} (Photoshop)
 	{name} can't keep everything in this document	{name} não consegue manter tudo o que há neste documento
@@ -3871,3 +3902,34 @@ navigator	Zoom	Zoom
 	↑↓ navigate   ↵ run   esc close	↑↓ navegar   ↵ executar   esc fechar
 	✓ Color Indicates Masked Areas	✓ A cor indica áreas mascaradas
 	✓ Color Indicates Selected Areas	✓ A cor indica áreas selecionadas
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Relatório de conversão de importação
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Resultados no momento da importação. A edição usa as regras nativas do PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Um relatório em um formato mais recente foi preservado. Seus detalhes não podem ser exibidos.
+	No conversion report was recorded.	Nenhum relatório de conversão foi registrado.
+	No entries on this page.	Não há entradas nesta página.
+	Layer mask	Máscara de camada
+	Source item	Item de origem
+	{first}–{last} of {total}	{first}–{last} de {total}
+	Native equivalent	Equivalente nativo
+	Native approximation	Aproximação nativa
+	Retained, not applied	Preservado, não aplicado
+	Nonessential data skipped	Dados não essenciais ignorados
+	Unknown outcome	Resultado desconhecido
+	Native rules	Regras nativas
+	Native capability limit	Limite dos recursos nativos
+	Conversion not implemented	Conversão não implementada
+	Resource unavailable	Recurso indisponível
+	Invalid optional data	Dados opcionais inválidos
+	Retention limit	Limite de preservação
+	Precision conversion	Conversão de precisão
+	Unknown reason	Motivo desconhecido
+	Native layer {id} (removed; historical reference)	Camada nativa {id} (removida; referência histórica)
+	Native layer: {name}	Camada nativa: {name}
+	Alpha Percentile	Percentil alfa
+	Alpha Weighted	Ponderado pelo alfa
+	Color Percentile	Percentil de cor
+	Connectivity	Conectividade
+	Disc	Vizinhança circular
+	Each	Cada canal
