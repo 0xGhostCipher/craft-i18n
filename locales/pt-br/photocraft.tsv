@@ -177,7 +177,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Layers	Todas as camadas
 	All Layers No Adjustments	Todas as camadas sem ajustes
 	All shortcuts reset to PhotoCraft defaults.	Todos os atalhos foram redefinidos para os padrões do PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Todos os atalhos foram redefinidos para os padrões do Photoshop.
 	All Slices	Todas as fatias
 	All User Slices	Todas as fatias do usuário
 	Allow agent control	Permitir controle por agentes
@@ -978,7 +977,6 @@ cameraData	Date Taken	Data de captura
 	Default Foreground and Background Colors (D)	Cores padrão de primeiro plano e plano de fundo (D)
 	Default Leaves	Folhas padrão
 	Default PhotoCraft Size	Tamanho padrão do PhotoCraft
-	Default Photoshop Size	Tamanho padrão do Photoshop
 	Default printer	Impressora padrão
 	Default restored.	Padrão restaurado.
 	Defaults	Padrões
@@ -1905,9 +1903,7 @@ fontWeight	Italic	Itálico
 	Layer Style	Estilo de camada
 	Layer Styles	Estilos de camada
 	Layer Via Copy	Camada via cópia
-	Layer via Copy	Camada via cópia
 	Layer Via Cut	Camada via recorte
-	Layer via Cut	Camada via recorte
 @id	layer.layerMask.apply	Aplicar
 	Layers Panel Options	Opções do painel Camadas
 	Layers to Files	Camadas em arquivos
@@ -3528,7 +3524,6 @@ fontWeight	Thin	Fina
 	This session: {reason}	Nesta sessão: {reason}
 	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	Esta camada de forma precisa ser rasterizada antes de continuar. Ela não poderá mais ser editada como forma. Rasterizar a forma?
 	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	Este objeto inteligente precisa ser rasterizado antes de continuar. O conteúdo não poderá mais ser editado. Rasterizar o objeto inteligente?
-	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	Este objeto inteligente deve ser rasterizado antes de prosseguir. Seu conteúdo não será mais editável. Rasterizar o objeto inteligente?
 	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	Esta camada de texto precisa ser rasterizada antes de continuar. O texto não poderá mais ser editado. Rasterizar o texto?
 	Threshold Level	Nível do limiar
 	Threshold…	Limiar…
