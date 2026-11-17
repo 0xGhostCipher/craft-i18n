@@ -11,11 +11,11 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
-	Fixed date (empty = update automatically):	Fecha fija (vacío = actualizar automáticamente):
-	Footer text:	Texto de pie de página:
-	Present	Presentar
-	(not checked)	(no revisado)
-	— Edited	— Editado
+	  Fixed date (empty = update automatically):	  Fecha fija (vacío = actualizar automáticamente):
+	  Footer text:	  Texto de pie de página:
+	  Present  	  Presentar  
+	 (not checked)	 (no revisado)
+	 — Edited	 — Editado
 	(no spelling suggestions)	(sin sugerencias de ortografía)
 	+ Add	+ Agregar
 	+ New Comment	+ Nuevo comentario
@@ -661,6 +661,7 @@
 	Widescreen (16:9)	Panorámica (16:9)
 	Width (pixels):	Ancho (píxeles):
 	Width ({abbr}):	Ancho ({abbr}):
+	Width: 	Ancho: 
 	Window title bar	Barra de título de la ventana
 	With	Con
 	With:	Con:
