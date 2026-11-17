@@ -24,6 +24,7 @@
 	3D/2D views	Vues 3D/2D
 	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Un clic remplit ce qui est dessous ; un rectangle tracé remplit ce qu'il sélectionne à mesure qu'il grandit
 	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Un dossier fusionne ses enfants (transfert). Réglez l'opacité par canal dans les lignes des calques.
+	A layout named {name} already exists. Replace it?	Une disposition nommée {name} existe déjà. La remplacer ?
 	a missing layer	un calque manquant
 	About TextureCraft	À propos de TextureCraft
 	About TextureCraft...	À propos de TextureCraft...
@@ -132,6 +133,8 @@
 	Brush name	Nom du pinceau
 	Brush size	Taille du pinceau
 	Brush size (left/right) and hardness (up/down)	Taille du pinceau (gauche/droite) et dureté (haut/bas)
+	Brush size (wheel up smaller, down larger)	Taille du pinceau (molette vers le haut plus petit, vers le bas plus grand)
+	Brush size and hardness in fine steps	Taille et dureté du pinceau par petits pas
 	Brush size down / up	Réduire / augmenter la taille du pinceau
 	Brushed lines	Lignes brossées
 	Brushes	Pinceaux
@@ -151,13 +154,16 @@
 	Cell size (texels at 2K)	Taille des cellules (texels en 2K)
 	Cells	Cellules
 	Channel source: uniform value, procedural, image or anchor	Source du canal : valeur uniforme, procédural, image ou ancrage
+	Channels dragged	Canaux entraînés
 	Check All	Tout cocher
 	Check for Updates...	Rechercher des mises à jour...
 	Checker	Damier
 	Clamp	Limiter
 	Clear mask	Effacer le masque
 	Clear recent projects	Effacer les projets récents
+	Click (Path tool)	Clic (outil Tracé)
 	Click a mesh part to show or hide the selected layer on it.	Cliquez sur une partie du maillage pour y afficher ou masquer le calque sélectionné.
+	Click the first point (Path tool)	Clic sur le premier point (outil Tracé)
 	Click the mesh to pick its material into the brush	Cliquez sur le maillage pour prélever son matériau dans le pinceau
 	Click the mesh to place the decal	Cliquez sur le maillage pour placer le décalque
 	Click the model to place the symmetry plane there (Esc cancels)	Cliquez sur le modèle pour y placer le plan de symétrie (Esc annule)
@@ -165,6 +171,7 @@
 	Click: turn this channel on or off. Alt+click: this channel only	Clic : active ou désactive ce canal. Alt+clic : ce canal uniquement
 	Clone	Clonage
 	Clone on {layer}	Clonage sur {layer}
+	Clone: pick the point to copy from	Clonage : choisir le point à copier
 	Closed path	Tracé fermé
 	Cloud	Nuage
 	Clouds	Nuages
@@ -228,8 +235,11 @@
 	Create smart material	Créer un matériau intelligent
 	Ctrl + LMB drag	Ctrl + glisser (clic gauche)
 	Ctrl + RMB drag	Ctrl + glisser (clic droit)
-	Ctrl + Shift + drag	Ctrl + Shift + glisser
+	Ctrl + Shift + LMB	Ctrl + Shift + clic gauche
+	Ctrl + Shift + RMB drag	Ctrl + Shift + glisser (clic droit)
+	Ctrl + wheel	Ctrl + molette
 	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+glisser (clic droit) dans une vue règle la taille et la dureté, Ctrl+glisser (clic gauche) le flux et l'angle.
+	Ctrl+Shift+right-drag: size and hardness in fine steps.	Ctrl+Shift+glisser avec le clic droit : taille et dureté par petits pas.
 	Cube	Cube
 	Current layer	Calque actuel
 	Custom File	Fichier personnalisé
@@ -245,6 +255,7 @@
 	Decal projection	Projection de décalque
 	Default camera	Caméra par défaut
 	Delete template	Supprimer le modèle
+	Delete the layout {name}?	Supprimer la disposition {name} ?
 	Delete the selected template	Supprimer le modèle sélectionné
 	Delete the template "{name}"? Its file is removed and this cannot be undone.	Supprimer le modèle « {name} » ? Son fichier est supprimé et cette action est irréversible.
 	Delete this camera	Supprimer cette caméra
@@ -284,6 +295,7 @@
 	Drag onto an output channel	Glisser sur un canal de sortie
 	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Faites glisser le cadre pour déplacer le décalque, un coin pour le mettre à l'échelle, la poignée ronde pour le faire pivoter
 	Drags the layer stack's values along the stroke into the selected layer.	Entraîne les valeurs de la pile de calques le long du trait dans le calque sélectionné.
+	Draw snapped straight lines	Tracer des lignes droites magnétisées
 	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Affiche {name} de l'ensemble de textures « {set} ». Les modifications de la source apparaissent dans chaque instance.
 	Drop an image from the Assets panel here to use it as the stencil	Déposez ici une image du panneau des ressources pour l'utiliser comme pochoir
 	Drop an image from the Assets panel here to use it as this mesh map	Déposez ici une image du panneau Ressources pour l'utiliser comme cette carte de maillage
@@ -319,6 +331,7 @@
 	Environments	Environnements
 	Erase mask of {layer}	Effacement du masque de {layer}
 	Erase on {layer}	Effacement sur {layer}
+	Esc (Path tool)	Esc (outil Tracé)
 	Expand or collapse the folder	Déplier ou replier le dossier
 	Export mask to file...	Exporter le masque dans un fichier...
 	Export mesh	Exporter le maillage
@@ -422,7 +435,6 @@
 	Histogram Shift	Décalage d'histogramme
 	Hit-test	Test de sélection
 	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	Maintenez S : glisser (clic gauche) fait pivoter, glisser (clic droit) redimensionne, glisser (clic milieu) déplace le pochoir.
-	Hold Shift too for fine steps.	Maintenez aussi Shift pour des pas fins.
 	Hold V and click the mesh to set the clone source	Maintenez V et cliquez sur le maillage pour définir la source du clonage
 	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Maintenez V et cliquez sur le maillage pour définir la source, puis peignez ailleurs pour la copier.
 	How a rectangle selects polygons	Comment un rectangle sélectionne les polygones
@@ -472,6 +484,7 @@
 	Keyboard shortcuts	Raccourcis clavier
 	Layer mask	Masque de calque
 	Layer memory: {mb} MB	Mémoire des calques : {mb} Mo
+	Layouts	Dispositions
 	Lazy mouse	Stabilisateur
 	Lazy mouse distance	Distance du stabilisateur
 	Leather grain	Grain de cuir
@@ -489,6 +502,7 @@
 	Linear light	Lumière linéaire
 	List of exports	Liste des exports
 	LMB	Clic gauche
+	LMB drag on a point (Path tool)	Glisser (clic gauche) sur un point (outil Tracé)
 	Load Cage	Charger une cage
 	Load UI Layout	Charger une disposition
 	Loaded UI layout {path}	Disposition de l'interface chargée : {path}
@@ -499,6 +513,8 @@
 	Made by the ArtCraft team and community.	Créé par l'équipe et la communauté ArtCraft.
 	Magenta / green	Magenta / vert
 	Main shader	Shader principal
+	Manage layouts	Gérer les dispositions
+	Manage layouts...	Gérer les dispositions...
 	Manipulator size	Taille du manipulateur
 	Manual	Manuel
 	Marble veins	Veines de marbre
@@ -507,6 +523,7 @@
 	Mask effects	Effets du masque
 	Mask value (gray)	Valeur du masque (gris)
 	Mask with height	Masquer avec la hauteur
+	MASK: {layer}	MASQUE : {layer}
 	Match	Correspondance
 	Material	Matériau
 	Material ball	Boule de matériau
@@ -557,6 +574,7 @@
 	My smart masks	Mes masques intelligents
 	My smart materials	Mes matériaux intelligents
 	Name each file after its texture set, like Body_normal.png	Nommez chaque fichier d'après son ensemble de textures, par ex. Body_normal.png
+	Name of the layout	Nom de la disposition
 	Navigation buttons	Boutons de navigation
 	Needs the "OpenPBR (separate maps)" output template	Nécessite le modèle de sortie « OpenPBR (separate maps) »
 	New project	Nouveau projet
@@ -570,6 +588,7 @@
 	No padding (passthrough)	Sans marge (transfert direct)
 	No Parameters	Aucun paramètre
 	No recent projects yet	Aucun projet récent pour l'instant
+	No saved layouts	Aucune disposition enregistrée
 	Noise amount	Quantité de bruit
 	Noise scale	Échelle du bruit
 	none	aucun
@@ -608,6 +627,7 @@
 	Opened {name}	{name} ouvert
 	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Les canaux optionnels ajoutent un vernis (Poids du vernis, Rugosité du vernis, Normale du vernis), un lustre (Poids du lustre, couleur, rugosité), une anisotropie (Niveau d'anisotropie, angle), une diffusion sous-surfacique (Poids de diffusion) et une transmission (Transmission).
 	Orbit	Orbite
+	Orbit (3D view)	Orbite (vue 3D)
 	Orbit: press and drag to turn the view around the model	Orbite : appuyez et faites glisser pour faire tourner la vue autour du modèle
 	Orthographic	Orthographique
 	Output directory	Dossier de sortie
@@ -619,6 +639,7 @@
 	Overlay opacity	Opacité de superposition
 	Padding	Marge
 	Paint	Peinture
+	Paint a straight line from where the last stroke ended	Peindre une ligne droite depuis la fin du dernier trait
 	Paint Cage	Peindre la cage
 	Paint chips	Éclats de peinture
 	Paint layer	Calque de peinture
@@ -643,7 +664,13 @@
 	Paste effect	Coller l'effet
 	Paste layer(s)	Coller le(s) calque(s)
 	Path trace on the processor instead of the graphics card (slower)	Tracé de chemins sur le processeur au lieu de la carte graphique (plus lent)
+	Path: add a point; on the curve it inserts one	Tracé : ajouter un point ; sur la courbe, il en insère un
+	Path: apply it with the brush	Tracé : l'appliquer avec le pinceau
+	Path: cancel it	Tracé : l'annuler
 	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Tracé : cliquer ajoute un point, cliquer sur la courbe en insère un, glisser le déplace, Enter applique, Esc annule
+	Path: close it (needs 3 points)	Tracé : le fermer (3 points requis)
+	Path: move the point	Tracé : déplacer le point
+	Path: remove the selected or last point	Tracé : supprimer le point sélectionné ou le dernier
 	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Les tracés restent modifiables : choisissez-en un pour déplacer ses points ou changer sa brosse et sa matière, et la sous-couche se repeint aussitôt. Ajoutez des tracés avec l'outil Tracé.
 	Pattern scale	Échelle du motif
 	PBR - Metallic Roughness (TextureCraft)	PBR - Métallique Rugosité (TextureCraft)
@@ -677,6 +704,9 @@
 	Projection mask of {layer}	Projection du masque de {layer}
 	Projection on {layer}	Projection sur {layer}
 	Projection paints in the 3D view	La projection peint dans la vue 3D
+	Projection: move the stencil	Projection : déplacer le pochoir
+	Projection: rotate the stencil	Projection : faire pivoter le pochoir
+	Projection: scale the stencil	Projection : mettre le pochoir à l'échelle
 	Projects and meshes	Projets et maillages
 	Put the stencil back in the middle of the view at its starting size and rotation	Remet le pochoir au milieu de la vue, à sa taille et sa rotation de départ
 	Quarter	Quart
@@ -723,6 +753,7 @@
 	Rendering on GPU: {n} / {max} samples, {s} s	Rendu sur GPU : {n} / {max} échantillons, {s} s
 	Rendering, path traced	Rendu, tracé de chemins
 	Replace Color	Remplacer la couleur
+	Replace layout	Remplacer la disposition
 	Replacement color	Couleur de remplacement
 	Report a bug...	Signaler un bug...
 	Rescan the library folder	Réanalyser le dossier de la bibliothèque
@@ -742,24 +773,29 @@
 	Right view	Vue de droite
 	Right-click a layer > Create smart mask	Clic droit sur un calque > Créer un masque intelligent
 	Right-click a layer > Create smart material	Clic droit sur un calque > Créer un matériau intelligent
+	RMB drag	Glisser (clic droit)
 	Rotation (degrees)	Rotation (degrés)
 	rough	rug
 	Roughness	Rugosité
 	Roughness from glossiness	Rugosité depuis la brillance
 	Round	Rond
 	Rounded cube	Cube arrondi
+	S + left-drag rotates (with Shift in 15° steps), S + right-drag scales, S + middle-drag moves; or use Position X / Y.	S + glisser (clic gauche) fait pivoter (avec Shift par pas de 15°), S + glisser (clic droit) met à l'échelle, S + glisser (clic milieu) déplace ; ou utilisez Position X / Y.
 	Samples	Échantillons
 	Sampling Radius	Rayon d'échantillonnage
 	Save a copy...	Enregistrer une copie...
 	Save as...	Enregistrer sous...
 	Save current brush	Enregistrer le pinceau actuel
+	Save current layout as...	Enregistrer la disposition actuelle sous...
 	Save current layout...	Enregistrer la disposition actuelle...
 	Save current project as template	Enregistrer le projet actuel comme modèle
+	Save layout	Enregistrer la disposition
 	Save render...	Enregistrer le rendu...
 	Save the changes to {name} before closing?	Enregistrer les modifications de {name} avant de fermer ?
 	Save the changes to {name} first?	Enregistrer d'abord les modifications de {name} ?
 	Save UI Layout	Enregistrer la disposition
 	Save view as camera	Enregistrer la vue comme caméra
+	Saved layout {name}	Disposition {name} enregistrée
 	Saved UI layout {path}	Disposition de l'interface enregistrée : {path}
 	Saved {path}	Enregistré : {path}
 	Saving UI layouts to files is available in the desktop app	L'enregistrement des dispositions dans des fichiers est disponible dans l'application de bureau
@@ -799,6 +835,8 @@
 	sheen rough	rug lus
 	Sheen roughness	Rugosité du lustre
 	Sheen weight	Poids du lustre
+	Shift + LMB	Shift + clic gauche
+	Shift + RMB drag	Shift + glisser (clic droit)
 	Shift + wheel	Shift + molette
 	Shortcuts list...	Liste des raccourcis...
 	Show all	Tout afficher
@@ -868,6 +906,7 @@
 	Template name	Nom du modèle
 	Temporal anti-aliasing (refines the 3D view while it is still)	Anticrénelage temporel (affine la vue 3D tant qu'elle est immobile)
 	Texture resolution	Résolution des textures
+	Texture set '{name}' is not active for painting. Select it in the Texture Sets list.	L'ensemble de textures '{name}' n'est pas actif pour la peinture. Sélectionnez-le dans la liste Ensembles de textures.
 	Texture set channels	Canaux de l'ensemble de textures
 	Texture set resolution	Résolution de l'ensemble de textures
 	Texture Set Settings	Paramètres de l'ensemble de textures
@@ -881,6 +920,7 @@
 	Textures	Textures
 	Textures embedded; for game engines and most viewers	Textures intégrées ; pour les moteurs de jeu et la plupart des visionneuses
 	Textures packaged; for USD tools and AR Quick Look	Textures empaquetées ; pour les outils USD et AR Quick Look
+	That name is taken	Ce nom est déjà pris
 	The bake worker stopped	Le processus de précalcul s'est arrêté
 	The eraser removes paint from the enabled channels.	La gomme efface la peinture des canaux activés.
 	The file dialog couldn't be shown: {error}	Impossible d'afficher la boîte de dialogue de fichiers : {error}
@@ -891,7 +931,7 @@
 	The next click in the 3D view moves the decal there	Le prochain clic dans la vue 3D y déplace le décalque
 	The project changed while the dialog was open, so nothing was done	Le projet a changé pendant que la boîte de dialogue était ouverte ; rien n'a été fait
 	The resize worker stopped	Le processus de redimensionnement s'est arrêté
-	The same in fine steps, a tenth of the change	La même chose par pas fins, un dixième de la variation
+	These are the brush's material channels, the same ones Paint writes and the Material tab shows. A channel the selected layer does not have is skipped.	Ce sont les canaux de matériau du pinceau, les mêmes que ceux écrits par Peinture et affichés dans l'onglet Matériau. Un canal que le calque sélectionné n'a pas est ignoré.
 	Thin areas	Zones fines
 	Tile	Répéter
 	Tiles	Carreaux
@@ -906,6 +946,7 @@
 	Tri-planar projection	Projection triplanaire
 	Triangle fill	Remplissage de triangles
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Triangle remplit des triangles seuls, Polygone des quads et n-gones entiers, Maillage la géométrie connectée, Îlot UV les îlots UV
+	Turn the environment light (3D view)	Faire pivoter la lumière d'environnement (vue 3D)
 	Twill weave	Armure sergé
 	UDIM plane	Plan UDIM
 	UDIM tiles painted by this texture set, each at the set's size	Tuiles UDIM peintes par cet ensemble de textures, chacune à la taille de l'ensemble
@@ -951,10 +992,10 @@
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Ce que la vue 3D affiche pendant la cuisson : la dernière carte terminée, une carte terminée au choix ou le matériau. Les cartes pas encore cuites affichent une valeur neutre.
 	Wheel / Alt + RMB drag	Molette / Alt + glisser (clic droit)
 	Width (texels at 2K)	Largeur (texels en 2K)
-	Without a middle button: hold S and Shift and left-drag to move it.	Sans bouton central : maintenez S et Shift et glissez avec le clic gauche pour la déplacer.
 	Wood grain	Veinage du bois
 	Works in texture space, like the blur: it does not cross UV seams.	Fonctionne en espace texture, comme le flou : ne traverse pas les coutures UV.
 	World Space Normal	Normale en espace monde
+	Write 1 minus the value in this channel	Écrire 1 moins la valeur dans ce canal
 	Yellow / blue	Jaune / bleu
 	Zoom: press and drag up to move closer, down to move away	Zoom : appuyez et faites glisser vers le haut pour vous rapprocher, vers le bas pour vous éloigner
 	Zoom: press and drag up to zoom in, down to zoom out	Zoom : appuyez et faites glisser vers le haut pour agrandir, vers le bas pour réduire
@@ -962,6 +1003,10 @@
 	{count} effects	{count} effets
 	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file} : ajouter au-dessus du calque sélectionné (ou le glisser dans la pile de calques ou sur la fenêtre d'affichage)
 	{file}: replace the selected layer's mask (or drag it onto a layer in the stack)	{file} : remplacer le masque du calque sélectionné (ou le faire glisser sur un calque de la pile)
+	{key} + LMB	{key} + clic gauche
+	{key} + LMB drag	{key} + glisser (clic gauche)
+	{key} + MMB drag	{key} + glisser (clic milieu)
+	{key} + RMB drag	{key} + glisser (clic droit)
 	{name} copy	Copie de {name}
 	{n} bits	{n} bits
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} points de contrôle. Cliquez sur le maillage (ou la vue 2D) pour ajouter des points et faites-les glisser pour les ajuster ; cliquez sur le premier point pour fermer le tracé. Entrée le peint avec le pinceau (un tracé fermé et rempli remplit son intérieur), Échap annule.

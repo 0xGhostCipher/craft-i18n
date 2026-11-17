@@ -24,6 +24,7 @@
 	3D/2D views	عرض 3D/2D
 	A click fills what is under it; a dragged rectangle fills what it selects as it grows	النقرة تملأ ما تحتها، والمستطيل المسحوب يملأ ما يحدده أثناء اتساعه
 	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	المجلد يدمج عناصره الفرعية (تمرير مباشر). حدد عتامة كل قناة في صفوف الطبقات.
+	A layout named {name} already exists. Replace it?	يوجد تخطيط باسم {name} بالفعل. هل تريد استبداله؟
 	a missing layer	طبقة مفقودة
 	About TextureCraft	حول TextureCraft
 	About TextureCraft...	حول TextureCraft...
@@ -136,6 +137,8 @@
 	Brush name	اسم الفرشاة
 	Brush size	حجم الفرشاة
 	Brush size (left/right) and hardness (up/down)	حجم الفرشاة (يسار/يمين) والصلابة (أعلى/أسفل)
+	Brush size (wheel up smaller, down larger)	حجم الفرشاة (العجلة للأعلى أصغر، للأسفل أكبر)
+	Brush size and hardness in fine steps	حجم الفرشاة والصلابة بخطوات دقيقة
 	Brush size down / up	تصغير / تكبير حجم الفرشاة
 	Brushed lines	خطوط مصقولة بالفرشاة
 	Brushes	الفرش
@@ -157,13 +160,16 @@
 	Channel	القناة
 	Channel source: uniform value, procedural, image or anchor	مصدر القناة: قيمة موحدة، إجرائي، صورة أو نقطة ارتكاز
 	Channels	القنوات
+	Channels dragged	القنوات المسحوبة
 	Check All	تحديد الكل
 	Check for Updates...	التحقق من وجود تحديثات...
 	Checker	رقعة شطرنج
 	Clamp	تقييد القيم
 	Clear mask	مسح القناع
 	Clear recent projects	مسح المشاريع الأخيرة
+	Click (Path tool)	نقر (أداة المسار)
 	Click a mesh part to show or hide the selected layer on it.	انقر على جزء من المجسم لإظهار أو إخفاء الطبقة المحددة عليه.
+	Click the first point (Path tool)	نقر على النقطة الأولى (أداة المسار)
 	Click the mesh to pick its material into the brush	انقر على المجسم لالتقاط مادته إلى الفرشاة
 	Click the mesh to place the decal	انقر على المجسم لوضع الملصق
 	Click the model to place the symmetry plane there (Esc cancels)	انقر على النموذج لوضع مستوى التناظر هناك (Esc للإلغاء)
@@ -171,6 +177,7 @@
 	Click: turn this channel on or off. Alt+click: this channel only	انقر: تشغيل هذه القناة أو إيقافها. Alt+نقر: هذه القناة فقط
 	Clone	استنساخ
 	Clone on {layer}	استنساخ على {layer}
+	Clone: pick the point to copy from	الاستنساخ: اختر النقطة المراد النسخ منها
 	Closed path	مسار مغلق
 	Cloud	سحابة
 	Clouds	سحب
@@ -237,8 +244,11 @@
 	Create smart material	إنشاء مادة ذكية
 	Ctrl + LMB drag	سحب بـ Ctrl + زر الفأرة الأيسر
 	Ctrl + RMB drag	سحب بـ Ctrl + زر الفأرة الأيمن
-	Ctrl + Shift + drag	سحب بـ Ctrl + Shift
+	Ctrl + Shift + LMB	Ctrl + Shift + زر الفأرة الأيسر
+	Ctrl + Shift + RMB drag	سحب بـ Ctrl + Shift + زر الفأرة الأيمن
+	Ctrl + wheel	Ctrl + عجلة الفأرة
 	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+السحب بالزر الأيمن في عرض يضبط الحجم والصلابة، وCtrl+السحب بالزر الأيسر يضبط التدفق والزاوية.
+	Ctrl+Shift+right-drag: size and hardness in fine steps.	Ctrl+Shift+السحب بالزر الأيمن: الحجم والصلابة بخطوات دقيقة.
 	Cube	مكعب
 	Current layer	الطبقة الحالية
 	Curvature	الانحناء
@@ -255,6 +265,7 @@
 	Decal projection	إسقاط الملصق
 	Default camera	الكاميرا الافتراضية
 	Delete template	حذف القالب
+	Delete the layout {name}?	هل تريد حذف التخطيط {name}؟
 	Delete the selected template	حذف القالب المحدد
 	Delete the template "{name}"? Its file is removed and this cannot be undone.	هل تريد حذف القالب "{name}"؟ سيتم حذف ملفه ولا يمكن التراجع عن ذلك.
 	Delete this camera	حذف هذه الكاميرا
@@ -298,6 +309,7 @@
 	Drag onto an output channel	اسحب إلى قناة إخراج
 	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	اسحب الإطار لتحريك الملصق، أو الزاوية لتغيير حجمه، أو المقبض الدائري لتدويره
 	Drags the layer stack's values along the stroke into the selected layer.	يسحب قيم مكدس الطبقات على طول الضربة إلى الطبقة المحددة.
+	Draw snapped straight lines	رسم خطوط مستقيمة مثبّتة
 	Draws {name} of texture set "{set}". Edits to the source show in every instance.	يرسم {name} لمجموعة الخامات "{set}". التعديلات على المصدر تظهر في كل نسخة.
 	Drop an image from the Assets panel here to use it as the stencil	أفلت هنا صورة من لوحة الأصول لاستخدامها كستنسل
 	Drop an image from the Assets panel here to use it as this mesh map	أفلت صورة من لوحة الأصول هنا لاستخدامها كخريطة المجسم هذه
@@ -333,6 +345,7 @@
 	Environments	البيئات
 	Erase mask of {layer}	محو قناع {layer}
 	Erase on {layer}	محو على {layer}
+	Esc (Path tool)	Esc (أداة المسار)
 	Exclusion	استبعاد (Exclusion)
 	Expand or collapse the folder	توسيع المجلد أو طيه
 	Export mask to file...	تصدير القناع إلى ملف...
@@ -444,7 +457,6 @@
 	History	السجل
 	Hit-test	اختبار الإصابة
 	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	استمر بالضغط على S: السحب بالزر الأيسر يدوّر، والأيمن يغيّر الحجم، والأوسط يحرّك الستنسل.
-	Hold Shift too for fine steps.	اضغط مع Shift أيضًا للحصول على خطوات دقيقة.
 	Hold V and click the mesh to set the clone source	استمر بالضغط على V وانقر على المجسم لتعيين مصدر الاستنساخ
 	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	استمر بالضغط على V وانقر على المجسم لتعيين المصدر، ثم ارسم في مكان آخر لنسخه.
 	How a rectangle selects polygons	كيف يحدد المستطيل المضلعات
@@ -496,6 +508,7 @@
 	Keyboard shortcuts	اختصارات لوحة المفاتيح
 	Layer mask	قناع الطبقة
 	Layer memory: {mb} MB	ذاكرة الطبقات: {mb} ميغابايت
+	Layouts	التخطيطات
 	Lazy mouse	الفأرة الكسولة (Lazy mouse)
 	Lazy mouse distance	مسافة الفأرة الكسولة
 	Leather grain	حبيبات جلدية
@@ -515,6 +528,7 @@
 	Linear light	ضوء خطي (Linear Light)
 	List of exports	قائمة الصادرات
 	LMB	زر الفأرة الأيسر
+	LMB drag on a point (Path tool)	سحب بزر الفأرة الأيسر على نقطة (أداة المسار)
 	Load Cage	تحميل القفص
 	Load UI Layout	تحميل تخطيط الواجهة
 	Loaded UI layout {path}	تم تحميل تخطيط الواجهة {path}
@@ -526,6 +540,8 @@
 	Made by the ArtCraft team and community.	صُنع بواسطة فريق ArtCraft والمجتمع.
 	Magenta / green	أرجواني / أخضر
 	Main shader	المظلل الرئيسي
+	Manage layouts	إدارة التخطيطات
+	Manage layouts...	إدارة التخطيطات...
 	Manipulator size	حجم أداة التحريك
 	Manual	يدوي
 	Marble veins	عروق الرخام
@@ -535,6 +551,7 @@
 	Mask effects	تأثيرات القناع
 	Mask value (gray)	قيمة القناع (رمادي)
 	Mask with height	قناع بالارتفاع
+	MASK: {layer}	القناع: {layer}
 	Match	المطابقة
 	Material	المادة
 	Material ball	كرة المادة
@@ -592,6 +609,7 @@
 	My smart masks	أقنعتي الذكية
 	My smart materials	موادي الذكية
 	Name each file after its texture set, like Body_normal.png	سمِّ كل ملف باسم مجموعة الخامات الخاصة به، مثل Body_normal.png
+	Name of the layout	اسم التخطيط
 	Navigation buttons	أزرار التنقل
 	Needs the "OpenPBR (separate maps)" output template	يتطلب قالب الإخراج "OpenPBR (separate maps)"
 	Never	أبدًا
@@ -606,6 +624,7 @@
 	No padding (passthrough)	بدون حشو (تمرير مباشر)
 	No Parameters	لا توجد معلمات
 	No recent projects yet	لا توجد مشاريع حديثة بعد
+	No saved layouts	لا توجد تخطيطات محفوظة
 	Noise amount	كمية الضوضاء
 	Noise scale	مقياس الضوضاء
 	None	بلا
@@ -648,6 +667,7 @@
 	Opened {name}	تم فتح {name}
 	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	تضيف القنوات الاختيارية طبقة طلاء شفافة (وزن الطلاء، خشونة الطلاء، ناظم الطلاء)، ولمعاناً (وزن اللمعان، لونه، خشونته)، وتباين الخواص (مستوى التباين، زاويته)، وتشتتاً تحت السطح (وزن التشتت)، ونفاذية (النفاذية).
 	Orbit	مدار
+	Orbit (3D view)	مدار (العرض ثلاثي الأبعاد)
 	Orbit: press and drag to turn the view around the model	مدار: اضغط واسحب لتدوير العرض حول النموذج
 	Orthographic	متوازي (إملائي)
 	Output directory	دليل الإخراج
@@ -660,6 +680,7 @@
 	Overlay opacity	عتامة التراكب
 	Padding	الحشو (Padding)
 	Paint	رسم
+	Paint a straight line from where the last stroke ended	رسم خط مستقيم من حيث انتهت الضربة الأخيرة
 	Paint Cage	رسم القفص
 	Paint chips	قشور الطلاء
 	Paint layer	طبقة رسم
@@ -685,7 +706,13 @@
 	Paste effect	لصق التأثير
 	Paste layer(s)	لصق الطبقة (الطبقات)
 	Path trace on the processor instead of the graphics card (slower)	تتبع المسار على المعالج بدلاً من بطاقة الرسوميات (أبطأ)
+	Path: add a point; on the curve it inserts one	المسار: إضافة نقطة؛ وعلى المنحنى تُدرج نقطة
+	Path: apply it with the brush	المسار: تطبيقه بالفرشاة
+	Path: cancel it	المسار: إلغاؤه
 	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	المسار: النقر يضيف نقطة، والنقر على المنحنى يُدرج نقطة، والسحب يحركها، وEnter يطبق، وEsc يلغي
+	Path: close it (needs 3 points)	المسار: إغلاقه (يتطلب 3 نقاط)
+	Path: move the point	المسار: نقل النقطة
+	Path: remove the selected or last point	المسار: إزالة النقطة المحددة أو الأخيرة
 	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	تبقى المسارات قابلة للتعديل: اختر مسارًا لتحريك نقاطه أو تغيير فرشاته ومادته، فتُعاد رسم الطبقة الفرعية فورًا. أضف المسارات بأداة المسار.
 	Pattern scale	مقياس النمط
 	PBR - Metallic Roughness (TextureCraft)	PBR - خشونة ومعدنية (TextureCraft)
@@ -721,6 +748,9 @@
 	Projection mask of {layer}	إسقاط قناع {layer}
 	Projection on {layer}	إسقاط على {layer}
 	Projection paints in the 3D view	يرسم الإسقاط في العرض ثلاثي الأبعاد
+	Projection: move the stencil	الإسقاط: نقل الستنسل
+	Projection: rotate the stencil	الإسقاط: تدوير الستنسل
+	Projection: scale the stencil	الإسقاط: تغيير مقياس الستنسل
 	Projects and meshes	المشاريع والمجسمات
 	Properties	الخصائص
 	Put the stencil back in the middle of the view at its starting size and rotation	أعد الستنسل إلى وسط العرض بحجمه ودورانه الابتدائيين
@@ -769,6 +799,7 @@
 	Rendering on GPU: {n} / {max} samples, {s} s	التصيير على المعالج الرسومي (GPU): {n} / {max} عينة، {s} ث
 	Rendering, path traced	التصيير، بتتبع المسار
 	Replace Color	استبدال اللون
+	Replace layout	استبدال التخطيط
 	Replacement color	لون الاستبدال
 	Report a bug...	الإبلاغ عن خطأ...
 	Rescan the library folder	إعادة فحص مجلد المكتبة
@@ -789,25 +820,30 @@
 	Right view	عرض أيمن
 	Right-click a layer > Create smart mask	انقر بزر الفأرة الأيمن على طبقة > إنشاء قناع ذكي
 	Right-click a layer > Create smart material	انقر بزر الفأرة الأيمن على طبقة > إنشاء مادة ذكية
+	RMB drag	سحب بزر الفأرة الأيمن
 	Rotation (degrees)	التدوير (بالدرجات)
 	rough	خشونة
 	Roughness	الخشونة
 	Roughness from glossiness	الخشونة من الصفاء
 	Round	دائري
 	Rounded cube	مكعب مدور الزوايا
+	S + left-drag rotates (with Shift in 15° steps), S + right-drag scales, S + middle-drag moves; or use Position X / Y.	S + سحب بزر الفأرة الأيسر يدوّر (مع Shift بخطوات 15°)، وS + سحب بزر الفأرة الأيمن يغيّر المقياس، وS + سحب بزر الفأرة الأوسط ينقل؛ أو استخدم الموضع X / Y.
 	Samples	العينات
 	Sampling Radius	نصف قطر العينات
 	Saturation	التشبع
 	Save a copy...	حفظ نسخة...
 	Save as...	حفظ باسم...
 	Save current brush	حفظ الفرشاة الحالية
+	Save current layout as...	حفظ التخطيط الحالي باسم...
 	Save current layout...	حفظ التخطيط الحالي...
 	Save current project as template	حفظ المشروع الحالي كقالب
+	Save layout	حفظ التخطيط
 	Save render...	حفظ التصيير...
 	Save the changes to {name} before closing?	هل تريد حفظ التغييرات في {name} قبل الإغلاق؟
 	Save the changes to {name} first?	هل تريد حفظ التغييرات في {name} أولًا؟
 	Save UI Layout	حفظ تخطيط الواجهة
 	Save view as camera	حفظ المنظور ككاميرا
+	Saved layout {name}	تم حفظ التخطيط {name}
 	Saved UI layout {path}	تم حفظ تخطيط الواجهة {path}
 	Saved {path}	تم الحفظ في {path}
 	Saving UI layouts to files is available in the desktop app	حفظ تخطيطات الواجهة إلى ملفات متاح في تطبيق سطح المكتب
@@ -849,6 +885,8 @@
 	sheen rough	خشونة اللمعان
 	Sheen roughness	خشونة اللمعان
 	Sheen weight	وزن اللمعان
+	Shift + LMB	Shift + زر الفأرة الأيسر
+	Shift + RMB drag	سحب بـ Shift + زر الفأرة الأيمن
 	Shift + wheel	Shift + عجلة الفأرة
 	Shortcuts list...	قائمة الاختصارات...
 	Show all	إظهار الكل
@@ -920,6 +958,7 @@
 	Template name	اسم القالب
 	Temporal anti-aliasing (refines the 3D view while it is still)	تنعيم حواف زمني (يحسّن العرض ثلاثي الأبعاد أثناء ثباته)
 	Texture resolution	دقة الخامة
+	Texture set '{name}' is not active for painting. Select it in the Texture Sets list.	مجموعة الخامات '{name}' غير نشطة للرسم. حددها في قائمة مجموعات الخامات.
 	Texture set channels	قنوات مجموعة الخامات
 	Texture set resolution	دقة مجموعة الخامات
 	Texture Set Settings	إعدادات مجموعة الخامات
@@ -933,6 +972,7 @@
 	Textures	الخامات
 	Textures embedded; for game engines and most viewers	الخامات مدمجة؛ لمحركات الألعاب ومعظم برامج العرض
 	Textures packaged; for USD tools and AR Quick Look	الخامات محزومة؛ لأدوات USD وميزة المعاينة السريعة للواقع المعزز
+	That name is taken	هذا الاسم مستخدم بالفعل
 	The bake worker stopped	توقف عامل الخبز
 	The eraser removes paint from the enabled channels.	تزيل الممحاة الطلاء من القنوات الممكنة.
 	The file dialog couldn't be shown: {error}	تعذر عرض نافذة الملفات: {error}
@@ -943,7 +983,7 @@
 	The next click in the 3D view moves the decal there	النقر التالي في العرض ثلاثي الأبعاد ينقل الملصق إلى هناك
 	The project changed while the dialog was open, so nothing was done	تغيّر المشروع أثناء فتح النافذة، لذا لم يُنفَّذ أي إجراء
 	The resize worker stopped	توقف عامل تغيير الحجم
-	The same in fine steps, a tenth of the change	الشيء نفسه بخطوات دقيقة، بعُشر التغيير
+	These are the brush's material channels, the same ones Paint writes and the Material tab shows. A channel the selected layer does not have is skipped.	هذه هي قنوات المادة الخاصة بالفرشاة، وهي نفسها التي يكتبها الرسم وتعرضها علامة تبويب المادة. يتم تخطي أي قناة لا تحتويها الطبقة المحددة.
 	Thin areas	المناطق الرقيقة
 	Threshold	العتبة (Threshold)
 	Tile	تكرار (Tile)
@@ -960,6 +1000,7 @@
 	Tri-planar projection	إسقاط ثلاثي المستويات (Tri-planar)
 	Triangle fill	تعبئة مثلث
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	المثلث يملأ مثلثات منفردة، والمضلع رباعيات ومضلعات كاملة، والمجسم الهندسة المتصلة، وجزيرة UV جزر UV
+	Turn the environment light (3D view)	تدوير إضاءة البيئة (العرض ثلاثي الأبعاد)
 	Twill weave	نسيج مائل
 	UDIM plane	مستوي UDIM
 	UDIM tiles painted by this texture set, each at the set's size	بلاطات UDIM المرسومة بمجموعة الخامات هذه، كل منها بحجم المجموعة
@@ -1008,10 +1049,10 @@
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	ما يعرضه العرض ثلاثي الأبعاد أثناء الخبز: أحدث خريطة مكتملة، أو أي خريطة مكتملة تختارها، أو الخامة. الخرائط التي لم تُخبز بعد تعرض قيمة محايدة.
 	Wheel / Alt + RMB drag	العجلة / سحب بـ Alt + زر الفأرة الأيمن
 	Width (texels at 2K)	العرض (تكسل بدقة 2K)
-	Without a middle button: hold S and Shift and left-drag to move it.	بدون زر الفأرة الأوسط: اضغط مع الاستمرار على S وShift واسحب بالزر الأيسر لتحريكه.
 	Wood grain	حبيبات الخشب
 	Works in texture space, like the blur: it does not cross UV seams.	يعمل في فضاء الخامات، مثل التمويه: لا يعبر درزات UV.
 	World Space Normal	ناظم الفضاء العالمي
+	Write 1 minus the value in this channel	كتابة 1 ناقص القيمة في هذه القناة
 	Yellow / blue	أصفر / أزرق
 	Zoom	تكبير/تصغير
 	Zoom: press and drag up to move closer, down to move away	تكبير/تصغير: اضغط واسحب لأعلى للاقتراب ولأسفل للابتعاد
@@ -1020,6 +1061,10 @@
 	{count} effects	{count} تأثيرات
 	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: إضافة فوق الطبقة المحددة (أو اسحبها إلى مكدس الطبقات أو إلى منفذ العرض)
 	{file}: replace the selected layer's mask (or drag it onto a layer in the stack)	{file}: استبدل قناع الطبقة المحددة (أو اسحبه إلى طبقة في المكدس)
+	{key} + LMB	{key} + زر الفأرة الأيسر
+	{key} + LMB drag	سحب بـ {key} + زر الفأرة الأيسر
+	{key} + MMB drag	سحب بـ {key} + زر الفأرة الأوسط
+	{key} + RMB drag	سحب بـ {key} + زر الفأرة الأيمن
 	{name} copy	نسخة من {name}
 	{n} bits	{n} بت
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} نقاط تحكم. انقر على المجسم (أو العرض ثنائي الأبعاد) لإضافة نقاط واسحبها للضبط؛ وانقر على النقطة الأولى لإغلاق المسار. مفتاح Enter يرسمه بالفرشاة (المسار المغلق والمملوء يملأ داخله)، وEsc يلغي.
