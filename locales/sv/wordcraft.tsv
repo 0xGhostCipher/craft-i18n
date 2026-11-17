@@ -183,6 +183,7 @@
 	Arabic	Arabiska
 	Arch Down	Båge nedåt
 	Arch Up	Båge uppåt
+	Arrange All	Ordna alla
 	Arrange\nAll	Ordna\nalla
 	Article I.	Artikel I.
 	Artistic Effects	Konstnärliga effekter
@@ -1450,6 +1451,7 @@ template	Letter	Brev
 	No matching commands	Inga matchande kommandon
 	No model credits were built into this copy.	Den här kopian innehåller inga uppgifter om medverkande AI-modeller.
 	No new sources in that file	Inga nya källor i den filen
+	No other WordCraft windows are open.	Inga andra WordCraft-fönster är öppna.
 	No Outline	Ingen kontur
 	No Paragraph Space	Inget styckeavstånd
 	No printers found. Configure a system printer or export a PDF.	Inga skrivare hittades. Lägg till en skrivare i systemet eller exportera en PDF.
@@ -1545,6 +1547,7 @@ template	Letter	Brev
 	Only label and number	Endast etikett och nummer
 	Only text properties can be changed.	Endast textegenskaper kan ändras.
 	Only the allowed styles can be applied.	Bara de tillåtna stilarna kan användas.
+	only the desktop app has several windows	bara skrivbordsappen har flera fönster
 	Only web (http, https) and email (mailto) links can be followed	Bara webblänkar (http, https) och e-postlänkar (mailto) kan följas
 	Open a document first	Öppna först ett dokument
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Öppna en fil med WordCrafts egen filbläddrare när systemets fildialogruta inte visas.
@@ -1803,6 +1806,13 @@ template	Letter	Brev
 	Remove the control once edited	Ta bort kontrollen när den har redigerats
 	Remove the space before the punctuation	Ta bort blanksteget före skiljetecknet
 	Remove Watermark	Ta bort vattenstämpel
+	No watermark	Ingen vattenstämpel
+	Picture watermark	Bildvattenstämpel
+	Text watermark	Textvattenstämpel
+	Select Picture…	Välj bild…
+	Semitransparent	Halvgenomskinlig
+	Transparency:	Genomskinlighet:
+	Select a picture first.	Välj en bild först.
 	Rename Document	Byt namn på dokument
 	Reopen	Öppna igen
 	Repeat as header row on each page	Upprepa som rubrikrad på varje sida
@@ -2197,6 +2207,7 @@ template	Letter	Brev
 	Switch Windows	Växla fönster
 	Switch\nModes	Byt\nläge
 	Switch\nWindows	Växla\nfönster
+	Synchronous Scrolling	Synkron rullning
 	Synonyms	Synonymer
 	Tab Character	Tabbtecken
 	Tab character	Tabbtecken
@@ -2370,6 +2381,7 @@ preview	Title	Titel
 	Tue	Tis
 	Turabian	Turabian
 	Turkish	Turkiska
+	turn on View Side by Side first	aktivera Visa sida vid sida först
 	Two	Två
 	Two-sided printing	Dubbelsidig utskrift
 	Two-sided: long edge	Dubbelsidig: vänd längs långsidan
@@ -2449,6 +2461,7 @@ preview	Title	Titel
 	View Alt Text…	Visa alternativtext…
 	View and edit the document's custom properties.	Visa och redigera dokumentets anpassade egenskaper.
 	View Gridlines	Visa stödlinjer
+	View Side by Side	Visa sida vid sida
 	View State	Visningstillstånd
 	View › Focus hides everything but your words. I'll wait outside.	Visa › Fokus döljer allt utom dina ord. Jag väntar utanför.
 	Views	Vyer
@@ -2559,3 +2572,135 @@ preview	Title	Titel
 	✓ None	✓ Ingen
 	➕ New comment	➕ Ny kommentar
 	📂  Browse…	📂  Bläddra…
+	Add a language…	Lägg till ett språk…
+	Add a language	Lägg till ett språk
+	Your languages	Dina språk
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	Engelska, språken i det här dokumentet och varje installerat språkpaket. Språkpaket lägger till stavningsordlistor och avstavning.
+	Set as default	Ange som standard
+	New blank documents are written in this language	Nya tomma dokument skrivs på det här språket
+	{language} (default)	{language} (standard)
+	Built in	Inbyggd
+	Your own dictionary	Din egen ordlista
+	System dictionary	Systemordlista
+	Not available yet	Inte tillgängligt ännu
+	Grammar built in	Grammatik inbyggd
+	Install spelling ({size})	Installera stavning ({size})
+	Its dictionary couldn't be read: {reason}	Ordlistan kunde inte läsas: {reason}
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	Hämtning är avstängd. Ett klick på ”Lägg till ett språk…” eller ”Installera” slår på den: WordCraft hämtar då språkpaket och teckensnitt från GitHub.
+	Search:	Sök:
+	Dutch, Nederlands or nl	Nederländska, Nederlands eller nl
+	No languages to show yet.	Inga språk att visa ännu.
+	No language matches your search.	Inget språk matchar din sökning.
+	An installed Language pack is used after this folder.	Ett installerat språkpaket används efter den här mappen.
+	Dictionary files	Ordlistefiler
+	Gets the list of Language packs, then this language's pack if there is one.	Hämtar listan över språkpaket och sedan paketet för det här språket, om det finns ett.
+	Afrikaans	afrikaans
+	Belarusian	belarusiska
+	Bulgarian	bulgariska
+	Bosnian	bosniska
+	Catalan	katalanska
+	Catalan (Valencian)	katalanska (valencianska)
+	Welsh	walesiska
+	Esperanto	esperanto
+	Persian	persiska
+	Irish	iriska
+	Galician	galiciska
+	Hungarian	ungerska
+	Armenian	armeniska
+	Icelandic	isländska
+	Georgian	georgiska
+	Lithuanian	litauiska
+	Latvian	lettiska
+	Macedonian	makedonska
+	Norwegian (Nynorsk)	norska (nynorska)
+	Slovak	slovakiska
+	Slovenian	slovenska
+	Albanian	albanska
+	Swahili	swahili
+	Tamil	tamil
+	Thai	thailändska
+	Vietnamese	vietnamesiska
+	Set as Default Language	Ange som standardspråk
+	U.A.E.	Förenade arabemiraten
+	Angola	Angola
+	Argentina	Argentina
+	Austria	Österrike
+	Australia	Australien
+	Bosnia and Herzegovina	Bosnien och Hercegovina
+	Belgium	Belgien
+	Bolivia	Bolivia
+	Brazil	Brasilien
+	Belarus	Belarus
+	Canada	Kanada
+	Switzerland	Schweiz
+	Chile	Chile
+	China	Kina
+	Colombia	Colombia
+	Costa Rica	Costa Rica
+	Cuba	Kuba
+	Cabo Verde	Kap Verde
+	Cyprus	Cypern
+	Germany	Tyskland
+	Dominican Republic	Dominikanska republiken
+	Ecuador	Ecuador
+	Egypt	Egypten
+	Spain	Spanien
+	Finland	Finland
+	France	Frankrike
+	United Kingdom	Storbritannien
+	Equatorial Guinea	Ekvatorialguinea
+	Guatemala	Guatemala
+	Hong Kong SAR	Hongkong SAR
+	Honduras	Honduras
+	Ireland	Irland
+	India	Indien
+	Iraq	Irak
+	Italy	Italien
+	Jamaica	Jamaica
+	Jordan	Jordanien
+	Kuwait	Kuwait
+	Kazakhstan	Kazakstan
+	Lebanon	Libanon
+	Liechtenstein	Liechtenstein
+	Luxembourg	Luxemburg
+	Morocco	Marocko
+	Monaco	Monaco
+	Montenegro	Montenegro
+	Macao SAR	Macao SAR
+	Mexico	Mexiko
+	Malaysia	Malaysia
+	Mozambique	Moçambique
+	Nicaragua	Nicaragua
+	Netherlands	Nederländerna
+	New Zealand	Nya Zeeland
+	Panama	Panama
+	Peru	Peru
+	Philippines	Filippinerna
+	Puerto Rico	Puerto Rico
+	Portugal	Portugal
+	Paraguay	Paraguay
+	Qatar	Qatar
+	Russia	Ryssland
+	Singapore	Singapore
+	El Salvador	El Salvador
+	Syria	Syrien
+	Taiwan	Taiwan
+	Ukraine	Ukraina
+	United States	USA
+	Uruguay	Uruguay
+	Venezuela	Venezuela
+	South Africa	Sydafrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Infoga diagram
+	Diagram Design	Diagramdesign
+	Diagram Styles	Diagramformat
+	Decorative Text	Dekorativ text
+	Decorative Text Styles	Format för dekorativ text
+	select a diagram first	markera först ett diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	detta diagram skapades i ett annat program: WordCraft visar det men kan inte redigera det
+	this diagram can't be edited	detta diagram kan inte redigeras
+@msg	a diagram holds at most {MAX_ITEMS} items	ett diagram kan innehålla högst {MAX_ITEMS} objekt
+@msg	unknown decorative text style `{id}`	okänt format för dekorativ text `{id}`
+	select a shape or decorative text first	markera först en form eller dekorativ text

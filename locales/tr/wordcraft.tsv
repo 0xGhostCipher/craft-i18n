@@ -177,6 +177,7 @@
 	Arch Down	Aşağı Kemer
 	Arch Up	Yukarı Kemer
 	Arrange	Yerleştir
+	Arrange All	Tümünü Düzenle
 	Arrange\nAll	Tümünü\nYerleştir
 	Article I.	Madde I.
 	Artistic Effects	Sanatsal Efektler
@@ -1361,6 +1362,7 @@
 	No items to show.	Gösterilecek öğe yok.
 	No Markup	İşaret Yok
 	No model credits were built into this copy.	Bu kopyaya model katkıları eklenmemiş.
+	No other WordCraft windows are open.	Başka açık WordCraft penceresi yok.
 	No Outline	Anahat Yok
 	No Paragraph Space	Paragraf Boşluğu Yok
 	No printers found. Configure a system printer or export a PDF.	Yazıcı bulunamadı. Sistemde bir yazıcı yapılandırın veya PDF olarak dışa aktarın.
@@ -1452,6 +1454,7 @@
 	only in Outline view	yalnızca Ana Hat görünümünde
 	Only in this document	Yalnızca bu belgede
 	Only the allowed styles can be applied.	Yalnızca izin verilen stiller uygulanabilir.
+	only the desktop app has several windows	birden çok pencere yalnızca masaüstü uygulamasında vardır
 	Only web (http, https) and email (mailto) links can be followed	Yalnızca web (http, https) ve e-posta (mailto) bağlantıları açılabilir
 	Open a document first	Önce bir belge açın
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Sistemin dosya iletişim kutusu açılmadığında dosyayı WordCraft'ın kendi dosya tarayıcısıyla açın.
@@ -1704,6 +1707,14 @@
 	Remove Table of Contents	İçindekiler Tablosunu Kaldır
 	Remove the control once edited	Düzenlendikten sonra denetimi kaldır
 	Remove Watermark	Filigranı Kaldır
+	No watermark	Filigran yok
+	Picture watermark	Resim filigranı
+	Text watermark	Metin filigranı
+	Select Picture…	Resim Seç…
+	Washout	Soluk
+	Semitransparent	Yarı saydam
+	Transparency:	Saydamlık:
+	Select a picture first.	Önce bir resim seçin.
 	Rename Document	Belgeyi yeniden adlandır
 	Rename…	Yeniden Adlandır…
 	Reopen	Yeniden Aç
@@ -2082,7 +2093,10 @@
 	Swap footnotes and endnotes	Dipnotları ve son notları değiştir
 	Swedish	İsveççe
 	Switch Modes	Mod Değiştir
+	Switch Windows	Pencere Değiştir
 	Switch\nModes	Mod\nDeğiştir
+	Switch\nWindows	Pencere\nDeğiştir
+	Synchronous Scrolling	Eşzamanlı Kaydırma
 	Synonyms	Eş Anlamlılar
 	Tab Character	Sekme Karakteri
 	Tab character	Sekme karakteri
@@ -2244,6 +2258,7 @@ preview	Title	Örnek
 	Trust Center	Güven Merkezi
 	Tue	Sal
 	Turkish	Türkçe
+	turn on View Side by Side first	önce Yan Yana Görüntüle'yi açın
 	Two	İki
 	Two-sided printing	Çift taraflı yazdırma
 	Two-sided: long edge	Çift taraflı: uzun kenar
@@ -2319,6 +2334,7 @@ preview	Title	Örnek
 	Vertical Dots	Dikey Üç Nokta
 	View Alt Text…	Alternatif Metni Görüntüle…
 	View Gridlines	Kılavuz Çizgilerini Göster
+	View Side by Side	Yan Yana Görüntüle
 	View State	Görünüm Durumu
 	View › Focus hides everything but your words. I'll wait outside.	Görünüm › Odak, sözcükleriniz dışında her şeyi gizler. Ben dışarıda beklerim.
 	Views	Görünümler
@@ -2419,3 +2435,135 @@ preview	Title	Örnek
 	{words} words. That's {words} more than I've written today.	{words} sözcük. Bugün benim yazdığımdan {words} fazla.
 	“{text}” ({row}, {series}) isn't a number.	“{text}” ({row}, {series}) bir sayı değil.
 	✓ None	✓ Yok
+	Add a language…	Dil ekle…
+	Add a language	Dil ekle
+	Your languages	Dilleriniz
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	İngilizce, bu belgenin dilleri ve yüklü her dil paketi. Dil paketleri yazım sözlükleri ve heceleme ekler.
+	Set as default	Varsayılan yap
+	New blank documents are written in this language	Yeni boş belgeler bu dilde yazılır
+	{language} (default)	{language} (varsayılan)
+	Built in	Yerleşik
+	Your own dictionary	Kendi sözlüğünüz
+	System dictionary	Sistem sözlüğü
+	Not available yet	Henüz kullanılamıyor
+	Grammar built in	Dil bilgisi yerleşik
+	Install spelling ({size})	Yazımı yükle ({size})
+	Its dictionary couldn't be read: {reason}	Sözlüğü okunamadı: {reason}
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	İndirme kapalı. “Dil ekle…” veya “Yükle” düğmesine tıklamak onu açar: WordCraft bundan sonra dil paketlerini ve yazı tiplerini GitHub’dan indirir.
+	Search:	Ara:
+	Dutch, Nederlands or nl	Felemenkçe, Nederlands veya nl
+	No languages to show yet.	Henüz gösterilecek dil yok.
+	No language matches your search.	Aramanızla eşleşen dil yok.
+	An installed Language pack is used after this folder.	Yüklü bir dil paketi bu klasörden sonra kullanılır.
+	Dictionary files	Sözlük dosyaları
+	Gets the list of Language packs, then this language's pack if there is one.	Dil paketlerinin listesini, ardından varsa bu dilin paketini alır.
+	Afrikaans	Afrikanca
+	Belarusian	Belarusça
+	Bulgarian	Bulgarca
+	Bosnian	Boşnakça
+	Catalan	Katalanca
+	Catalan (Valencian)	Katalanca (Valensiyaca)
+	Welsh	Galce
+	Esperanto	Esperanto
+	Persian	Farsça
+	Irish	İrlandaca
+	Galician	Galiçyaca
+	Hungarian	Macarca
+	Armenian	Ermenice
+	Icelandic	İzlandaca
+	Georgian	Gürcüce
+	Lithuanian	Litvanca
+	Latvian	Letonca
+	Macedonian	Makedonca
+	Norwegian (Nynorsk)	Norveççe (Nynorsk)
+	Slovak	Slovakça
+	Slovenian	Slovence
+	Albanian	Arnavutça
+	Swahili	Svahili
+	Tamil	Tamilce
+	Thai	Tayca
+	Vietnamese	Vietnamca
+	Set as Default Language	Varsayılan dil yap
+	U.A.E.	Birleşik Arap Emirlikleri
+	Angola	Angola
+	Argentina	Arjantin
+	Austria	Avusturya
+	Australia	Avustralya
+	Bosnia and Herzegovina	Bosna-Hersek
+	Belgium	Belçika
+	Bolivia	Bolivya
+	Brazil	Brezilya
+	Belarus	Belarus
+	Canada	Kanada
+	Switzerland	İsviçre
+	Chile	Şili
+	China	Çin
+	Colombia	Kolombiya
+	Costa Rica	Kosta Rika
+	Cuba	Küba
+	Cabo Verde	Yeşil Burun Adaları
+	Cyprus	Kıbrıs
+	Germany	Almanya
+	Dominican Republic	Dominik Cumhuriyeti
+	Ecuador	Ekvador
+	Egypt	Mısır
+	Spain	İspanya
+	Finland	Finlandiya
+	France	Fransa
+	United Kingdom	Birleşik Krallık
+	Equatorial Guinea	Ekvator Ginesi
+	Guatemala	Guatemala
+	Hong Kong SAR	Hong Kong ÖİB
+	Honduras	Honduras
+	Ireland	İrlanda
+	India	Hindistan
+	Iraq	Irak
+	Italy	İtalya
+	Jamaica	Jamaika
+	Jordan	Ürdün
+	Kuwait	Kuveyt
+	Kazakhstan	Kazakistan
+	Lebanon	Lübnan
+	Liechtenstein	Lihtenştayn
+	Luxembourg	Lüksemburg
+	Morocco	Fas
+	Monaco	Monako
+	Montenegro	Karadağ
+	Macao SAR	Makao ÖİB
+	Mexico	Meksika
+	Malaysia	Malezya
+	Mozambique	Mozambik
+	Nicaragua	Nikaragua
+	Netherlands	Hollanda
+	New Zealand	Yeni Zelanda
+	Panama	Panama
+	Peru	Peru
+	Philippines	Filipinler
+	Puerto Rico	Porto Riko
+	Portugal	Portekiz
+	Paraguay	Paraguay
+	Qatar	Katar
+	Russia	Rusya
+	Singapore	Singapur
+	El Salvador	El Salvador
+	Syria	Suriye
+	Taiwan	Tayvan
+	Ukraine	Ukrayna
+	United States	Amerika Birleşik Devletleri
+	Uruguay	Uruguay
+	Venezuela	Venezuela
+	South Africa	Güney Afrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diyagram
+	Insert Diagram	Diyagram Ekle
+	Diagram Design	Diyagram Tasarımı
+	Diagram Styles	Diyagram Stilleri
+	Decorative Text	Dekoratif Metin
+	Decorative Text Styles	Dekoratif Metin Stilleri
+	select a diagram first	önce bir diyagram seçin
+	this diagram was made in another program: WordCraft shows it but can't edit it	bu diyagram başka bir programda oluşturuldu: WordCraft onu gösterir ancak düzenleyemez
+	this diagram can't be edited	bu diyagram düzenlenemez
+@msg	a diagram holds at most {MAX_ITEMS} items	bir diyagram en fazla {MAX_ITEMS} öğe içerebilir
+@msg	unknown decorative text style `{id}`	bilinmeyen dekoratif metin stili `{id}`
+	select a shape or decorative text first	önce bir şekil veya dekoratif metin seçin
