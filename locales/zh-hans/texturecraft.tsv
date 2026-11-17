@@ -55,13 +55,16 @@
 	Add white mask	添加白色遮罩
 	Add...	添加...
 	Advanced settings	高级设置
+	Aligned	已对齐
 	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	对齐：保留第一笔设定的偏移。按住 V 并单击可设置新的源。
 	Alignment	对齐
 	Alignment and culling	对齐与剔除
 	All layers	所有图层
 	Alphas	Alpha
 	Also bound to {item} ({menu})	同时绑定到 {item}（{menu}）
+	Also write a MaterialX file (.mtlx) per texture set	同时为每个纹理集写出一个 MaterialX 文件 (.mtlx)
 	Alt + LMB drag	Alt + 左键拖动
+	Alt+click: show only this layer. Alt+Shift+click: without its mask.	Alt+单击：仅显示此图层。Alt+Shift+单击：不带遮罩显示。
 	Amber	琥珀色
 	Ambient	环境光
 	Ambient Occlusion	环境光遮蔽
@@ -83,6 +86,7 @@
 	AO intensity	AO 强度
 	Aperture	光圈
 	Apply Diffusion	应用扩散
+	Apply smart mask {name}	应用智能遮罩 {name}
 	ArtCraft website...	ArtCraft 网站...
 	Assets	资产
 	Attenuation	衰减
@@ -94,6 +98,7 @@
 	Axis	轴
 	Axis position	轴位置
 	Back to painting	返回绘画
+	Back view	后视图
 	Backface culling	背面剔除
 	Bake an ID map (F8) to pick colors from the mesh.	烘焙 ID 贴图（F8）以从网格上拾取颜色。
 	Bake Mesh Maps	烘焙网格贴图
@@ -119,11 +124,14 @@
 	Blending mode of the displayed channel	所显示通道的混合模式
 	Blur and sharpen	模糊与锐化
 	Blur Directional	方向模糊
+	Bottom view	底视图
 	Bounces	反弹次数
 	Bricks	砖块
 	Brush	笔刷
+	Brush flow (left/right) and angle (up/down)	笔刷流量（左/右）和角度（上/下）
 	Brush name	笔刷名称
 	Brush size	笔刷大小
+	Brush size (left/right) and hardness (up/down)	笔刷大小（左/右）和硬度（上/下）
 	Brush size down / up	减小 / 增大笔刷大小
 	Brushed lines	拉丝
 	Brushes	笔刷库
@@ -154,9 +162,11 @@
 	Click a mesh part to show or hide the selected layer on it.	单击网格部件，可在其上显示或隐藏所选图层。
 	Click the mesh to pick its material into the brush	单击网格，将其材质吸取到笔刷中
 	Click the mesh to place the decal	单击网格以放置贴花
+	Click the model to place the symmetry plane there (Esc cancels)	单击模型，将对称平面放在该处（Esc 取消）
 	Click, then press the new shortcut (Esc cancels)	单击后按下新的快捷键（Esc 取消）
 	Click: turn this channel on or off. Alt+click: this channel only	单击：打开或关闭此通道。Alt+单击：仅此通道
 	Clone	仿制
+	Clone on {layer}	在 {layer} 上仿制
 	Closed path	闭合路径
 	Cloud	云
 	Clouds	云雾
@@ -178,6 +188,7 @@
 	Color to replace	要替换的颜色
 	Colors near the first shift towards the second, keeping their shading.	接近第一种颜色的颜色会在保留明暗的同时转向第二种颜色。
 	Colors read as gray. Add a levels or blur effect above to shape the result.	颜色按灰度读取。可在上方添加色阶或模糊效果来调整结果。
+	Colors the procedural or anchor from dark to light through color stops	通过色标将程序化内容或锚点从暗到亮着色
 	Combine with the layer's height	与图层高度合并
 	Common Parameters	通用参数
 	Common Settings	通用设置
@@ -195,6 +206,7 @@
 	Copy effect	复制效果
 	Copy from	复制自
 	Copy layer(s)	复制图层
+	Copy mask to clipboard	将遮罩复制到剪贴板
 	Copy RGB values	复制 RGB 值
 	Copy the selected layer alone (its empty parts copy nothing)	仅复制所选图层（其空白部分不复制任何内容）
 	Copy to all texture sets	复制到所有纹理集
@@ -214,7 +226,11 @@
 	Count	数量
 	Count per stamp	每个笔印的数量
 	Crate	箱子
+	Create smart mask	创建智能遮罩
 	Create smart material	创建智能材质
+	Ctrl + LMB drag	Ctrl + 左键拖动
+	Ctrl + RMB drag	Ctrl + 右键拖动
+	Ctrl + Shift + drag	Ctrl + Shift + 拖动
 	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	在视图中按住 Ctrl 右键拖动可调整大小和硬度，Ctrl 左键拖动可调整流量和角度。
 	Cube	立方体
 	Current layer	当前图层
@@ -230,7 +246,9 @@
 	Decal	贴花
 	Decal projection	贴花投影
 	Default camera	默认相机
+	Delete template	删除模板
 	Delete the selected template	删除所选模板
+	Delete the template "{name}"? Its file is removed and this cannot be undone.	要删除模板“{name}”吗？其文件将被移除，且无法撤销。
 	Delete this camera	删除此相机
 	Deleted template "{name}"	已删除模板“{name}”
 	Denoise	降噪
@@ -247,6 +265,7 @@
 	DirectX normal map	DirectX 法线贴图
 	Dirt	污垢
 	Disable	禁用
+	Discard changes	放弃更改
 	Displacement (height channel)	置换（高度通道）
 	Display material	显示材质
 	Display next channel	显示下一个通道
@@ -270,6 +289,7 @@
 	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	拖动边框移动贴花，拖动角缩放，拖动圆形手柄旋转
 	Drags the layer stack's values along the stroke into the selected layer.	沿笔画将图层堆栈的值拖入所选图层。
 	Draws {name} of texture set "{set}". Edits to the source show in every instance.	绘制纹理集“{set}”的 {name}。对源的编辑会显示在每个实例中。
+	Drop an image from the Assets panel here to use it as the stencil	将资产面板中的图像拖放到此处，即可用作模板
 	Drop an image from the Assets panel here to use it as this mesh map	将资产面板中的图像拖放到此处，用作此网格贴图
 	Dry streaks	干笔条纹
 	Duplicate effect	创建效果副本
@@ -282,6 +302,7 @@
 	Edges	边缘
 	Edges and cavities	边缘和凹陷
 	Edit keyboard shortcuts...	编辑键盘快捷键...
+	Edit path {n}	编辑路径 {n}
 	Edit quick mask	编辑快速遮罩
 	Editing quick mask: paint where painting is allowed (U to finish)	正在编辑快速遮罩：在允许绘画的区域绘制（按 U 完成）
 	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	正在编辑快速遮罩：填充绘制在允许绘画的区域。按 U 完成。
@@ -300,7 +321,10 @@
 	Environment settings	环境设置
 	Environment: {name}	环境：{name}
 	Environments	环境
+	Erase mask of {layer}	擦除 {layer} 的遮罩
+	Erase on {layer}	在 {layer} 上擦除
 	Expand or collapse the folder	展开或折叠文件夹
+	Export mask to file...	将遮罩导出为文件...
 	Export mesh	导出网格
 	Export Mesh...	导出网格...
 	Export template	输出模板
@@ -327,8 +351,11 @@
 	Filters	滤镜
 	Fine noise	细噪波
 	Fingerprints	指纹
+	Finish or cancel the path first; it is in the 2D view	请先完成或取消路径；它在 2D 视图中
+	Finish or cancel the path first; it is in the 3D view	请先完成或取消路径；它在 3D 视图中
 	Fit the input range to the histogram	使输入范围适合直方图
 	Flatten layer	合并图层
+	Flip the copy's image	翻转副本的图像
 	Flips the image's green channel, for normal maps made with Y pointing down	翻转图像的绿色通道，用于 Y 轴朝下制作的法线贴图
 	Flow	流量
 	Flow and opacity	流量与不透明度
@@ -340,9 +367,11 @@
 	Follow Newest Map	跟随最新贴图
 	Follow path	跟随路径
 	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	整个项目：设为网格贴图的法线贴图图像的读取方式（更改后请重新设置），以及导出的默认值
+	Frame texture set	聚焦纹理集
 	Free and open source (MIT OR Apache-2.0), written in Rust.	免费开源（MIT OR Apache-2.0），使用 Rust 编写。
 	From template	基于模板
 	From template / project	基于模板 / 项目
+	Front view	前视图
 	Full Scene	整个场景
 	Gamma	伽马
 	General export parameters	常规导出参数
@@ -399,6 +428,7 @@
 	Histogram Shift	直方图偏移
 	Hit-test	命中测试
 	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	按住 S：左键拖动旋转，右键拖动缩放，中键拖动移动模板。
+	Hold Shift too for fine steps.	同时按住 Shift 可使用精细步长。
 	Hold V and click the mesh to set the clone source	按住 V 并单击网格以设置仿制源
 	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	按住 V 并单击网格以设置源，然后在其他位置绘画进行复制。
 	How a rectangle selects polygons	矩形选择多边形的方式
@@ -442,6 +472,7 @@
 	Jitters	抖动
 	Join the ArtCraft community on Discord	加入 Discord 上的 ArtCraft 社区
 	Join the community (Discord)...	加入社区（Discord）...
+	Keep editing	继续编辑
 	Key light (shadow-casting light, direct only)	主光源（投射阴影，仅直接光照）
 	Keyboard	键盘
 	Keyboard shortcuts	键盘快捷键
@@ -450,6 +481,7 @@
 	Lazy mouse	平滑跟随
 	Lazy mouse distance	平滑跟随距离
 	Leather grain	皮革纹理
+	Left view	左视图
 	Lens size: how quickly things blur away from the focus distance	镜头大小：远离对焦距离时物体变模糊的速度
 	Lifetime (steps)	寿命（步数）
 	Light / direction	光照 / 方向
@@ -476,6 +508,7 @@
 	Manual	手动
 	Marble veins	大理石纹
 	Mask	遮罩
+	Mask copied to the clipboard	遮罩已复制到剪贴板
 	Mask Editor: Edge wear	遮罩编辑器：边缘磨损
 	Mask effects	遮罩效果
 	Mask value (gray)	遮罩值（灰度）
@@ -487,6 +520,7 @@
 	Material finish	材质表面处理
 	MaterialCraft material	MaterialCraft 材质
 	Materials	材质
+	MaterialX	MaterialX
 	MaterialX materials	MaterialX 材质
 	MatFinish Grind	表面处理：研磨
 	MatFinish Hammered	表面处理：锤纹
@@ -515,6 +549,7 @@
 	min	分钟
 	Min Occluder Distance	最小遮挡距离
 	Minimum size (%)	最小尺寸（%）
+	Mirror across	镜像轴
 	Mirror symmetry	镜像对称
 	missing	缺失
 	Missing (bake to create)	缺失（烘焙以创建）
@@ -526,8 +561,11 @@
 	Move up	上移
 	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	在更精细的网格副本上按高度通道移动表面，强度与高度转法线相同（仅视口：绘制仍沿原始表面）
 	My brushes	我的笔刷
+	My smart masks	我的智能遮罩
 	My smart materials	我的智能材质
 	Name each file after its texture set, like Body_normal.png	以纹理集名称为每个文件命名，例如 Body_normal.png
+	Navigation buttons	导航按钮
+	Needs the "OpenPBR (separate maps)" output template	需要输出模板“OpenPBR (separate maps)”
 	New project	新建项目
 	New project...	新建项目...
 	New template	新建模板
@@ -555,6 +593,7 @@
 	Normalization	归一化
 	Normalization Scale	归一化范围
 	Normalization Type	归一化类型
+	Not aligned: every stroke starts at the source. V + click sets a new source.	未对齐：每一笔都从来源开始。V + 单击可设置新的来源。
 	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	GPU 内存不足，无法完整显示纹理集“{name}”：请在设置中降低视口的纹理分辨率。绘制和导出不受影响。
 	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	GPU 内存不足，无法完整显示 {count} 个纹理集（{names}）：请在设置中降低视口的纹理分辨率。绘制和导出不受影响。
 	Not exported: no source in this texture set	未导出：此纹理集中没有来源
@@ -566,6 +605,7 @@
 	Offset up	向上偏移
 	Offset {axis}	偏移 {axis}
 	Offsets the textures by the height channel, at the height to normal strength	按高度通道偏移纹理，偏移量取决于高度转法线强度
+	On: the offset from the first stroke is kept. Off: every stroke starts at the source point.	开：保留与第一笔的偏移。关：每一笔都从来源点开始。
 	Only Same Mesh Name	仅相同网格名称
 	op	不透明
 	Open in MaterialCraft	在 MaterialCraft 中打开
@@ -575,6 +615,7 @@
 	Opened {name}	已打开 {name}
 	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	可选通道可添加清漆（清漆权重、清漆粗糙度、清漆法线）、绒光（绒光权重、颜色、粗糙度）、各向异性（各向异性强度、角度）、次表面散射（散射权重）和透射（透射）。
 	Orbit	环绕
+	Orbit: press and drag to turn the view around the model	环绕：按住并拖动，使视图绕模型旋转
 	Orthographic	正交
 	Output directory	输出目录
 	Output high	输出高
@@ -588,13 +629,16 @@
 	Paint Cage	绘制笼形
 	Paint chips	掉漆
 	Paint layer	绘画图层
+	Paint mask of {layer}	绘制 {layer} 的遮罩
 	Paint on the mesh to edit the layer content.	在网格上绘画以编辑图层内容。
 	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	在网格上绘画以编辑此遮罩。灰度请使用“材质”选项卡中的遮罩值。
+	Paint on {layer}	在 {layer} 上绘画
 	Paint Skew Correction	绘制倾斜校正
 	Paint with the current tool	使用当前工具绘画
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	已绘制图层像素 {pixels} MB，合成通道 {composites} MB，合成缓存 {cache} MB
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	显示烘焙时已暂停绘制。请取消烘焙，或等待其完成。
 	Pan	平移
+	Pan: press and drag to move the view	平移：按住并拖动，移动视图
 	Parallax occlusion (height channel)	视差遮蔽（高度通道）
 	Parameters change in the desktop app, with MaterialCraft installed	参数可在安装了 MaterialCraft 的桌面版中修改
 	Partial mask values follow the layer's height: high parts show first	部分遮罩值跟随图层高度：较高部分先显示
@@ -614,6 +658,7 @@
 	Perlin noise	柏林噪波
 	Pick color	拾取颜色
 	Pick focus in the viewport	在视口中拾取焦点
+	Pick point	拾取点
 	Pin light	点光
 	Pink	粉色
 	Place as decal	作为贴花放置
@@ -626,6 +671,8 @@
 	Pores	毛孔
 	Position gradient	位置渐变
 	Position jitter	位置抖动
+	Position X	位置 X
+	Position Y	位置 Y
 	Press a key...	请按下一个键...
 	Procedurals	程序纹理
 	Project	项目
@@ -634,9 +681,14 @@
 	Project opened	项目已打开
 	Project template	项目模板
 	Projection	投影
+	Projection mask of {layer}	投影 {layer} 的遮罩
+	Projection on {layer}	在 {layer} 上投影
+	Projection paints in the 3D view	投影在 3D 视图中绘制
 	Projects and meshes	项目和网格
+	Put the stencil back in the middle of the view at its starting size and rotation	将模板以初始大小和旋转角度放回视图中央
 	Quarter	1/4
 	Quick mask	快速遮罩
+	Quick mask stroke	快速遮罩笔画
 	Quit	退出
 	Radial settings	径向设置
 	Radial symmetry	径向对称
@@ -683,6 +735,9 @@
 	Rescan the library folder	重新扫描库文件夹
 	Reset all	全部重置
 	Reset Painted Cage	重置绘制的笼形
+	Reset panel layout	重置面板布局
+	Reset stencil	重置模板
+	Reset the panels, view layout, zoom and every other view setting to their defaults? Settings and shortcuts stay. To reset only the panels, use Reset panel layout.	要将面板、视图布局、缩放和其他所有视图设置恢复为默认值吗？设置和快捷键会保留。若只想重置面板，请使用“重置面板布局”。
 	Reset to defaults	恢复默认值
 	Reset to {shortcut}	重置为 {shortcut}
 	Reset UI	重置界面
@@ -692,6 +747,8 @@
 	Restore every default shortcut	恢复所有默认快捷键
 	Return to Painting Mode	返回绘画模式
 	Return to this step	返回到此步骤
+	Right view	右视图
+	Right-click a layer > Create smart mask	右键单击图层 > 创建智能遮罩
 	Right-click a layer > Create smart material	右键单击图层 > 创建智能材质
 	Rotation (degrees)	旋转（度）
 	rough	粗糙
@@ -775,12 +832,18 @@
 	Skew Correction Method	偏斜校正方法
 	Slope Blur	坡度模糊
 	Slope scale	坡度缩放
+	Smart mask saved to {path}	智能遮罩已保存到 {path}
 	Smart masks	智能遮罩
 	Smart material saved to {path}	智能材质已保存到 {path}
 	Smart materials	智能材质
 	Smooth	平滑
 	Smudge	涂抹
+	Smudge on {layer}	在 {layer} 上涂抹
 	Soft light	柔光
+	Solo layer	单独显示图层
+	Solo layer without its mask	不带遮罩单独显示图层
+	Solo: {layer}	单独显示：{layer}
+	Solo: {layer} (mask ignored)	单独显示：{layer}（忽略遮罩）
 	Source	来源
 	Source  U {u}  V {v}	源  U {u}  V {v}
 	spec	高光强
@@ -834,9 +897,11 @@
 	The first stroke sets the offset from the source.	第一笔会设定与源的偏移。
 	The GPU couldn't render this scene: {error}	GPU 无法渲染此场景：{error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	图像的 Alpha 决定贴花的形状；背向的面和超出其深度的表面不受影响。
+	The last edit of the template "{name}" is not saved: {error}. Switching away drops it.	模板“{name}”的最后一次编辑尚未保存：{error}。切换后将丢弃该编辑。
 	The next click in the 3D view moves the decal there	在 3D 视图中下一次单击会将贴花移到该处
 	The project changed while the dialog was open, so nothing was done	对话框打开期间项目已更改，因此未执行任何操作
 	The resize worker stopped	调整大小的进程已停止
+	The same in fine steps, a tenth of the change	同样的操作以精细步长进行，变化量为十分之一
 	Thickness	厚度
 	Thin areas	薄区域
 	Tiles	瓷砖
@@ -844,6 +909,7 @@
 	Title bar	标题栏
 	Toggle mask	切换遮罩
 	Tone mapping	色调映射
+	Top view	顶视图
 	Torus	圆环
 	transm	透射
 	Transmission	透射
@@ -857,6 +923,7 @@
 	UI layout: {error}	界面布局：{error}
 	UI layouts	界面布局
 	UI {ms} ms	界面 {ms} ms
+	Unfinished template edit	未完成的模板编辑
 	Uniform	均匀
 	Uniform value	统一值
 	USD binary, textures alongside	USD 二进制，纹理单独存放
@@ -894,13 +961,17 @@
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	烘焙过程中 3D 视图显示的内容：最新完成的贴图、任意已完成的贴图，或材质。尚未烘焙的贴图显示中性值。
 	Wheel / Alt + RMB drag	滚轮 / Alt + 右键拖动
 	Width (texels at 2K)	宽度（2K 下的纹素数）
+	Without a middle button: hold S and Shift and left-drag to move it.	没有中键时：按住 S 和 Shift 并左键拖动即可移动。
 	Wood grain	木纹
 	Works in texture space, like the blur: it does not cross UV seams.	在纹理空间中工作，与模糊相同：不会跨越 UV 接缝。
 	World Space Normal	世界空间法线
 	Yellow / blue	黄色 / 蓝色
+	Zoom: press and drag up to move closer, down to move away	缩放：按住并向上拖动可靠近，向下拖动可远离
+	Zoom: press and drag up to zoom in, down to zoom out	缩放：按住并向上拖动可放大，向下拖动可缩小
 	{action} (undone)	{action}（已撤销）
 	{count} effects	{count} 个效果
 	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}：添加到所选图层上方（或将其拖入图层堆栈或视口）
+	{file}: replace the selected layer's mask (or drag it onto a layer in the stack)	{file}：替换所选图层的遮罩（或将其拖到堆栈中的图层上）
 	{name} copy	{name} 副本
 	{n} bits	{n} 位
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} 个控制点。单击网格（或 2D 视图）添加控制点，拖动可调整；单击第一个点可闭合路径。按 Enter 用笔刷绘制路径（闭合且填充的路径会填充内部），按 Esc 取消。
