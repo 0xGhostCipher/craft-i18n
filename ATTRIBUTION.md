@@ -332,7 +332,7 @@ The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-han
 
 ## TextureCraft: layer, mask, brush, view and export controls (2026-11-17)
 
-116 new TextureCraft strings in `locales/<code>/texturecraft.tsv` for ar, de, es, fr, it, ja, ko, pt-br and zh-hans: view buttons, MaterialX export, mask export and copy, brush shortcut hints, smart masks, solo layer, navigation buttons, decal mirroring, History panel step names, path tool messages, panel layout reset, template deletion, clone aligned mode, symmetry plane picking, the Projection stencil controls, the brush channel chips, named panel layouts, the straight-line and invert options, the mask badge, the inactive texture set hint and the shortcut window gesture rows. Source: texturecraft#535, #539, #563, #565, #566, #568, #569, #570, #573, #576, #580, #582, #586, #588, #590, #591, #593, #594, #595, #605, #607, #609, #611 and #614. Written by vangel76 with Claude, AI-assisted, from the plain meaning of the English and the words these catalogs already use for layer, mask, stencil, texture set and symmetry; no other product's localisation was consulted. No native speaker has reviewed these rows.
+113 new TextureCraft strings in `locales/<code>/texturecraft.tsv` for ar, de, es, fr, it, ja, ko, pt-br and zh-hans: view buttons, mask export and copy, brush shortcut hints, smart masks, solo layer, navigation buttons, decal mirroring, History panel step names, path tool messages, panel layout reset, template deletion, clone aligned mode, symmetry plane picking, the Projection stencil controls, the brush channel chips, named panel layouts, the straight-line and invert options, the mask badge, the inactive texture set hint and the shortcut window gesture rows. Source: texturecraft#535, #539, #565, #566, #568, #569, #570, #573, #576, #580, #582, #586, #588, #590, #591, #593, #594, #595, #605, #607, #609, #611 and #614. Written by vangel76 with Claude, AI-assisted, from the plain meaning of the English and the words these catalogs already use for layer, mask, stencil, texture set and symmetry; no other product's localisation was consulted. No native speaker has reviewed these rows.
 
 ## PhotoCraft: TIFF Options labels from photocraft#11094
 
@@ -367,3 +367,18 @@ ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became s
 They were written with a coding agent from the plain meaning of the English (the tool was
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
+
+## TextureCraft: Edit > Project Configuration... (texturecraft #525)
+
+Adds the strings of the Project Configuration window (3D MESH, Import settings, PROJECT SETTINGS,
+UV Tile settings (UDIMs) and their hints, 13 strings, 12 in es, fr, it and pt-br which already
+have "File not found") and "Relative to the bounding box diagonal." to the `texturecraft.tsv`
+catalogs of ar, de, es, fr, it, ja, ko, pt-br and zh-hans. The Project Configuration translations
+are new and AI-assisted, written from the plain meaning of the English and the wording these
+catalogs already use for "Reimport mesh", "Texture Set Settings" and "Mesh maps"; no native speaker
+reviewed them. The "Relative to the bounding box diagonal." translations are the existing ones from
+TextureCraft's `ui-egui/src/i18n` tables.
+
+Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
+format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
+catalogs, with the same AI-assisted origin and no native-speaker review.

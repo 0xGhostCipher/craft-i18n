@@ -18,6 +18,7 @@
 	2D view only	仅 2D 视图
 	32 bits (float)	32 位（浮点）
 	3D mesh	3D 网格
+	3D MESH	3D 网格
 	3D meshes	3D 网格
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D 纹理绘制：图层、遮罩、智能材质、网格贴图烘焙与导出。
 	3D view only	仅 3D 视图
@@ -63,7 +64,6 @@
 	All layers	所有图层
 	Alphas	Alpha
 	Also bound to {item} ({menu})	同时绑定到 {item}（{menu}）
-	Also write a MaterialX file (.mtlx) per texture set	同时为每个纹理集写出一个 MaterialX 文件 (.mtlx)
 	Alt + LMB drag	Alt + 左键拖动
 	Alt+click: show only this layer. Alt+Shift+click: without its mask.	Alt+单击：仅显示此图层。Alt+Shift+单击：不带遮罩显示。
 	Amber	琥珀色
@@ -140,6 +140,7 @@
 	Brushes	笔刷库
 	BSphere	包围球
 	Built-in (read-only): duplicate it to edit	内置（只读）：创建副本后即可编辑
+	Built-in mesh	内置网格
 	Built-in templates are read-only: duplicate one to edit it	内置模板为只读：创建副本后即可编辑
 	Built-in: {mesh}	内置：{mesh}
 	By Mesh Name	按网格名称
@@ -153,6 +154,7 @@
 	Cavities	凹陷
 	Cell size (texels at 2K)	单元大小（2K 下的纹素数）
 	Cells	细胞
+	Change them in Texture Set Settings	请在纹理集设置中更改
 	Channel	通道
 	Channel source: uniform value, procedural, image or anchor	通道来源：统一值、程序纹理、图像或锚点
 	Channels	通道
@@ -160,6 +162,8 @@
 	Check All	全选
 	Check for Updates...	检查更新...
 	Checker	棋盘格
+	Choose another mesh file for the project. It is read when you press OK.	为项目选择另一个网格文件。点击“确定”后读取。
+	Choosing or reimporting a mesh recomputes all channels.	选择或重新导入网格会重新计算所有通道。
 	Clamp	钳制
 	Clear mask	清除遮罩
 	Clear recent projects	清除最近的项目
@@ -354,6 +358,7 @@
 	Field of view (deg)	视野（度）
 	File ID	文件 ID
 	File name without extension; variables insert names	不含扩展名的文件名；变量会插入对应名称
+	File not found	未找到文件
 	File type	文件类型
 	Fill layer	填充图层
 	Fill mode	填充模式
@@ -415,6 +420,7 @@
 	Gray	灰度
 	Gray + A	灰度 + A
 	Gray 50%	50% 灰
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	法线贴图的绿色通道约定：OpenGL (Y+) 或 DirectX (Y-)。导入和导出的法线贴图都遵循它。
 	Ground Plane	地平面
 	Ground Plane Offset	地平面偏移
 	Group layer(s)	将图层编组
@@ -460,6 +466,7 @@
 	Import material...	导入材质...
 	Import MaterialX material...	导入 MaterialX 材质...
 	Import resources...	导入资源...
+	Import settings	导入设置
 	Import...	导入...
 	Imported template "{name}"	已导入模板“{name}”
 	Imported {name}	已导入 {name}
@@ -537,7 +544,6 @@
 	Material finish	材质表面处理
 	MaterialCraft material	MaterialCraft 材质
 	Materials	材质
-	MaterialX	MaterialX
 	MaterialX materials	MaterialX 材质
 	MatFinish Grind	表面处理：研磨
 	MatFinish Hammered	表面处理：锤纹
@@ -583,7 +589,6 @@
 	Name each file after its texture set, like Body_normal.png	以纹理集名称为每个文件命名，例如 Body_normal.png
 	Name of the layout	布局名称
 	Navigation buttons	导航按钮
-	Needs the "OpenPBR (separate maps)" output template	需要输出模板“OpenPBR (separate maps)”
 	New project	新建项目
 	New project...	新建项目...
 	New template	新建模板
@@ -596,6 +601,7 @@
 	No Parameters	无参数
 	No recent projects yet	暂无最近的项目
 	No saved layouts	没有已保存的布局
+	No UV tiles	无 UV 图块
 	Noise amount	噪波量
 	Noise scale	噪波缩放
 	none	无
@@ -657,6 +663,7 @@
 	Paint Skew Correction	绘制倾斜校正
 	Paint with the current tool	使用当前工具绘画
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	已绘制图层像素 {pixels} MB，合成通道 {composites} MB，合成缓存 {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	新网格的 UV 不同时，已绘制的笔画会跟随表面
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	显示烘焙时已暂停绘制。请取消烘焙，或等待其完成。
 	Pan	平移
 	Pan: press and drag to move the view	平移：按住并拖动，移动视图
@@ -700,12 +707,15 @@
 	Position jitter	位置抖动
 	Position X	位置 X
 	Position Y	位置 Y
+	Preserve stroke positions on mesh	保留笔画在网格上的位置
 	Press a key...	请按下一个键...
 	Procedurals	程序纹理
 	Project	项目
+	Project configuration	项目配置
 	Project Configuration...	项目配置...
 	Project Mesh (LP)	投射网格 (LP)
 	Project opened	项目已打开
+	PROJECT SETTINGS	项目设置
 	Project template	项目模板
 	Projection	投影
 	Projection mask of {layer}	投影 {layer} 的遮罩
@@ -725,6 +735,7 @@
 	Radius (texels at 2K)	半径（2K 下的纹素数）
 	Raw curvature	原始曲率
 	Re-cook	重新计算
+	Read the mesh file again, keeping the layers and painted strokes	重新读取网格文件，同时保留图层和已绘制的笔画
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	按烘焙原样读取曲率贴图：更改模式或尺寸会启用细节尺寸。
 	Rebind any menu item, tool or command	重新绑定任意菜单项、工具或命令
 	Recent projects	最近的项目
@@ -735,6 +746,7 @@
 	Relative to Low Mesh	相对于低模网格
 	Relative to Min/Max	相对于最小值/最大值
 	Relative to Ray Distances	相对于射线距离
+	Relative to the bounding box diagonal.	相对于包围盒对角线。
 	Remove	移除
 	Remove Cage	移除笼形
 	Remove channel	移除通道
@@ -938,9 +950,12 @@
 	The GPU couldn't render this scene: {error}	GPU 无法渲染此场景：{error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	图像的 Alpha 决定贴花的形状；背向的面和超出其深度的表面不受影响。
 	The last edit of the template "{name}" is not saved: {error}. Switching away drops it.	模板“{name}”的最后一次编辑尚未保存：{error}。切换后将丢弃该编辑。
+	The mesh file the project is built on. Hover the path to see it in full.	项目所基于的网格文件。将鼠标悬停在路径上可查看完整路径。
 	The next click in the 3D view moves the decal there	在 3D 视图中下一次单击会将贴花移到该处
 	The project changed while the dialog was open, so nothing was done	对话框打开期间项目已更改，因此未执行任何操作
 	The resize worker stopped	调整大小的进程已停止
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	每个纹理集的 UV 图块（UDIM），仅供查看。请在纹理集设置中更改。
+	There is no mesh file to read again. Select one.	没有可重新读取的网格文件。请选择一个。
 	These are the brush's material channels, the same ones Paint writes and the Material tab shows. A channel the selected layer does not have is skipped.	这些是笔刷的材质通道，与绘画写入的通道以及材质选项卡显示的通道相同。所选图层没有的通道会被跳过。
 	Thickness	厚度
 	Thin areas	薄区域
@@ -980,6 +995,7 @@
 	UV island fill	UV 岛填充
 	UV projection	UV 投影
 	UV Seams	UV 接缝
+	UV Tile settings (UDIMs)	UV 图块设置（UDIM）
 	UV tile {tile} resolution	UV 图块 {tile} 的分辨率
 	UV tiles	UV 图块
 	UV tiles (UDIM)	UV 图块（UDIM）
