@@ -1,0 +1,1824 @@
+# العربية (ar) interface catalog for EffectCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(missing)	(مفقود)
+	(no composition)	(لا يوجد تركيب)
+	({}) Selected Objects	({}) كائنات محددة
+	* Animation Presets	* إعدادات الحركة المسبقة
+	1 View	عرض واحد
+	16 bits per channel	16 بت لكل قناة
+	2 Views	عرضان
+	32 bits per channel (float)	32 بت لكل قناة (فاصلة عائمة)
+	360 View Orientation	توجيه عرض 360°
+	3:2 Pulldown: {}	سحب 3:2: {}
+	3D Camera Tracker	3D Camera Tracker
+	3D Channel	قناة ثلاثية الأبعاد
+	3D Channel Extract	استخراج قناة ثلاثية الأبعاد
+	3D Glasses	3D Glasses
+	3D Layer	طبقة ثلاثية الأبعاد
+	3D Layer Instance	نسخة طبقة ثلاثية الأبعاد
+	3D Point Control	3D Point Control
+	3D Primitive...	عنصر أولي ثلاثي الأبعاد...
+	3D Reference Axes	محاور مرجعية ثلاثية الأبعاد
+	3D Renderer	مصير ثلاثي الأبعاد
+	3D View	عرض ثلاثي الأبعاد
+	3D...	ثلاثي الأبعاد...
+	4 Views	4 عروض
+	4-Color Gradient	4-Color Gradient
+	8 bits per channel	8 بت لكل قناة
+	A built-in preset has this name	يوجد إعداد مسبق مضمن بهذا الاسم
+	A script wants to open a file	يرغب سكربت في فتح ملف
+	A/V Features	ميزات الصوت/الفيديو
+	About EffectCraft	حول EffectCraft
+	About EffectCraft...	حول EffectCraft...
+	About...	حول...
+	Action	إجراء
+	Action-safe	منطقة الأمان للحركة
+	Active Camera	الكاميرا النشطة
+	Active Camera ({})	الكاميرا النشطة ({})
+	Adapt Feature	تكييف الميزة
+	Adapt Feature On Every Frame	تكييف الميزة في كل إطار
+	Adaptive Resolution	دقة تكيفية
+	Adaptive Resolution Limit	حد الدقة التكيفية
+	Adaptive Sample Limit	حد العينات التكيفية
+	Adaptive Sample Limit:	حد أخذ العينات التكيفي:
+	Add Animator	إضافة محرك حركة
+	Add Comment	إضافة تعليق
+	Add Expression	إضافة تعبير
+	Add Footage to Comp	إضافة اللقطة إلى التركيب
+	Add Formatting	إضافة تنسيق
+	Add Grain	إضافة حبيبات
+	Add Group	إضافة مجموعة
+	Add Guide	إضافة دليل
+	Add Guide...	إضافة دليل...
+	Add Keyframe	إضافة إطار مفتاحي
+	Add Marker	إضافة علامة
+	Add Mirror	إضافة مرآة
+	Add Output Module	إضافة وحدة إخراج
+	Add Percentage Guide	إضافة دليل نسبي
+	Add Percentage Guide...	إضافة دليل نسبي...
+	Add Point	إضافة نقطة
+	Add Property to Essential Graphics	إضافة خاصية إلى الرسوم الأساسية
+	Add Selected As	إضافة المحدد كـ
+	Add Text Selector	إضافة منتقي نص
+	Add Vertex Tool	أداة إضافة نقطة مسار
+	Add a shape, fill, stroke or path operation	إضافة شكل أو تعبئة أو حد أو عملية مسار
+	Add to Composition	إضافة إلى التركيب
+	Add to Favorites	إضافة إلى المفضلة
+	Add to Render Queue	إضافة إلى قائمة انتظار التصيير
+	Add to favorites	إضافة إلى المفضلة
+	Add:	إضافة:
+	Adjust Exposure	ضبط التعريض الضوئي
+	Adjust Exposure (stops)	ضبط التعريض (فواصل)
+	Adjust composition duration to the time span of the selected layers	ضبط مدة التركيب على النطاق الزمني للطبقات المحددة
+	Adjustment Layer	طبقة تعديل
+	Adobe After Effects Project...	مشروع Adobe After Effects...
+	Adobe Premiere Pro Project...	مشروع Adobe Premiere Pro...
+	Adobe-style built-in	مدمج بأسلوب Adobe
+	Advanced 3D	ثلاثي أبعاد متقدم
+	Advanced Lightning	Advanced Lightning
+	Advanced Spill Suppressor	Advanced Spill Suppressor
+	Affect all layers that use this solid	التأثير في كل الطبقات التي تستخدم هذه الطبقة المصمتة
+	After Effects project	مشروع After Effects
+	Align Layers to:	محاذاة الطبقات إلى:
+	Align Video to Data	محاذاة الفيديو مع البيانات
+	All 3D Cache...	كل ذاكرة ثلاثية الأبعاد المؤقتة...
+	All Cache...	كل الذاكرة المؤقتة...
+	All Disk Cache...	كل ذاكرة القرص المؤقتة...
+	All Footage	كل لقطات الوسائط
+	All Independently	الكل بشكل مستقل
+	All Keyframes	كل الإطارات المفتاحية
+	All Memory	كل الذاكرة
+	All Memory & Disk Cache...	ذاكرة القرص وكل الذاكرة المؤقتة...
+	All Panels	كل اللوحات
+	All Small Caps	أحرف استهلالية صغيرة للكل
+	All Transform Properties	كل خصائص التحويل
+	All layers	كل الطبقات
+	All six face cameras turn together; the scene is not changed.	تدور كاميرات الوجوه الست معاً؛ ولا يتغير المشهد.
+	All the Same	الكل متطابق
+	Allow Scripts to Write Files and Access Network	السماح للسكربتات بكتابة الملفات والوصول إلى الشبكة
+	Alpha	ألفا
+	Alpha Add	إضافة ألفا
+	Alpha Expansion:	توسيع ألفا:
+	Alpha Inverted Matte	قناع ألفا معكوس
+	Alpha Matte	قناع ألفا
+	Amount (%)	المقدار (%)
+	Analyze	تحليل
+	Analyze backward	تحليل للخلف
+	Analyze forward	تحليل للأمام
+	Anchor Point	نقطة إرساء
+	Anchor Point...	نقطة الإرساء...
+	Anchor:	الإرساء:
+	Angle Control	Angle Control
+	Animate Text	تحريك النص
+	Animation	تحريك
+	Animation Presets...	إعدادات الحركة المسبقة...
+	Aperture	فتحة العدسة
+	Appearance Mode	وضع المظهر
+	Appearance Mode: {}	وضع المظهر: {}
+	Appearance Settings…	إعدادات المظهر…
+	Appearance...	المظهر...
+	Append Bit Depth to File Name	إلحاق عمق البت باسم الملف
+	Application Scripting	برمجة التطبيق بالسكربت
+	Apply Animation Preset...	تطبيق إعداد حركة مسبق...
+	Apply Color LUT	Apply Color LUT
+	Apply Dimensions:	تطبيق الأبعاد:
+	Apply Interpretation	تطبيق التفسير
+	Apply Motion To:	تطبيق الحركة على:
+	Apply To New Layer	تطبيق على طبقة جديدة
+	Apply To:	تطبيق على:
+	Aqua	مائي
+	Arithmetic	حساب القنوات
+	Arrange	ترتيب
+	ArtCraft Website	موقع ArtCraft
+	Ask User	سؤال المستخدم
+	Assign	تعيين
+	Assign Profile	تعيين ملف تعريف
+	Assign Shortcut to 3D View	إسناد اختصار لعرض ثلاثي
+	Assign Shortcut to Workspace	إسناد اختصار لمساحة العمل
+	Assume this frame rate	افتراض معدل الإطارات هذا
+	Attach Point	نقطة الربط
+	Audio	صوت
+	Audio Hardware	عتاد الصوت
+	Audio Output Mapping	تعيين إخراج الصوت
+	Audio Spectrum	Audio Spectrum
+	Audio Waveform	Audio Waveform
+	Audio...	صوت...
+	Auto Bezier	بيزييه تلقائي
+	Auto Color	لون تلقائي
+	Auto Contrast	تباين تلقائي
+	Auto Levels	مستويات تلقائية
+	Auto-Orient...	توجه تلقائي...
+	Auto-Orientation	توجيه تلقائي
+	Auto-Save	حفظ تلقائي
+	Auto-Save Location	موقع الحفظ التلقائي
+	Auto-complete	إكمال تلقائي
+	Auto-saves	نسخ حفظ تلقائية
+	Auto-trace	تتبع تلقائي
+	Auto-trace...	تتبع تلقائي...
+	Auto-zoom graph height	تقريب تلقائي لارتفاع الرسم البياني
+	Automatic	تلقائي
+	Automatically Reload Footage	إعادة تحميل الوسائط تلقائيًا
+	Automatically Save Projects	حفظ المشاريع تلقائيًا
+	Back	رجوع
+	Back: Color	الخلف: اللون
+	Background Color	لون الخلفية
+	Background Color:	لون الخلفية:
+	Backwards	معكوس زمنيًا
+	Ball Grid	حركة الكرات CC
+	Basic	أساسي
+	Basic 3D	Basic 3D
+	Basic Text	Basic Text
+	Bass & Treble	الجهير والحدة
+	Beam	Beam
+	Best	الأفضل
+	Bevel	مشطوفة
+	Bevel Alpha	Bevel Alpha
+	Bevel Edges	Bevel Edges
+	Bevel and Emboss	القطع المشطوف والنقش البارز
+	Bevel: Color	الشطب: اللون
+	Bezier Warp	التواء بيزييه
+	Bicubic	ثلاثي المكعب
+	Bilateral Blur	تمويه ثنائي
+	Bilinear	ثنائي الخطية
+	Binary assets removed	الأصول الثنائية المحذوفة
+	Bitrate (kbps)	معدل البت (كيلوبت/ثانية)
+	Black & White	أبيض وأسود
+	Blend	مزج القنوات
+	Blend Mode	وضع المزج
+	Blend Mode:	وضع المزج:
+	Blend colors using 1.0 gamma	مزج الألوان باستخدام غاما 1.0
+	Blending Mode	وضع المزج
+	Block Dissolve	Block Dissolve
+	Block Reveal	Block Reveal
+	Blur	ضبابية
+	Blur & Sharpen	تمويه وتوضيح
+	Blur (pixels before auto-trace)	تمويه (بكسلات قبل التتبع التلقائي)
+	Blur In	دخول بضبابية
+	Blur Level	مستوى الضبابية
+	Bounce In Words	دخول الكلمات بنطاطة
+	Boundary	حدود
+	Bracket Matching	مطابقة الأقواس
+	Brightness	سطوع
+	Brightness & Contrast	السطوع والتباين
+	Bring Layer Forward	تقديم الطبقة
+	Bring Layer to Front	إحضار الطبقة إلى الأمام
+	Broadcast Colors	ألوان البث
+	Brown	بني
+	Browse Presets...	استعراض الإعدادات المسبقة...
+	Browser Storage	تخزين المتصفح
+	Brush Dynamics	ديناميكية الفرشاة
+	Brush Strokes	Brush Strokes
+	Brush Tool	أداة الفرشاة
+	Brushes	فرش
+	Bubbles	فقاعات CC
+	Building waveform…	جاري بناء شكل الموجة…
+	Bulge	انتفاخ
+	CMX 3600 EDL (.edl, V1 only)	CMX 3600 EDL (.edl، V1 فقط)
+	Cache Before Playback	التخزين المؤقت قبل التشغيل
+	Cache Budgets	ميزانية التخزين المؤقت
+	Cache Frames When Idle	تخزين الإطارات مؤقتاً عند الخمول
+	Caching frames	جاري تخزين الإطارات مؤقتًا
+	Calculations	عمليات حسابية
+	Camera	كاميرا
+	Camera Lens Blur	Camera Lens Blur
+	Camera Settings...	إعدادات الكاميرا...
+	Camera-Shake Deblur	Camera-Shake Deblur
+	Camera...	كاميرا...
+	Camera…	كاميرا…
+	Cancel Capture	إلغاء التقاط
+	Cannot import dropped files: {}	تعذر استيراد الملفات المسقطة: {}
+	Cannot open dropped project {}: {}	تعذر فتح المشروع المسقط {}: {}
+	Capture speed at:	سرعة الالتقاط عند:
+	Card Dance	رقص البطاقات
+	Card Wipe	Card Wipe
+	Cartoon	Cartoon
+	Cascade (farther pins trail longer)	تعاقب متتالٍ (المشابك الأبعد تتأخر أطول)
+	Casts Shadows	إلقاء ظلال
+	Category	الفئة
+	Caustics	انعكاسات ضوئية مائية
+	Cell Pattern	Cell Pattern
+	Center Anchor Point in Layer Content	توسيط نقطة الإرساء في محتوى الطبقة
+	Center In View	توسيط في العرض
+	Change Color	تغيير اللون
+	Change Renderer…	تغيير وحدة التصيير…
+	Change to Color	تغيير إلى لون
+	Changing a shortcut creates a custom preset; the default stays as it is.	تغيير اختصار ينشئ إعداداً مسبقاً مخصصاً؛ ويبقى الافتراضي كما هو.
+	Channel	قناة
+	Channel Blur	Channel Blur
+	Channel Combiner	مجمع القنوات
+	Channel Mixer	مازج القنوات
+	Channel Offset	إزاحة القنوات CC
+	Channel Threshold	Channel Threshold
+	Channel:	القناة:
+	Chapter:	الفصل:
+	Character	حرف
+	Character Offset	إزاحة الحرف
+	Character Value	قيمة الحرف
+	Check for Updates	Check for Updates
+	Checkbox Control	Checkbox Control
+	Checkerboard	Checkerboard
+	Choose grid and guide options	اختيار خيارات الشبكة والأدلة
+	Choose...	اختيار...
+	Cineon Converter	Cineon Converter
+	Circle	Circle
+	Classic 3D	ثلاثي أبعاد كلاسيكي
+	Classic Color Burn	حرق لون كلاسيكي
+	Classic Color Dodge	تفتيح لون كلاسيكي
+	Classic Difference	اختلاف كلاسيكي
+	Clear Guides	مسح الأدلة
+	Clear Recent Footage	مسح اللقطات الأخيرة
+	Clear Recent Presets	مسح الإعدادات الأخيرة
+	Clear Recent Projects	مسح المشاريع الأخيرة
+	Clear Recently Used	مسح المستخدمة مؤخرًا
+	Clear list	مسح القائمة
+	Click a key to see its commands.	انقر مفتاحاً لرؤية أوامره.
+	Click above the bar to add an opacity stop, below it to add a color stop.	انقر فوق الشريط لإضافة نقطة توقف عتامة، وتحته لإضافة نقطة توقف لون.
+	Click adds a point (½ height = no change)	النقر يضيف نقطة (½ الارتفاع = دون تغيير)
+	Click adds a point; drag one off to remove	النقر يضيف نقطة؛ اسحبها خارجاً لإزالتها
+	Click in the Composition panel to sample text {}	Click in the Composition panel to sample text {}
+	Click to make this viewer active	انقر لتنشيط هذا العارض
+	Click to reveal the expression in the timeline	انقر لإظهار التعبير في الخط الزمني
+	Click to sample color	Click to sample color
+	Click to sample text {}	Click to sample text {}
+	Click to show the active composition here	انقر لإظهار التركيبة النشطة هنا
+	Click, then click in the Composition panel	انقر، ثم انقر في لوحة التركيبة
+	Clip	مقطع
+	Clone Options	خيارات الاستنساخ
+	Clone Source Overlay:	تراكب مصدر الاستنساخ:
+	Clone Stamp Tool	أداة ختم النسخ
+	Close Panel	إغلاق اللوحة
+	Close Project	إغلاق المشروع
+	Close font search	Close font search
+	Close tutorial	إغلاق الدرس
+	Closed	مغلق
+	Collect Files...	جمع الملفات...
+	Color	لون
+	Color (#rrggbb)	Color (#rrggbb)
+	Color Balance	توازن الألوان
+	Color Balance (HLS)	توازن الألوان (HLS)
+	Color Burn	حرق اللون
+	Color Control	Color Control
+	Color Correction	تصحيح الألوان
+	Color Depth: {}	عمق اللون: {}
+	Color Difference Key	Color Difference Key
+	Color Dodge	تفتيح اللون
+	Color Emboss	Color Emboss
+	Color Grading	ألوان الفيديو الأساسية
+	Color Key	Color Key
+	Color Link	ربط الألوان
+	Color Neutralizer	معادل الألوان CC
+	Color Overlay	تراكب لوني
+	Color Profile Converter	Color Profile Converter
+	Color Range	نطاق الألوان
+	Color Stabilizer	مثبت الألوان
+	Color engine	Color engine
+	Colorama	Colorama
+	Colorize	تلوين
+	Colour map	خريطة الألوان
+	Columns	أعمدة
+	Comment	Comment
+	Comment of {}: {}	Comment of {}: {}
+	Comment:	التعليق:
+	Community	المجتمع
+	Compand	Compand
+	Composition	التركيب
+	Composition - Retain Layer Sizes	Composition - Retain Layer Sizes
+	Composition Flowchart	مخطط تدفق التركيب
+	Composition Mini-Flowchart	مخطط التدفق المصغر للتركيب
+	Composition Name:	اسم التركيب:
+	Composition Settings	إعدادات التركيب
+	Composition Settings ▸ 3D Renderer	إعدادات التركيب ▸ وحدة تصيير ثلاثية الأبعاد
+	Composition Settings...	إعدادات التركيب...
+	Composition Settings…	إعدادات التركيب…
+	Composition marker bin: drag a marker to the time ruler	سلة علامات التركيب: اسحب علامة إلى مسطرة الوقت
+	Composition...	التركيب...
+	Compositions that use this item	Compositions that use this item
+	Compound Arithmetic	حساب مركب
+	Compound Blur	Compound Blur
+	Compressor	ضاغط الصوت
+	Cone Angle	زاوية المخروط
+	Cone Feather	تنعيم المخروط
+	Conformed Audio Folder	Conformed Audio Folder
+	Consolidate All Footage	توحيد كل اللقطات
+	Constrain Proportions	تقييد النسب
+	Content-Aware Fill	تعبئة واعية بالمحتوى
+	Content-Aware Fill Layer...	طبقة تعبئة واعية بالمحتوى...
+	Contextual Alternates	بدائل سياقية
+	Continue Tracking	Continue Tracking
+	Continuous (Lock Outgoing to Incoming)	مستمر (قفل الصادر على الوارد)
+	Continuous Bezier	Continuous Bezier
+	Control Light with Camera	التحكم في الإضاءة بالكاميرا
+	Convert Audio to Keyframes	تحويل الصوت إلى إطارات مفتاحية
+	Convert Expression to Keyframes	تحويل التعبير إلى إطارات مفتاحية
+	Convert Guides to Percentage	تحويل الأدلة إلى نسبة مئوية
+	Convert Guides to Pixels	تحويل الأدلة إلى بكسلات
+	Convert To Bezier Path	تحويل إلى مسار بيزيه
+	Convert Vertex Tool	Convert Vertex Tool
+	Convert selected keyframes to Auto Bezier	Convert selected keyframes to Auto Bezier
+	Convert selected keyframes to Hold	Convert selected keyframes to Hold
+	Convert selected keyframes to Linear	Convert selected keyframes to Linear
+	Convert to Editable Styles	تحويل إلى أنماط قابلة للتحرير
+	Convert to Editable Text	تحويل إلى نص قابل للتحرير
+	Convolution Kernel	نواة الالتفاف CC
+	Copy Expression Only	نسخ التعبير فقط
+	Copy Frame to Clipboard	نسخ الإطار إلى الحافظة
+	Copy Presets Folder Path	نسخ مسار مجلد الإعدادات المسبقة
+	Copy Source Path	نسخ مسار المصدر
+	Copy with Property Links	نسخ بروابط الخصائص
+	Copy with Relative Property Links	نسخ بروابط خصائص نسبية
+	Corner Pin	تثبيت الزوايا
+	Corner Roundness (%)	Corner Roundness (%)
+	Create 3D Layer Instance	إنشاء نسخة طبقة ثلاثية الأبعاد
+	Create Camera	Create Camera
+	Create Camera from 3D View	إنشاء كاميرا من عرض ثلاثي الأبعاد
+	Create Cameras from 3D Model	إنشاء كاميرات من نموذج ثلاثي الأبعاد
+	Create Environment Light Background Layer	إنشاء طبقة خلفية لإضاءة البيئة
+	Create Intro	إنشاء مقدمة
+	Create Keyframes from Data	إنشاء إطارات مفتاحية من البيانات
+	Create Layers at Composition Start Time	Create Layers at Composition Start Time
+	Create Lights from 3D Model	إنشاء إضاءات من نموذج ثلاثي الأبعاد
+	Create Markers	Create Markers
+	Create Masks from Text	إنشاء أقنعة من النص
+	Create Null and Camera	Create Null and Camera
+	Create Nulls From Paths	إنشاء كائنات معدومة من المسارات
+	Create Orbit Null	إنشاء كائن مداري معدوم
+	Create Outro	إنشاء خاتمة
+	Create Protected Region from Work Area	إنشاء منطقة محمية من منطقة العمل
+	Create Proxy	إنشاء بديل
+	Create Shadow Catcher, Camera and Light	Create Shadow Catcher, Camera and Light
+	Create Shapes from Text	إنشاء أشكال من النص
+	Create Shapes from Vector Layer	إنشاء أشكال من طبقة متجهة
+	Create Solid and Camera	Create Solid and Camera
+	Create Split Layers Above Original Layer	Create Split Layers Above Original Layer
+	Create Stereo 3D Rig	إنشاء منصة 3D مجسمة
+	Create Text and Camera	Create Text and Camera
+	Create VR Environment...	إنشاء بيئة VR...
+	Create a new Composition	Create a new Composition
+	Create a new Folder	Create a new Folder
+	Create a new project, or open the demo project to look around.	أنشئ مشروعاً جديداً، أو افتح المشروع التجريبي للاستكشاف.
+	Crop Comp to Region of Interest	قصّ التركيب على منطقة الاهتمام
+	Crop Comp to Selected Layer(s) Bounds	قصّ التركيب على حدود الطبقة/الطبقات المحددة
+	Cross Blur	Cross Blur
+	Cross Dissolve Front and Back Layers	Cross Dissolve Front and Back Layers
+	Cryptomatte	Cryptomatte
+	Cube	مكعب
+	Cue Point	نقطة إشارة
+	Curl Noise	Curl Noise
+	Current Frame	Current Frame
+	Current Render	التصيير الحالي
+	Current Settings	الإعدادات الحالية
+	Current Track:	Current Track:
+	Current time	Current time
+	Curves	منحنيات
+	Custom Location	Custom Location
+	Custom Resolution	دقة مخصصة
+	Custom View 1	عرض مخصص 1
+	Custom View 2	عرض مخصص 2
+	Custom View 3	عرض مخصص 3
+	Custom...	مخصص...
+	Cycle Mask Colors	Cycle Mask Colors
+	Cylinder	أسطوانة
+	Cylinder Wrap	Cylinder Wrap
+	Dancing Dissolve	انحلال راقص
+	Dark Gray	رمادي داكن
+	Dark Green	أخضر داكن
+	Dark Theme	سمة داكنة
+	Darken	تغميق
+	Darker	أدكن
+	Darker Color	لون أدكن
+	Dashed Lines	Dashed Lines
+	Data	Data
+	Database and Cache Folder	Database and Cache Folder
+	Default 3D Renderer	Default 3D Renderer
+	Default Drag Import As	Default Drag Import As
+	Default Figure Style	Default Figure Style
+	Default Output Folder	Default Output Folder
+	Default Output:	الإخراج الافتراضي:
+	Default Spatial Interpolation to Linear	الاستيفاء المكاني الافتراضي خطي
+	Default: {}	الافتراضي: {}
+	Defaults	الافتراضيات
+	Delay	تأخير الصوت
+	Delay (s)	Delay (s)
+	Delete All Markers	حذف كل العلامات
+	Delete Preset	Delete Preset
+	Delete Selected Points	حذف النقاط المحددة
+	Delete Vertex Tool	أداة حذف نقطة مسار
+	Delete selected project items	حذف عناصر المشروع المحددة
+	Delete this template	حذف هذا القالب
+	Dependencies	التبعيات
+	Depth	العمق
+	Depth Matte	قناع خفاء العمق
+	Depth of Field	عمق الميدان
+	Detail-preserving Upscale	Detail-preserving Upscale
+	Diameter:	القطر:
+	Difference	اختلاف
+	Difference Matte	Difference Matte
+	Directional Blur	Directional Blur
+	Directional Smear	تلطيخ CC
+	Disable Expressions	تعطيل التعبيرات
+	Disable Per-character 3D	تعطيل 3D لكل حرف
+	Disable Video Output When in Background	Disable Video Output When in Background
+	Discord	Discord
+	Discretionary Ligatures	حروف مركبة اختيارية
+	Disk	Disk
+	Disk Cache	التخزين المؤقت على القرص
+	Disk Cache Folder	Disk Cache Folder
+	Disk...	القرص...
+	Displacement Map	خريطة الإزاحة
+	Display	العرض
+	Display Color Space	Display Color Space
+	Display P3	Display P3
+	Dissolve	تلاشي متناثر
+	Dissolve Front Layer	Dissolve Front Layer
+	Distort	تشويه
+	Distortion	تشويه الصوت
+	Distribute Layers:	توزيع الطبقات:
+	Dolly Towards Cursor Tool	Dolly Towards Cursor Tool
+	Don't Recover	عدم الاستعادة
+	Don't Save	عدم الحفظ
+	Dots	نقاط
+	Double-click a layer to open it in the Layer panel	انقر طبقة نقراً مزدوجاً لفتحها في لوحة الطبقة
+	Double-click footage in the Project panel to open it here	انقر لقطة نقراً مزدوجاً في لوحة المشروع لفتحها هنا
+	Double-click to edit the comment	انقر نقراً مزدوجاً لتحرير التعليق
+	Draft	مسودة
+	Drag to change	اسحب للتغيير
+	Drag to create a guide	اسحب لإنشاء دليل
+	Drag to slip the source	اسحب لتحريك المصدر
+	Drop Frame	إسقاط الإطارات
+	Drop In Lines	إسقاط الأسطر
+	Drop Shadow	إسقاط الظل
+	Drop file to import	Drop file to import
+	Drop {} files to import	Drop {} files to import
+	Dropdown Menu Control	Dropdown Menu Control
+	Dual Lens Warp	Dual Lens Warp
+	Dual Split Warp	انقسام 2 CC
+	Duplicate and Assign Material	تكرار الخامة وإسنادها
+	Duration	المدة
+	Duration (Seconds)	Duration (Seconds)
+	Duration (s)	Duration (s)
+	Duration (seconds)	Duration (seconds)
+	Duration:	المدة:
+	Dust & Scratches	غبار وخدوش
+	EXR Bit Depth: {}	عمق بت EXR: {}
+	EXR Compression: {}	ضغط EXR: {}
+	EXR Compression: {} (lossy)	ضغط EXR: {} (مع فقد)
+	EXR Compression: {} (uncompressed at float)	ضغط EXR: {} (غير مضغوط)
+	EXtractoR	EXtractoR
+	Easy Ease	تنعيم
+	Easy Ease (F9)	Easy Ease (F9)
+	Easy Ease In	تنعيم دخول
+	Easy Ease In (Shift+F9)	Easy Ease In (Shift+F9)
+	Easy Ease Out	تنعيم خروج
+	Easy Ease Out (Ctrl+Shift+F9)	Easy Ease Out (Ctrl+Shift+F9)
+	Echo	صدى زمني
+	Edge Blend	Edge Blend
+	Edge Tile Repeat	Edge Tile Repeat
+	Edit Gradient…	تحرير التدرج…
+	Edit Label Colors...	تحرير ألوان التسميات...
+	Edit Original...	تحرير الأصل...
+	Edit Speed Graph	Edit Speed Graph
+	Edit Target: {}	تحرير الهدف: {}
+	Edit Value Graph	Edit Value Graph
+	Edit Value…	تحرير القيمة…
+	Edit Workspaces	Edit Workspaces
+	Edit Workspaces...	تحرير مساحات العمل...
+	Effect	تأثير
+	Effect Controls	عناصر تحكم التأثير
+	Effect Reference...	مرجع التأثيرات...
+	EffectCraft	EffectCraft
+	EffectCraft Help...	تعليمات EffectCraft...
+	EffectCraft Home Page	الصفحة الرئيسية لـ EffectCraft
+	EffectCraft Project...	مشروع EffectCraft...
+	EffectCraft didn't quit normally last time.	لم يُنهَ EffectCraft بشكل طبيعي في المرة السابقة.
+	EffectCraft home page	الصفحة الرئيسية لـ EffectCraft
+	EffectCraft on GitHub	EffectCraft على GitHub
+	EffectCraft on getartcraft.com	EffectCraft on getartcraft.com
+	EffectCraft project	مشروع EffectCraft
+	Effects	التأثيرات
+	Effects & Presets	التأثيرات والإعدادات المسبقة
+	Effects & Presets options	خيارات التأثيرات والإعدادات المسبقة
+	Effects: {}	التأثيرات: {}
+	Ellipse	الشكل البيضاوي
+	Ellipse Tool	أداة الشكل البيضاوي
+	Embed footage files	Embed footage files
+	Embed up to (MB)	Embed up to (MB)
+	Embedded / sRGB	Embedded / sRGB
+	Emboss	Emboss
+	Empty Disk Cache	Empty Disk Cache
+	Empty folder	مجلد فارغ
+	Enable Depth of Field	تمكين عمق الميدان
+	Enable Disk Cache	Enable Disk Cache
+	Enable Expression	تمكين التعبير
+	Enable Expressions	تمكين التعبيرات
+	Enable JavaScript Debugger	Enable JavaScript Debugger
+	Enable Logging	تمكين التسجيل
+	Enable Per-character 3D	تمكين 3D لكل حرف
+	Enable Time Remapping	تمكين إعادة رسم الوقت
+	Enable Video Preview Output	Enable Video Preview Output
+	Enhance	تحسين
+	Enter Full Screen	الدخول إلى ملء الشاشة
+	Entire Duration	Entire Duration
+	Environment Layer	طبقة بيئة
+	Environment Map	Environment Map
+	Equalize	موازنة الألوان
+	Eraser Tool	أداة الممحاة
+	Essential Graphics	الرسوم الأساسية
+	Essential Graphics Template...	قالب الرسوم الأساسية...
+	Essential Properties — {}	الخصائص الأساسية — {}
+	Event	الحدث
+	Every-line Composer	Every-line Composer
+	Exclusion	استثناء
+	Exit	إنهاء
+	Exponential Scale	مقياس أسي
+	Export Adobe Premiere Pro Project	Export Adobe Premiere Pro Project
+	Export Guides...	تصدير الأدلة...
+	Export Scene to Blender...	Export Scene to Blender...
+	Export Template…	تصدير القالب…
+	Export...	تصدير...
+	Exposure	التعريض الضوئي
+	Expression Controls	عناصر تحكم بالتعبير
+	Expression Language Menu	قائمة لغة التعبيرات
+	Expression Pick Whip Writes Compact English	Expression Pick Whip Writes Compact English
+	Expression Reference...	مرجع التعبيرات...
+	Expression pick whip: drag onto a property	سوط التعبير: اسحب إلى خاصية
+	Expression:	التعبير:
+	Expressions Editor	Expressions Editor
+	Extended Viewer	Extended Viewer
+	Extract	استخراج القناع
+	Extract Cubemap...	استخراج خريطة مكعبية...
+	Extract Work Area	استخراج منطقة العمل
+	Extrapolate Motion	Extrapolate Motion
+	Eyedropper Fill	Eyedropper Fill
+	Eyedropper: click, then click in the Composition panel	القطارة: انقر، ثم انقر في لوحة التركيبة
+	Face Measurements	Face Measurements
+	Face Model	Face Model
+	Face Track Points	Face Track Points
+	Face Tracking	Face Tracking
+	Fade Up Characters	ظهور تدريجي للحروف
+	Falloff	التلاشي
+	Falloff Distance	مسافة التلاشي
+	Fast Box Blur	Fast Box Blur
+	Fast Draft	مسودة سريعة
+	Fast Previews	معاينات سريعة
+	Fast Previews (Draft 3D, Faster Effects)	معاينات سريعة (3D مسود، تأثيرات أسرع)
+	Fast Radial Blur	Fast Radial Blur
+	Faster	Faster
+	Favorites	المفضلة
+	Feather Falloff	تلاشي التنعيم
+	Feet + Frames (16mm)	Feet + Frames (16mm)
+	Feet + Frames (35mm)	Feet + Frames (35mm)
+	Field Render: {}	تصيير الحقول: {}
+	Figures	الأرقام
+	File Path	File Path
+	File...	ملف...
+	Files per Segment	Files per Segment
+	Fill	Fill
+	Fill Color	لون التعبئة
+	Fill Color: Brightness	Fill Color: Brightness
+	Fill Color: Hue	Fill Color: Hue
+	Fill Color: Opacity	Fill Color: Opacity
+	Fill Color: RGB	Fill Color: RGB
+	Fill Color: Saturation	Fill Color: Saturation
+	Fill Method:	Fill Method:
+	Fill Over Stroke	Fill Over Stroke
+	Fill Target	هدف التعبئة
+	Film Burn	Film Burn
+	Filter recent files	تصفية الملفات الأخيرة
+	Find	بحث
+	Find Edges	Find Edges
+	Find Missing Effects	إيجاد التأثيرات المفقودة
+	Find Missing Fonts	إيجاد الخطوط المفقودة
+	Find Missing Footage	إيجاد اللقطات المفقودة
+	Finished	انتهى
+	First Frame	First Frame
+	First sample at (comp seconds)	First sample at (comp seconds)
+	Fit all graphs to view	Fit all graphs to view
+	Fit selection to view	Fit selection to view
+	Fit to Comp	ملاءمة التركيب
+	Fit to Comp Height	ملاءمة ارتفاع التركيب
+	Fit to Comp Width	ملاءمة عرض التركيب
+	Fit up to 100%	ملاءمة حتى 100%
+	Flange & Chorus	فلانجر وجوقة
+	Flexible Bend	ثانٍ CC
+	Floating Window	Floating Window
+	Flowchart	مخطط انسيابي
+	Flowchart: {}	مخطط التدفق: {}
+	Foam	Foam
+	Focus Distance	مسافة البؤرة
+	Fog 3D	ضباب ثلاثي الأبعاد
+	Follow Feature Rotation and Scale	اتباع دوران الميزة ومقياسها
+	Font Size	حجم الخط
+	Footage	لقطة
+	Footage Frame Cache	Footage Frame Cache
+	Footage: {}	اللقطة: {}
+	Force alphabetical order	Force alphabetical order
+	Format	التنسيق
+	Format: {}	التنسيق: {}
+	Fractal	Fractal
+	Fractal Noise	Fractal Noise
+	Frame Aspect Ratio: {}	نسبة أبعاد الإطار: {}
+	Frame Blending	مزج الإطارات
+	Frame Blending: {}	مزج الإطارات: {}
+	Frame Mix	خلط الإطارات
+	Frame Rate	معدل الإطارات
+	Frame Rate presets	Frame Rate presets
+	Frame Rate:	معدل الإطارات:
+	Frame Render Time  {}ms	زمن تصيير الإطار  {}ms
+	Frame Target:	هدف الإطار:
+	Frame rate	Frame rate
+	Frame rate (fps)	Frame rate (fps)
+	Frames	Frames
+	Frames between key frames (0 = every 2 s)	Frames between key frames (0 = every 2 s)
+	Frames per second	Frames per second
+	Free Transform Points	تحويل النقاط بحرية
+	Freeze	تجميد
+	Freeze Frame	تجميد الإطار
+	Freeze On Last Frame	تجميد على الإطار الأخير
+	Front	أمامي
+	Front: Color	Front: Color
+	Fuchsia	فوشيا
+	Full	كامل
+	Full Screen	Full Screen
+	GPU Acceleration (no GPU: software)	GPU Acceleration (no GPU: software)
+	GPU Acceleration ({})	GPU Acceleration ({})
+	GPU Frames Rendered at Once	GPU Frames Rendered at Once
+	GPU Information...	GPU Information...
+	Gamma/Pedestal/Gain	غاما/قاعدة/كسب
+	Gate	بوابة الصوت
+	Gaussian Blur	Gaussian Blur
+	Gaussian Blur (Legacy)	Gaussian Blur (Legacy)
+	General...	عام...
+	Generate	توليد
+	Generate Fill Layer	Generate Fill Layer
+	Glass Relief	Glass Relief
+	Glass Wipe	Glass Wipe
+	Glow	Glow
+	Go to Time	Go to Time
+	Go to Time...	الانتقال إلى وقت...
+	Grab bag	متنوعات
+	Gradient Editor	محرر التدرج
+	Gradient Overlay	تراكب متدرج
+	Gradient Ramp	Gradient Ramp
+	Gradient Wipe	Gradient Wipe
+	Grid	شبكة
+	Grid Wipe	Grid Wipe
+	Gridline Every	Gridline Every
+	Grids & Guides	Grids & Guides
+	Grids & Guides...	الشبكات والأدلة...
+	Group Shapes	تجميع الأشكال
+	Grow Bounds	Grow Bounds
+	Guess	Guess
+	Guide Layer	طبقة إرشادية
+	Guide Layers: {}	الطبقات الإرشادية: {}
+	Guides	أدلة
+	HDR Compander	HDR Compander
+	HDR Highlight Compression	HDR Highlight Compression
+	HDR on SDR displays and outputs	HDR on SDR displays and outputs
+	HDTV (Rec. 709)	HDTV (Rec. 709)
+	Half	نصف
+	Hand Tool	أداة اليد
+	Hard Light	ضوء قاسٍ
+	Hard Mix	مزج قاسٍ
+	Hardware Accelerate Composition, Layer and Footage Panels	Hardware Accelerate Composition, Layer and Footage Panels
+	Hexagonal Tiles	Hexagonal Tiles
+	Hide EffectCraft	إخفاء EffectCraft
+	Hide Locked Masks	إخفاء الأقنعة المقفلة
+	Hide Other Video	إخفاء الفيديو الآخر
+	Hide Others	إخفاء التطبيقات الأخرى
+	Hide This	إخفاء هذا
+	High-Low Pass	تمرير عالي/منخفض
+	Histogram	مدرج تكراري
+	Hold In Place	تثبيت في الموضع
+	Home	الصفحة الرئيسية
+	Horizontal Type Tool	أداة النص الأفقي
+	Horizontal ruler	Horizontal ruler
+	Hue	تدرج لوني
+	Hue/Saturation	درجة اللون/التشبع
+	ICC profile (replaces the numbers)	ICC profile (replaces the numbers)
+	ID Matte	قناع خفاء المعرّف
+	IDentifier	IDentifier
+	If Confidence is Below	إذا كانت الثقة دون
+	If caching, play cached frames	If caching, play cached frames
+	Ignore	تجاهل
+	Image Cache Memory	ذاكرة الصور المؤقتة
+	Immersive Video	فيديو غامر
+	Import Adobe After Effects Project	استيراد مشروع Adobe After Effects
+	Import Anyway	استيراد على أي حال
+	Import Footage…	استيراد لقطة…
+	Import Guides...	استيراد الأدلة...
+	Import Image Sequence	استيراد تسلسل صور
+	Import Kind	Import Kind
+	Import PDF / Illustrator File	استيراد ملف PDF / Illustrator
+	Import Photoshop File	استيراد ملف Photoshop
+	Import Recent Footage	استيراد اللقطات الأخيرة
+	Import and Add to Composition	استيراد وإضافة إلى التركيب
+	Import...	استيراد...
+	Imported media	الوسائط المستوردة
+	In	In
+	In-App Tutorials...	دروس داخل التطبيق...
+	Increment and Save	زيادة الإصدار والحفظ
+	Influence:	التأثير:
+	Info	معلومات
+	Inner Glow	التوهج الداخلي
+	Inner Shadow	الظل الداخلي
+	Inner/Outer Key	Inner/Outer Key
+	Install Script File...	تثبيت ملف برمجة...
+	Install ScriptUI Panel...	تثبيت لوحة ScriptUI...
+	Install from File…	تثبيت من ملف…
+	Intensity	الشدة
+	Internet Standard RGB (sRGB)	RGB قياسي للإنترنت (sRGB)
+	Interpret As Linear Light	Interpret As Linear Light
+	Interpret Footage	تفسير اللقطة
+	Interpret Premultiplied - Matted With Color	Interpret Premultiplied - Matted With Color
+	Interpret Straight - Unmatted	Interpret Straight - Unmatted
+	Interpret Unlabeled Alpha As	تفسير ألفا غير المعلمة كـ
+	Invert Alpha	Invert Alpha
+	Inverted	معكوس
+	Iris Wipe	Iris Wipe
+	Jitter	ارتجاف
+	Join the ArtCraft Discord	انضم إلى ديسكورد ArtCraft
+	Join the ArtCraft Discord...	الانضمام إلى Discord الخاص بـ ArtCraft...
+	Join the ArtCraft community on Discord	انضم إلى مجتمع ArtCraft على Discord
+	Just now	الآن
+	KIND	النوع
+	Kaleidoscope	Kaleidoscope
+	Key Cleaner	منظف مفتاح اللون
+	Key: {}	المفتاح: {}
+	Keyboard Shortcuts	اختصارات لوحة المفاتيح
+	Keyboard Shortcuts...	اختصارات لوحة المفاتيح...
+	Keyframe Assistant	مساعد الإطارات المفتاحية
+	Keyframe Interpolation...	استقراء الإطار المفتاحي...
+	Keyframe Rate:	Keyframe Rate:
+	Keyframe Velocity...	سرعة الإطار المفتاحي...
+	Keyframes	إطارات مفتاحية
+	Keying	تفريغ اللون
+	Keys	Keys
+	LEARN	التعلّم
+	Label Colors and Names:	ألوان التسميات وأسماؤها:
+	Label of {}: {}	Label of {}: {}
+	Label {} color	Label {} color
+	Label {} name	Label {} name
+	Label:	التسمية:
+	Labels and Colors	Labels and Colors
+	Labels...	التسميات...
+	Last Effect	التأثير الأخير
+	Last Frame	Last Frame
+	Latest auto-save: {}	أحدث حفظ تلقائي: {}
+	Latin	Latin
+	Lavender	خزامي
+	Layer Cache	Layer Cache
+	Layer Control	Layer Control
+	Layer Controls	Layer Controls
+	Layer Name	Layer Name
+	Layer Settings...	إعدادات الطبقة...
+	Layer Settings…	Layer Settings…
+	Layer Style Options...	خيارات نمط الطبقة...
+	Layer Styles	أنماط الطبقة
+	Layer Transform	Layer Transform
+	Layer controls	عناصر تحكم الطبقة
+	Layer:	الطبقة:
+	Layer: {}	الطبقة: {}
+	Layers Premiere can't show (text, shapes, effects…)	Layers Premiere can't show (text, shapes, effects…)
+	Learn	تعلّم
+	Leave Color	إبقاء لون
+	Legacy Macintosh RGB (Gamma 1.8)	RGB ماكنتوشي قديم (غاما 1.8)
+	Length of Composition	Length of Composition
+	Lens Distortion	عدسة CC
+	Lens Flare	Lens Flare
+	Levels	مستويات
+	Levels (Individual Controls)	Levels (Individual Controls)
+	Levels of Undo	Levels of Undo
+	Licence: {}	الترخيص: {}
+	Lift Work Area	رفع منطقة العمل
+	Ligatures	الحروف المركبة
+	Light Gray	رمادي فاتح
+	Light Rays	Light Rays
+	Light Sweep	Light Sweep
+	Light Theme	سمة فاتحة
+	Light Type	نوع الإضاءة
+	Light Wipe	Light Wipe
+	Light...	إضاءة...
+	Lighten	تفتيح
+	Lighter	أفتح
+	Lighter Color	لون أفتح
+	Lighting Correction:	Lighting Correction:
+	Lightning	Lightning
+	Light…	Light…
+	Line Anchor	مرساة السطر
+	Line Numbers	Line Numbers
+	Line Removal	Line Removal
+	Line Spacing	تباعد الأسطر
+	Line Sweep	Line Sweep
+	Line delta	صافي الأسطر
+	Linear (1.0 Gamma)	خطي (غاما 1.0)
+	Linear Burn	حرق خطي
+	Linear Color Key	Linear Color Key
+	Linear Dodge	تفتيح خطي
+	Linear Light	ضوء خطي
+	Linear Wipe	Linear Wipe
+	Linearize working space	Linearize working space
+	Lines	خطوط
+	Link Focus Distance to Layer	ربط مسافة البؤرة بالطبقة
+	Link Focus Distance to Point of Interest	ربط مسافة البؤرة بنقطة الاهتمام
+	Link Selected Property	ربط الخاصية المحددة
+	Liquid Particles	زئبق CC
+	Liquify	تسييل
+	Load Effect Plug-in...	تحميل مكون تأثير إضافي...
+	Load Plug-ins Through Helper...	تحميل المكونات الإضافية عبر المساعد...
+	Location:	الموقع:
+	Lock Aspect Ratio	Lock Aspect Ratio
+	Lock Aspect Ratio to {}	قفل نسبة الأبعاد على {}
+	Lock Guides	قفل الأدلة
+	Lock Markers	قفل العلامات
+	Lock Other Masks	قفل الأقنعة الأخرى
+	Lock To Time	Lock To Time
+	Lock to Zoom	قفل مع التكبير
+	Locked	مؤمّنة
+	Locked: {} — {}	مقفل: {} — {}
+	Log:	السجل:
+	Look at All Layers	النظر إلى كل الطبقات
+	Look at Selected Layers	النظر إلى الطبقات المحددة
+	Loop	تكرار حلقي
+	Loop (Trace Path)	تكرار (تتبع المسار)
+	Loop (times)	Loop (times)
+	Lottie JSON...	Lottie JSON...
+	Lottie animation	حركة Lottie
+	Lottie...	Lottie...
+	Lower Field First	Lower Field First
+	Luma Inverted Matte	قناع إضاءة معكوس
+	Luma Key	Luma Key
+	Luma Matte	قناع إضاءة
+	Luminance	اللمعان
+	Luminance Image Wipe	Luminance Image Wipe
+	Luminescent Premul	ضيائي مسبق الضرب
+	Luminosity	الإضاءة
+	MIT OR Apache-2.0 • Fonts: Inter, JetBrains Mono (OFL)	MIT OR Apache-2.0 • الخطوط: Inter، JetBrains Mono (OFL)
+	Magnification ratio popup	قائمة نسبة التكبير المنبثقة
+	Magnify	تكبير
+	Main...	رئيسي...
+	Make Comp Size	جعل بحجم التركيب
+	Manage Effects...	إدارة التأثيرات...
+	Markers	علامات
+	Mask	قناع
+	Mask Expansion...	تمدد القناع...
+	Mask Feather Tool	Mask Feather Tool
+	Mask Feather...	تنعيم القناع...
+	Mask Interpolation	استقراء الأقنعة
+	Mask Opacity...	عتامة القناع...
+	Mask Shape	Mask Shape
+	Mask Shape...	شكل القناع...
+	Mask and Shape Path	مسار القناع والشكل
+	Masks	أقنعة
+	Match Grain	مطابقة الحبيبات
+	Match System	مطابقة النظام
+	Material	خامة
+	Matte	قناع خفاء
+	Matte Choker	Matte Choker
+	Matte color (premultiplied)	Matte color (premultiplied)
+	Matte with Layer Above	قنعة بالطبقة الأعلى
+	Matte with Layer Below	قنعة بالطبقة الأدنى
+	Maximize Panel	تكبير اللوحة للحد الأقصى
+	Maximum Disk Cache Size	Maximum Disk Cache Size
+	Maximum Project Versions	Maximum Project Versions
+	Media Browser	مستعرض الوسائط
+	Media Cache	Media Cache
+	Media Duration	Media Duration
+	Media Replacement	استبدال الوسائط
+	Median	الوسيط الحسابي
+	Median (Legacy)	Median (Legacy)
+	Medium Gray (Default)	رمادي متوسط (افتراضي)
+	Memory & CPU	Memory & CPU
+	Memory & CPU...	الذاكرة والمعالج...
+	Menu Bar	Menu Bar
+	Merged PRs	طلبات السحب المدمجة
+	Mesh Warp	التواء شبكي
+	Mesh:	الشبكة:
+	Method Used: {}    Average Error: {} pixels	الطريقة المستخدمة: {}    متوسط الخطأ: {} بكسل
+	Minimal	أدنى
+	Minimax	Minimax
+	Minimum Area (pixels)	Minimum Area (pixels)
+	Minutes	Minutes
+	Mirror on Computer Monitor	Mirror on Computer Monitor
+	Mode	الوضع
+	Models folder: {}	مجلد النماذج: {}
+	Modes	Modes
+	Modifiers:	المعدلات:
+	Modulator	معدّل الصوت
+	More Accurate	More Accurate
+	More ArtCraft apps	المزيد من تطبيقات ArtCraft
+	More tutorials	مزيد من الدروس
+	Mosaic	Mosaic
+	Motion Blur	ضبابية الحركة
+	Motion Blur: {}	ضبابية الحركة: {}
+	Motion Path	Motion Path
+	Motion Sketch	رسم الحركة
+	Motion Sketch: drag to record	رسم الحركة: اسحب للتسجيل
+	Motion Source:	Motion Source:
+	Motion Target:	Motion Target:
+	Motion Tile	Motion Tile
+	Motion Tracker Apply Options	Motion Tracker Apply Options
+	Motion Tracker Options	Motion Tracker Options
+	Motion Tracking	تتبع الحركة
+	Motion graphics and visual effects · version {}	رسوم متحركة وتأثيرات بصرية · الإصدار {}
+	Move Down	نقل لأسفل
+	Move Panel to Main Window	نقل اللوحة إلى النافذة الرئيسية
+	Move Panel to New Window	نقل اللوحة إلى نافذة جديدة
+	Move Up	نقل لأعلى
+	Move X	Move X
+	Move Y	Move Y
+	Move to Project Root	نقل إلى جذر المشروع
+	Movie...	فيديو...
+	Multi-Tone Tint	تلوين متعدد النغمات CC
+	Multiple Compositions	Multiple Compositions
+	Multiple Files...	ملفات متعددة...
+	Multiply	ضرب
+	Mute Keyframes	كتم الإطارات المفتاحية
+	My Custom RGB	My Custom RGB
+	My Custom RGB...	RGB المخصص الخاص بي...
+	NAME	الاسم
+	Navigation	التنقل
+	Nested sequences	Nested sequences
+	New Comp from Selection	تركيب جديد من التحديد
+	New Comp from Selection...	تركيب جديد من التحديد...
+	New Composition	تركيب جديد
+	New Composition From Footage	New Composition From Footage
+	New Composition from Selection	New Composition from Selection
+	New Composition...	تركيب جديد...
+	New Duration:	المدة الجديدة:
+	New Folder	مجلد جديد
+	New Mask	قناع جديد
+	New Placeholder	New Placeholder
+	New Project	مشروع جديد
+	New Project Loads Template	New Project Loads Template
+	New Project from Template...	مشروع جديد من قالب...
+	New Viewer	عارض جديد
+	New Workspace	مساحة عمل جديدة
+	New composition name:	اسم التركيب الجديد:
+	New from Render Queue item:	جديد من عنصر قائمة انتظار التصيير:
+	New from Template	جديد من قالب
+	Next Blending Mode	وضع المزج التالي
+	Next Frame	الإطار التالي
+	Next to Project	Next to Project
+	Nice work. Pick another tutorial on the Home screen's Learn tab.	أحسنت. اختر درساً آخر في تبويب «التعلّم» بالشاشة الرئيسية.
+	No More Than (Keyframes)	No More Than (Keyframes)
+	No More Than (Seconds)	No More Than (Seconds)
+	No Motion Path	No Motion Path
+	No Output Simulation	بلا محاكاة إخراج
+	No Track Matte	بلا قناع تتبع
+	No audio layer selected	لم تُحدد طبقة صوت
+	No background jobs running	لا مهام خلفية قيد التشغيل
+	No composition markers	لا علامات تركيبة
+	No contributor data was built into this copy.	لم تُبنَ بيانات المساهمين في هذه النسخة.
+	No device list from this host; the system default output is used.	لا قائمة أجهزة من هذا المضيف؛ يُستخدم إخراج النظام الافتراضي.
+	No effects. Drag one from Effects & Presets.	No effects. Drag one from Effects & Presets.
+	No layer selected	لم تُحدد طبقة
+	No matching effects or presets	لا تأثيرات أو إعدادات مسبقة مطابقة
+	No matching fonts	لا خطوط مطابقة
+	No model credits were built into this copy.	لم تُبنَ بيانات نماذج الذكاء الاصطناعي في هذه النسخة.
+	No nested compositions	لا تركيبات متداخلة
+	No recent files match the filter	لا ملفات أخيرة تطابق التصفية
+	No shortcut	بلا اختصار
+	No unlocked layer selected	لم تُحدد طبقة غير مقفلة
+	No video	لا فيديو
+	Noise	ضوضاء
+	Noise & Grain	تشويش وحبيبات
+	Noise Alpha	ضوضاء ألفا
+	Noise HLS	ضوضاء HLS
+	Noise HLS Auto	ضوضاء HLS تلقائية
+	Noise Type:	Noise Type:
+	Non-Sequence Footage	Non-Sequence Footage
+	None	بلا
+	None (leave them out)	None (leave them out)
+	Normal	عادي
+	Not applied: tick it in the list to add it.	غير مطبق: حدده في القائمة لإضافته.
+	Not assigned	غير مُسند
+	Note: Shadows are only cast from layers with Cast Shadows enabled.	ملاحظة: لا تُلقى الظلال إلا من الطبقات المفعّل بها «إلقاء ظلال».
+	Notify	تنبيه
+	Null Controllers for Path Points	متحكمات معدومة لنقاط المسار
+	Null Controllers for Positional Points	متحكمات معدومة لنقاط الموضع
+	Null Object	كائن معدوم
+	Null Settings	Null Settings
+	Null Tracing Along Path	كائن معدوم يتتبع المسار
+	Nulls Following Path Points	كائنات معدومة تتبع نقاط المسار
+	Number of Recent Fonts to Display	Number of Recent Fonts to Display
+	Numbers	أرقام
+	OCIO (built-in ACES config)	OCIO (إعداد ACES مدمج)
+	OCIO CDL Transform	OCIO CDL Transform
+	OCIO Color Space Transform	OCIO Color Space Transform
+	OCIO Display Transform	OCIO Display Transform
+	OCIO File Transform	OCIO File Transform
+	OCIO Look Transform	OCIO Look Transform
+	OMF (.omf, audio)	OMF (.omf, audio)
+	OPENED	مفتوح
+	Object Matte	Object Matte
+	Object Matte Tool	Object Matte Tool
+	Object {}	Object {}
+	Object {} ({})	Object {} ({})
+	Obsolete	قديم
+	Off	إيقاف
+	Off (Final Quality)	متوقف (جودة نهائية)
+	Offer to Open the Latest Auto-Save After a Crash	Offer to Open the Latest Auto-Save After a Crash
+	Offset	إزاحة
+	Offset:	الإزاحة:
+	On ({}) stop:	عند نقطة توقف ({}):
+	On All Layers	على كل الطبقات
+	On Selected Layers	على الطبقات المحددة
+	One-Node Camera	كاميرا أحادية العقدة
+	Online Tutorials...	دروس عبر الإنترنت...
+	Only one project can be opened per drop; skipped {} more	Only one project can be opened per drop; skipped {} more
+	Only this layer uses this solid.	هذه الطبقة وحدها تستخدم هذه المصمتة.
+	Opacity...	العتامة...
+	Open Auto-Save	فتح حفظ تلقائي
+	Open Composition	فتح التركيب
+	Open Demo Project	فتح مشروع تجريبي
+	Open Last Saved Project	فتح آخر مشروع محفوظ
+	Open Layer	فتح الطبقة
+	Open Layer Source	فتح مصدر الطبقة
+	Open New Composition	فتح تركيب جديد
+	Open Output	فتح الإخراج
+	Open Project...	فتح مشروع...
+	Open Project…	فتح مشروع…
+	Open a composition to build Essential Graphics	افتح تركيباً لبناء الرسوم الأساسية
+	Open a composition to see its scopes	افتح تركيباً لرؤية مراصده
+	Open a composition to track motion.	افتح تركيباً لتتبع الحركة.
+	Open in Essential Graphics	فتح في الرسوم الأساسية
+	OpenGL (compatibility)	OpenGL (توافقية)
+	Optics Compensation	تعويض البصريات
+	Opus Bitrate: {} kbps	معدل بت Opus: {} كيلوبت/ث
+	Opus Tuning: {}	ضبط Opus: {}
+	Orbit Around Cursor Tool	Orbit Around Cursor Tool
+	Organic Displacement	تحويل إلى كتل CC
+	Orient Along Path	Orient Along Path
+	Orient Towards Camera	Orient Towards Camera
+	Orient Towards Point of Interest	Orient Towards Point of Interest
+	Orientation	الاتجاه
+	Orientation...	التوجيه...
+	Original Duration:	المدة الأصلية:
+	Original color: click to go back to it	Original color: click to go back to it
+	Out	Out
+	Out-of-Range Display	Out-of-Range Display
+	Outer Glow	التوهج الخارجي
+	Output Cycle: {}	دورة الإخراج: {}
+	Output Module...	وحدة الإخراج...
+	Output To:	الإخراج إلى:
+	Output color space	Output color space
+	Output file name template	Output file name template
+	Output file: {}	Output file: {}
+	Overlap	Overlap
+	Overlays	Overlays
+	Override Start	Override Start
+	PS Arbitrary Map	خريطة تحكّم تعسفية
+	Page	Page
+	Page Curl	Page Curl
+	Paint	رسم
+	Paint Beads	Paint Beads
+	Paint Bucket	Paint Bucket
+	Palette Map	Palette Map
+	Pan Behind (Anchor Point) Tool	Pan Behind (Anchor Point) Tool
+	Pan Under Cursor Tool	Pan Under Cursor Tool
+	Panel Background Color	لون خلفية اللوحة
+	Panels are always drawn by the GPU (wgpu).	Panels are always drawn by the GPU (wgpu).
+	Paragraph	فقرة
+	Parameter Name:	اسم المعلمة:
+	Parametric EQ	معادل بارامتري
+	Parent & Link	الربط والتبعية
+	Parent pick whip: drag onto a layer	سوط الأبوة: اسحب إلى طبقة
+	Particle Emitter 2D	Particle Emitter 2D
+	Particle Emitter 3D	عالم الجزيئات CC
+	Particle Playground	ملعب الجزيئات
+	Paste Reversed Keyframes	لصق الإطارات المفتاحية معكوسة
+	Paste Text Formatting Only	لصق تنسيق النص فقط
+	Paste Text and Match Formatting	لصق النص ومطابقة التنسيق
+	Path Point and Handle Size	Path Point and Handle Size
+	Path Text	Path Text
+	Peach	خوخي
+	Pen Tool	أداة القلم
+	Per Layer	Per Layer
+	Perspective	منظور
+	Perspective Pin	Perspective Pin
+	Photo Filter	مرشح صور
+	Photoshop Layers...	طبقات Photoshop...
+	Pin Light	ضوء دبوس
+	Pixel Aspect Ratio	نسبة أبعاد البكسل
+	Pixel Aspect Ratio:	نسبة أبعاد البكسل:
+	Pixel Motion	حركة البكسل
+	Pixel Motion Blur	Pixel Motion Blur
+	Pixel Scatter	تبعثر CC
+	Pixel Shatter	تفكيك البكسلات CC
+	Placeholder...	عنصر نائب...
+	Plane	مستوٍ
+	Plastic Shading	Plastic Shading
+	Play Current Preview	تشغيل المعاينة الحالية
+	Play From	Play From
+	Play/Stop	Play/Stop
+	Playing on Video Preview	التشغيل في معاينة الفيديو
+	Point Control	Point Control
+	Polar Coordinates	Polar Coordinates
+	Polygon Tool	أداة المضلع
+	Position (percent of the composition)	Position (percent of the composition)
+	Position (pixels)	Position (pixels)
+	Position...	الموضع...
+	Post-Render Action: {}	إجراء ما بعد التصيير: {}
+	Post-roll	Post-roll
+	Posterize	Posterize
+	Posterize Time	تقليل معدل الإطارات زمنيًا
+	Pre-compose...	تركيب مسبق...
+	Pre-compose…	Pre-compose…
+	Pre-render	Pre-render
+	Pre-render (ProRes 4444)	Pre-render (ProRes 4444)
+	Pre-render...	تصيير مسبق...
+	Pre-roll	Pre-roll
+	Precomps	Precomps
+	Preferences	تفضيلات
+	Premultiplied	Premultiplied
+	Preserve Constant Vertex and Feather Point Count when Editing Masks	Preserve Constant Vertex and Feather Point Count when Editing Masks
+	Preserve RGB	Preserve RGB
+	Preserve Transparency	الحفاظ على الشفافية
+	Preserve frame rate when nested or in render queue	الحفاظ على معدل الإطارات عند التداخل أو في قائمة الانتظار
+	Preserve resolution when nested	الحفاظ على الدقة عند التداخل
+	Preset	إعداد مسبق
+	Preset Name	اسم الإعداد المسبق
+	Preset:	الإعداد المسبق:
+	Presets	إعدادات مسبقة
+	Preview (RAM) Cache	Preview (RAM) Cache
+	Preview Sample Rate	Preview Sample Rate
+	Previews	Previews
+	Previews...	المعاينات...
+	Previous Blending Mode	وضع المزج السابق
+	Previous Frame	الإطار السابق
+	Primary:	الأساسي:
+	ProEXR...	ProEXR...
+	Process Before Match	معالجة قبل المطابقة
+	Profile: {}	ملف التعريف: {}
+	Progress	التقدم
+	Project	مشروع
+	Project Settings	Project Settings
+	Project Settings...	إعدادات المشروع...
+	Project color depth: {}	Project color depth: {}
+	Project...	مشروع...
+	Project: {}	المشروع: {}
+	Projects	مشاريع
+	Property pick whip: drag onto a property	سوط الخصائص: اسحب إلى خاصية
+	Proportional Grid	شبكة متناسبة
+	Proportional Lining	Proportional Lining
+	Proportional Oldstyle	Proportional Oldstyle
+	Protected Region	منطقة محمية
+	Provide Feedback...	تقديم ملاحظات...
+	Proxy Use: {}	استخدام البديل: {}
+	Proxy...	بديل...
+	Pulsed Ripple	نبض متموج CC
+	Puppet	Puppet
+	Puppet Advanced Pin Tool	Puppet Advanced Pin Tool
+	Puppet Bend Pin Tool	Puppet Bend Pin Tool
+	Puppet Follow-Through	Puppet Follow-Through
+	Puppet Overlap Pin Tool	Puppet Overlap Pin Tool
+	Puppet Position Pin Tool	Puppet Position Pin Tool
+	Puppet Record Options	Puppet Record Options
+	Puppet Starch Pin Tool	Puppet Starch Pin Tool
+	Purge	تنقية
+	Push All to Comp	دفع الكل إلى التركيب
+	Quarter	ربع
+	Quick Apply...	تطبيق سريع...
+	Quit EffectCraft	إنهاء EffectCraft
+	RAM Reserved for Other Applications	RAM Reserved for Other Applications
+	RGB	RGB
+	RGB Straight	RGB مستقيم
+	RGB Threshold	RGB Threshold
+	RPF Camera Import	استيراد كاميرا RPF
+	Radial Blur	Radial Blur
+	Radial Light Burst	Radial Light Burst
+	Radial Scale Wipe	Radial Scale Wipe
+	Radial Shadow	Radial Shadow
+	Radial Wipe	Radial Wipe
+	Radio Waves	Radio Waves
+	Rainfall	هطول المطر CC
+	Range	نطاق
+	Rate Control: {}	التحكم بالمعدل: {}
+	Realtime Shadows in Draft	Realtime Shadows in Draft
+	Rec. 2020	Rec. 2020
+	Recent Animation Presets	إعدادات الحركة الأخيرة
+	Recent Projects Shown	Recent Projects Shown
+	Recent Script Files	ملفات السكربت الأخيرة
+	Recently Used	المستخدمة مؤخرًا
+	Record Options...	Record Options...
+	Recording	تسجيل
+	Rectangle Tool	أداة المستطيل
+	Reduce Cache Size When System Is Low on Memory	Reduce Cache Size When System Is Low on Memory
+	Reduce Interlace Flicker	Reduce Interlace Flicker
+	Reduce Project	تصغير المشروع
+	Reference Frame:	Reference Frame:
+	Refine Edge Tool	Refine Edge Tool
+	Refine Hard Matte	Refine Hard Matte
+	Refine Soft Matte	Refine Soft Matte
+	Refresh List	تحديث القائمة
+	Region of Interest	منطقة الاهتمام
+	Relink Missing Footage...	إعادة ربط اللقطات المفقودة...
+	Reload Footage	إعادة تحميل اللقطة
+	Remember Interpretation	تذكر التفسير
+	Remove All	إزالة الكل
+	Remove All Masks	إزالة كل الأقنعة
+	Remove All Text Animators	إزالة كل محركات النص
+	Remove Color Matting	إزالة حصيرة الألوان
+	Remove Expression	إزالة التعبير
+	Remove Grain	إزالة الحبيبات
+	Remove Mask	إزالة القناع
+	Remove Point	Remove Point
+	Remove Unused Footage	إزالة اللقطات غير المستخدمة
+	Remove from Favorites	إزالة من المفضلة
+	Remove from favorites	إزالة من المفضلة
+	Remove this object's strokes	Remove this object's strokes
+	Rename to	Rename to
+	Render	معالجة وإخراج
+	Render Queue	قائمة انتظار التصيير
+	Render Settings...	إعدادات التصيير...
+	Render every n-th pixel	Render every n-th pixel
+	Render: {} ms  •  UI {} fps{}	التصيير: {} م.ث  •  الواجهة {} إطار/ث{}
+	Renderer:	وحدة التصيير:
+	Repair	Repair
+	Replace Footage	استبدال اللقطة
+	Replace with Precomposition	Replace with Precomposition
+	Replaces your preset with this name	Replaces your preset with this name
+	Report Missing Frames	Report Missing Frames
+	Request Persistent Storage	طلب تخزين دائم
+	Rescan Fonts	Rescan Fonts
+	Reset	إعادة ضبط
+	Reset 3D View	إعادة ضبط العرض الثلاثي
+	Reset Exposure	إعادة ضبط التعريض
+	Reset Keyboard Shortcuts	Reset Keyboard Shortcuts
+	Reset Labels	إعادة ضبط التسميات
+	Reset Mask	إعادة ضبط القناع
+	Reset Material	إعادة ضبط الخامة
+	Reset Preset	إعادة ضبط الإعداد المسبق
+	Reset Settings	Reset Settings
+	Reset Transform	إعادة تعيين التحويل
+	Reset to Default	إعادة الضبط إلى الافتراضي
+	Reset to Saved Layout	إعادة ضبط إلى التخطيط المحفوظ
+	Reshape	إعادة تشكيل
+	Resize floating panel	Resize floating panel
+	Resolution/Down Sample Factor	Resolution/Down Sample Factor
+	Resolution/Down Sample Factor Popup	قائمة الدقة/عامل التنقيص المنبثقة
+	Responsive Design — Time	التصميم المتجاوب — الوقت
+	Restore Panel Size	استعادة حجم اللوحة
+	Reveal	إظهار
+	Reveal All Modified Properties	إظهار كل الخصائص المعدلة
+	Reveal Composition in Project	إظهار التركيبة في المشروع
+	Reveal Expression Errors	إظهار أخطاء التعبيرات
+	Reveal Layer Source in Project	إظهار مصدر الطبقة في المشروع
+	Reveal Layer in Project Flowchart	إظهار الطبقة في مخطط تدفق المشروع
+	Reveal Logging File	إظهار ملف السجل
+	Reveal Material Source in Project	إظهار مصدر الخامة في المشروع
+	Reveal Properties with Animation	إظهار الخصائص المتحركة
+	Reveal Properties with Keyframes	إظهار الخصائص ذات الإطارات المفتاحية
+	Reverb	صدى الصوت
+	Revert	استعادة
+	Revert All	استرجاع الكل
+	Ripple	تموج
+	Rolling Shutter Repair	Rolling Shutter Repair
+	Roman Hanging Punctuation	ترقيم لاتيني معلق
+	Rotation	دوران
+	Rotation (degrees)	Rotation (degrees)
+	Rotation Tool	Rotation Tool
+	Rotation...	التدوير...
+	Roto Brush	فرشاة الروتوسكوب
+	Roto Brush & Refine Edge	Roto Brush & Refine Edge
+	Roto Brush Tool	Roto Brush Tool
+	RotoBezier	RotoBezier
+	Roughen Edges	Roughen Edges
+	Rounded Rectangle Tool	Rounded Rectangle Tool
+	Rove Across Time	Rove Across Time
+	Roving:	التنقل:
+	Ruler zero point	Ruler zero point
+	Ruler zero point (drag to move, double-click to reset)	نقطة صفر المسطرة (اسحب للتحريك، انقر مرتين لإعادة الضبط)
+	Rulers	مساطر
+	Run	تشغيل
+	Run Script File...	تشغيل ملف برمجة...
+	SDTV NTSC	SDTV NTSC
+	SDTV PAL	SDTV PAL
+	SIZE	الحجم
+	Safe Margins	Safe Margins
+	Same As Layer	مثل الطبقة
+	Sample Format: {}	تنسيق العينة: {}
+	Samples Per Frame	Samples Per Frame
+	Samples Per Frame:	عينات لكل إطار:
+	Sandstone	حجري رملي
+	Satin	الساتان
+	Saturation	التشبع
+	Save Animation Preset...	حفظ إعداد حركة مسبق...
+	Save As...	حفظ باسم...
+	Save Changes to this Workspace	حفظ تغييرات مساحة العمل هذه
+	Save Current Preview...	حفظ المعاينة الحالية...
+	Save Current as Template…	Save Current as Template…
+	Save Every	Save Every
+	Save Frame As	حفظ الإطار كـ
+	Save Now	Save Now
+	Save Preset…	حفظ الإعداد المسبق…
+	Save When Starting Render Queue	Save When Starting Render Queue
+	Save a Copy As XML...	حفظ نسخة كـ XML...
+	Save a Copy...	حفظ نسخة...
+	Save as New Workspace...	حفظ كمساحة عمل جديدة...
+	Save as Template	Save as Template
+	Save as Template...	حفظ كقالب...
+	Save from #{}	الحفظ من #{}
+	Saved {}	تم حفظ {}
+	Scale Wipe	Scale Wipe
+	Scale X (%)	Scale X (%)
+	Scale Y (%)	Scale Y (%)
+	Scale...	تحجيم...
+	Scaled Tiles	بلاط CC
+	Scan for Effect Helpers	البحث عن مساعدي التأثيرات
+	Scatter	Scatter
+	Scene Edit Detection	Scene Edit Detection
+	Scene Edit Detection...	كشف تحرير المشهد...
+	Scramble	خلط الحروف
+	Screen	شاشة
+	Screen Color Key	Screen Color Key
+	Screen Key	Screen Key
+	Scribble	Scribble
+	Script Console	لوحة البرمجة
+	ScriptUI Panel	لوحة ScriptUI
+	Scripting & Expressions	Scripting & Expressions
+	Scripting & Expressions...	البرمجة النصية والتعبيرات...
+	Scripting Help...	تعليمات البرمجة...
+	Script… (⌘/Ctrl+Enter runs)	برمجة… (⌘/Ctrl+Enter للتشغيل)
+	Sea Foam	رغوة البحر
+	Search commands or shortcuts	البحث عن أوامر أو اختصارات
+	Search effects and presets	Search effects and presets
+	Search project	Search project
+	Seconds	Seconds
+	Segment Movie Files	Segment Movie Files
+	Segment Sequences	Segment Sequences
+	Segment Size	Segment Size
+	Segmentation Model	Segmentation Model
+	Select Custom Background Color...	اختيار لون خلفية مخصص...
+	Select Keyframe Label Group	تحديد مجموعة تسمية الإطارات المفتاحية
+	Select Label Group	تحديد مجموعة التسمية
+	Select a command to change its shortcut.	حدد أمراً لتغيير اختصاره.
+	Select a layer to apply to	Select a layer to apply to
+	Select a layer to see its effects	حدد طبقة لرؤية تأثيراتها
+	Select a layer to see its properties	حدد طبقة لرؤية خصائصها
+	Select a text layer	حدد طبقة نص
+	Select an item in the Project panel	حدد عنصراً في لوحة المشروع
+	Select an item to see its details	Select an item to see its details
+	Select animated properties to show them in the Graph Editor	حدد خصائص متحركة لإظهارها في محرر الرسم البياني
+	Selection Tool	Selection Tool
+	Selective Color	لون انتقائي
+	Send Layer Backward	إرجاع الطبقة
+	Send Layer to Back	إرسال الطبقة إلى الخلف
+	Sensitivity threshold (0–1, lower finds more)	Sensitivity threshold (0–1, lower finds more)
+	Separate Dimensions	فصل الأبعاد
+	Separate Dimensions (Position)	Separate Dimensions (Position)
+	Separate Fields	Separate Fields
+	Sequence Footage	Sequence Footage
+	Sequence Layers	Sequence Layers
+	Sequence Layers...	ترتيب الطبقات تسلسلياً...
+	Serrated Wipe	Serrated Wipe
+	Set Channels	تعيين القنوات
+	Set First Vertex	ضبط الرأس الأول
+	Set Focus Distance to Layer	ضبط مسافة البؤرة على الطبقة
+	Set Ground Plane and Origin	ضبط مستوى الأرض والأصل
+	Set Matte	تعيين قناع الخفاء
+	Set Paint Colors to Black and White (D)	ضبط ألوان الرسم على الأسود والأبيض (D)
+	Set Poster Time	ضبط وقت الإطار التمثيلي
+	Set Proxy	ضبط البديل
+	Settings	إعدادات
+	Settings Name:	اسم الإعدادات:
+	Settings...	إعدادات...
+	Shadow Darkness	قتمة الظل
+	Shadow Diffusion	انتشار الظل
+	Shadow/Highlight	الظلال والإضاءات
+	Shadows	ظلال
+	Shape	شكل
+	Shape Layer	طبقة شكل
+	Shape…	شكل…
+	Share View Options	مشاركة خيارات العرض
+	Sharpen	توضيح
+	Shatter	تحطيم
+	Shift Channels	إزاحة القنوات
+	Shortcut	Shortcut
+	Show 32 bpc Effects Only	Show 32 bpc Effects Only
+	Show 3D Reference Axes	Show 3D Reference Axes
+	Show All Video	إظهار كل الفيديو
+	Show Animation Presets	Show Animation Presets
+	Show Channel and Color Management Settings	إظهار إعدادات القنوات وإدارة الألوان
+	Show Effects for All Color Depths	Show Effects for All Color Depths
+	Show Expression Error Banner	Show Expression Error Banner
+	Show Font Names in English	Show Font Names in English
+	Show Font Preview	Show Font Preview
+	Show GPU Accelerated Effects Only	Show GPU Accelerated Effects Only
+	Show Grid	إظهار الشبكة
+	Show Guides	إظهار الأدلة
+	Show Home Screen When Launching	Show Home Screen When Launching
+	Show Home Screen When Opening a Project	Show Home Screen When Opening a Project
+	Show Internal Wireframes	Show Internal Wireframes
+	Show Layer Controls	إظهار عناصر تحكم الطبقة
+	Show Layer Name	إظهار اسم الطبقة
+	Show Mesh	إظهار الشبكة
+	Show Reference Graph	Show Reference Graph
+	Show Rendering Progress in Info Panel and Flowchart	Show Rendering Progress in Info Panel and Flowchart
+	Show Rulers	إظهار المساطر
+	Show Snapshot (hold)	إظهار اللقطة (مع الاستمرار)
+	Show Source Name	إظهار اسم المصدر
+	Show Tool Tips	Show Tool Tips
+	Show Transform Box when multiple keys are selected	Show Transform Box when multiple keys are selected
+	Show me	أرني
+	Show mesh	Show mesh
+	Shutter Angle	زاوية الغالق
+	Shutter Angle:	زاوية الغالق:
+	Shutter Phase	طور الغالق
+	Shutter Phase:	طور الغالق:
+	Shy	متوارية
+	Side	جانبي
+	Side: Color	Side: Color
+	Silhouette Alpha	ظلية ألفا
+	Silhouette Luma	ظلية إضاءة
+	Simple Choker	خانق قناع بسيط
+	Simulate Output	محاكاة الإخراج
+	Simulation	محاكاة
+	Single Composition	Single Composition
+	Single-line Composer	Single-line Composer
+	Skew	إمالة
+	Skip	تخطي
+	Slant	إمالة CC
+	Slider Control	Slider Control
+	Small Caps	أحرف استهلالية صغيرة
+	Small Screen	شاشة صغيرة
+	Smart Blur	Smart Blur
+	Smear	تلطيخ
+	Smooth	تنعيم
+	Smoother	التنعيم
+	Smoothing	التنعيم
+	Snap (key drags snap to the current time and other keys)	Snap (key drags snap to the current time and other keys)
+	Snap to Grid	الالتقاط بالشبكة
+	Snap to Guides	محاذاة إلى الأدلة
+	Snapping	الانجذاب
+	Snapping options	خيارات الالتقاط
+	Snapshot	لقطة
+	Snapshot taken	Snapshot taken
+	Snowfall	هطول الثلج CC
+	Soft Light	ضوء ناعم
+	Software Rendering	Software Rendering
+	Solid Composite	تركيب لون مصمت
+	Solid Settings	Solid Settings
+	Solid...	طبقة مصمتة...
+	Solid…	Solid…
+	Solo	مفرد
+	Solo Supported Properties	إفراد الخصائص المدعومة
+	Solo Switches: {}	مفاتيح الإفراد: {}
+	Sort by {}	Sort by {}
+	Sort by {}, {}	Sort by {}, {}
+	Source Composite	Source Composite
+	Source Name	Source Name
+	Source code on GitHub	Source code on GitHub
+	South Asian and Middle Eastern	South Asian and Middle Eastern
+	Spacing:	التباعد:
+	Spatial Interpolation:	الاستقراء المكاني:
+	Spatial Path	Spatial Path
+	Speed (%)	Speed (%)
+	Speed:	السرعة:
+	Sphere	كرة
+	Sphere Wrap	Sphere Wrap
+	Spherize	تكويك
+	Spill Suppressor	Spill Suppressor
+	Split Layer	تقسيم الطبقة
+	Split Layers	Split Layers
+	Split Warp	انقسام CC
+	Split and Precompose	Split and Precompose
+	Split with New Locked Viewer	تقسيم بعارض مقفل جديد
+	Square Pixels	Square Pixels
+	Stabilize Motion	تثبيت الحركة
+	Standard	معيار
+	Standard Ligatures	حروف مركبة قياسية
+	Star Tool	Star Tool
+	Starfield	انفجار النجوم CC
+	Start (s)	Start (s)
+	Start Capture	Start Capture
+	Start Timecode	Start Timecode
+	Start Timecode:	شارة وقت البداية:
+	Start: {}   Duration: {}	البداية: {}   المدة: {}
+	Startup & Repair	Startup & Repair
+	Startup & Repair...	بدء التشغيل والإصلاح...
+	Stencil Alpha	استنسل ألفا
+	Stencil Luma	استنسل إضاءة
+	Step {} of {}: {}	خطوة {} من {}: {}
+	Stereo 3D Controls	Stereo 3D Controls
+	Stereo Mixer	مازج استريو
+	Still Duration	Still Duration
+	Still Duration (seconds)	Still Duration (seconds)
+	Still Footage	Still Footage
+	Still...	صورة ثابتة...
+	Stop	إيقاف
+	Stop Tracking	Stop Tracking
+	Stop {} at {}°	إيقاف {} عند {}°
+	Stored in: {}	محفوظ في: {}
+	Stored, but not used by EffectCraft yet	Stored, but not used by EffectCraft yet
+	Straight	Straight
+	Stretch Factor:	معامل التمدد:
+	Strobe Light	Strobe Light
+	Stroke	حد
+	Stroke Color	لون الحد
+	Stroke Color: Brightness	Stroke Color: Brightness
+	Stroke Color: Hue	Stroke Color: Hue
+	Stroke Color: Opacity	Stroke Color: Opacity
+	Stroke Color: RGB	Stroke Color: RGB
+	Stroke Color: Saturation	Stroke Color: Saturation
+	Stroke Over Fill	Stroke Over Fill
+	Stroke Width	سماكة الحد
+	Stroke order	Stroke order
+	Stroke width presets	Stroke width presets
+	Style	نمط
+	Stylistic Alternates	بدائل أسلوبية
+	Stylistic Sets	المجموعات الأسلوبية
+	Stylize	أسلبة
+	Subdivisions	التقسيمات الفرعية
+	Subpixel Positioning	تموضع دون البكسل
+	Subscript / Inferior	Subscript / Inferior
+	Superscript / Superior	Superscript / Superior
+	Surface Fibers	شعر CC
+	Surface Spotlight	Surface Spotlight
+	Swap Colors	Swap Colors
+	Swap Paint Colors (X)	تبديل ألوان الرسم (X)
+	Switch 3D View	تبديل العرض الثلاثي
+	Switch View Layout	تبديل تخطيط العرض
+	Switch to Last 3D View	التبديل لآخر عرض ثلاثي
+	Switches	المفاتيح
+	Switches Affect Nested Comps	Switches Affect Nested Comps
+	Sync with System	مزامنة مع النظام
+	Synchronize Time of All Related Items	Synchronize Time of All Related Items
+	Syntax Highlighting	Syntax Highlighting
+	System Compatibility Report...	تقرير توافق النظام...
+	System Default	افتراضي النظام
+	Tabular Lining	Tabular Lining
+	Tabular Oldstyle	Tabular Oldstyle
+	Take Snapshot	أخذ لقطة
+	Template Project	Template Project
+	Template name	اسم القالب
+	Template: {}\\\\n{}	القالب: {}\\\\n{}
+	Templates	قوالب
+	Temporal Blend	Temporal Blend
+	Temporal Graph	Temporal Graph
+	Temporal Interpolation:	الاستقراء الزمني:
+	Temporal Motion Blur	Temporal Motion Blur
+	Temporal Path	Temporal Path
+	Text Animation	Text Animation
+	Text Animation Presets	إعدادات حركة النص المسبقة
+	Text Engine	Text Engine
+	Text direction	Text direction
+	Texturize	Texturize
+	The Media Browser is not available here (use File ▸ Import)	مستعرض الوسائط غير متاح هنا (استخدم ملف ▸ استيراد)
+	The OpenEXR layer shown in red, green, blue and alpha	طبقة OpenEXR معروضة بالقنوات الحمراء والخضراء والزرقاء وألفا
+	The render queue is empty.	قائمة انتظار التصيير فارغة.
+	Third	ثلث
+	This ScriptUI panel has closed	تم إغلاق لوحة ScriptUI هذه
+	This change will create a new solid for this layer.	سينشئ هذا التغيير طبقة مصمتة جديدة لهذه الطبقة.
+	Threshold	Threshold
+	Threshold (%)	Threshold (%)
+	Tile Grid	تقسيم شبكي CC
+	Time Difference	Time Difference
+	Time Displacement	إزاحة زمنية
+	Time Span	Time Span
+	Time Stretch...	تمديد الوقت...
+	Time Stretch…	تمديد الوقت…
+	Time display style	Time display style
+	Time field (empty: automatic)	Time field (empty: automatic)
+	Time-Reverse Keyframes	عكس زمن الإطارات المفتاحية
+	Time-Reverse Layer	عكس زمن الطبقة
+	Time:	الوقت:
+	Time: {}	الوقت: {}
+	Timecode	الرمز الزمني
+	Timeline	خط زمني
+	Timewarp	التواء زمني
+	Tint	صبغة
+	Title-safe	Title-safe
+	Title/Action Safe	أمان العنوان/الحركة
+	Title/action safe	أمان العنوان/الحركة
+	Titling Alternates	بدائل العناوين
+	Toggle Hold Keyframe	تبديل تثبيت الإطار المفتاحي
+	Toggle Mask and Shape Path Visibility	تبديل رؤية مسارات الأقنعة والأشكال
+	Toggle Switches / Modes	تبديل المفاتيح / الأوضاع
+	Toggle Transparency Grid	تبديل شبكة الشفافية
+	Tolerance (pixels)	Tolerance (pixels)
+	Tone	نغمة
+	Tone map	خريطة الدرجات
+	Tool Creates Mask	Tool Creates Mask
+	Tool Creates Shape	Tool Creates Shape
+	Tools	أدوات
+	Torus	حلقي
+	Total Offset	Total Offset
+	Track	Track
+	Track Camera	تتبع الكاميرا
+	Track Mask	تتبع القناع
+	Track Mask:	Track Mask:
+	Track Matte	قناع التتبع
+	Track Matte pick whip: drag onto a layer	Track Matte pick whip: drag onto a layer
+	Track Motion	تتبع الحركة
+	Track Name	Track Name
+	Track Name:	اسم المسار:
+	Track Type:	Track Type:
+	Track this Property	تتبع هذه الخاصية
+	Tracked Shape Matte	Tracked Shape Matte
+	Tracker	المتعقب
+	Tracking	التتبع
+	Tracking In	تضييق تباعد الحروف
+	Transform	تحويل
+	Transition	انتقال
+	Transparency grid	شبكة الشفافية
+	Trim Comp to Work Area	تشذيب التركيب على منطقة العمل
+	Tritone	ثلاثي النغمات
+	Try another name or folder.	جرب اسماً أو مجلداً آخر.
+	Turbulent Displace	إزاحة مضطربة
+	Turbulent Noise	Turbulent Noise
+	Tutorial complete	اكتمل الدرس
+	Twirl	دوامة
+	Twirl (Legacy)	Twirl (Legacy)
+	Twist Wipe	Twist Wipe
+	Two-Node Camera	كاميرا ثنائية العقدة
+	Two-Point Bend	ثني CC
+	Type	نص
+	Type a command or effect…	اكتب أمراً أو تأثيراً…
+	Type...	النص...
+	UHDTV (Rec. 2020)	UHDTV (Rec. 2020)
+	UI Scale	مقياس واجهة المستخدم
+	URL:	URL:
+	Unable to solve camera	Unable to solve camera
+	Undock Panel	فك رسو اللوحة
+	Undocked Panels	اللوحات غير المرسّبة
+	Unfreeze	إلغاء التجميد
+	Ungroup Shapes	إلغاء تجميع الأشكال
+	Unlink {}	إلغاء ربط {}
+	Unlock All Layers	إلغاء قفل كل الطبقات
+	Unlock All Masks	فتح كل الأقنعة
+	Unmult	Unmult
+	Unmute Keyframes	إلغاء كتم الإطارات المفتاحية
+	Unsharp Mask	Unsharp Mask
+	Update Markers From Source	تحديث العلامات من المصدر
+	Update check is not supported in the web browser.	Update check is not supported in the web browser.
+	Upper Field First	Upper Field First
+	Use Current Time	Use Current Time
+	Use Dimensions From	Use Dimensions From
+	Use Display Color Management	استخدام إدارة ألوان الشاشة
+	Use Draft Deformation	Use Draft Deformation
+	Use Gradients	Use Gradients
+	Use In-Window Menu Bar on macOS	استخدام شريط قوائم داخل النافذة على macOS
+	Use Label Color for Layer Handles and Paths	Use Label Color for Layer Handles and Paths
+	Use Label Color for Related Tabs	Use Label Color for Related Tabs
+	Use Source File Timecode	Use Source File Timecode
+	Use System Color Picker	Use System Color Picker
+	Use the sRGB curve (ignore Gamma)	Use the sRGB curve (ignore Gamma)
+	User Presets	User Presets
+	Utility	أدوات مساعدة
+	VR	VR
+	VR Blur	تمويه VR
+	VR Chromatic Aberrations	VR Chromatic Aberrations
+	VR Color Gradients	تدرجات ألوان VR
+	VR Comp Editor	محرر تركيبة VR
+	VR Converter	محول VR
+	VR De-Noise	تقليل الضوضاء VR
+	VR Digital Glitch	خلل رقمي VR
+	VR Environments	بيئات VR
+	VR Fractal Noise	ضوضاء كسرية VR
+	VR Glow	توهج VR
+	VR Plane to Sphere	تحويل مستوٍ إلى كروي VR
+	VR Rotate Sphere	VR Rotate Sphere
+	VR Sharpen	توضيح VR
+	VR Sphere to Plane	تحويل كروي إلى مستوٍ VR
+	Vanishing Point (.vpe)...	نقطة التلاشي (.vpe)...
+	Variable Font Axes	محاور الخط المتغير
+	Variable Radial Blur	Variable Radial Blur
+	Variable fonts only	الخطوط المتغيرة فقط
+	Vector Blur	Vector Blur
+	Vegas	Vegas
+	Venetian Blinds	Venetian Blinds
+	Vertical Type Tool	أداة النص العمودي
+	Vertical ruler	Vertical ruler
+	Vibrance	الحيوية
+	Video	فيديو
+	Video Codec: {}	مرمّز الفيديو: {}
+	Video Device	Video Device
+	Video Limiter	Video Limiter
+	Video Output During Playback	Video Output During Playback
+	Video Scopes	نطاقات الفيديو
+	Video preview is off (Preview panel): audio only	Video preview is off (Preview panel): audio only
+	Video preview off: audio only	Video preview off: audio only
+	Video rendering and effects	Video rendering and effects
+	Video start (ISO date-time, hh:mm:ss, timecode; empty: file date)	Video start (ISO date-time, hh:mm:ss, timecode; empty: file date)
+	Video...	فيديو...
+	View Options...	خيارات العرض...
+	View:	العرض:
+	Viewer Zoom Quality	Viewer Zoom Quality
+	Viewer controls	Viewer controls
+	Views:	طرق العرض:
+	Vignette	Vignette
+	Visible Keyframes on All Layers	الإطارات المفتاحية المرئية على كل الطبقات
+	Visible Keyframes on Selected Layers	الإطارات المفتاحية المرئية على الطبقات المحددة
+	Vivid Light	ضوء زاهي
+	Waiting to solve	Waiting to solve
+	Warn User When Executing Files	Warn User When Executing Files
+	Warp	التواء
+	Warp Dissolve	Warp Dissolve
+	Warp Stabilizer	Warp Stabilizer
+	Warp Stabilizer VFX	مثبت التشوه VFX
+	Watch Folder...	مراقبة مجلد...
+	Water Ripples	رذاذ خفيف CC
+	Wave Warp	التواء موجي
+	Wave World	عالم الأمواج
+	Waveform	Waveform
+	Welcome to EffectCraft	مرحباً بك في EffectCraft
+	Wiggler	مولّد التموج
+	Wiggly	متموج
+	Window Graphics	Window Graphics
+	Wireframe	إطار سلكي
+	With Layered Comp	بتركيب ذي طبقات
+	Word Wrap	Word Wrap
+	Work Area	منطقة العمل
+	Working gamma	Working gamma
+	Working space	Working space
+	Workspace	مساحة العمل
+	Woven Threads	Woven Threads
+	Write-on	Write-on
+	X and Y	X and Y
+	X only	X only
+	Y only	Y only
+	Yesterday	أمس
+	You can undo this.	يمكنك التراجع عن هذا.
+	You can't undo this.	You can't undo this.
+	Your changes will be lost if you don't save them.	ستفقد تغييراتك إذا لم تحفظها.
+	Your recent files will show here	ستظهر ملفاتك الأخيرة هنا
+	Zoom	تكبير/تصغير
+	Zoom Tool	أداة التكبير/التصغير
+	built-in	مدمج
+	channel	channel
+	files	files
+	frames per second	إطاراً في الثانية
+	per second	per second
+	sRGB IEC61966-2.1 (default)	sRGB IEC61966-2.1 (افتراضي)
+	steps	steps
+	template name	اسم القالب
+	track point	track point
+	used once	used once
+	used {} times	used {} times
+	{} contributors · {} commits	{} من المساهمين · {} من الإيداعات
+	{} day ago	قبل {} يوم
+	{} days ago	قبل {} يوماً
+	{} hour ago	قبل {} ساعة
+	{} hours ago	قبل {} ساعة
+	{} minute ago	قبل {} دقيقة
+	{} minutes ago	قبل {} دقيقة
+	{} x {}, {}MB per 8bpc frame	{} × {}، {} ميغابايت لكل إطار 8 بت/قناة
+	{} — coming soon	{} — قريباً
+	{} — double-click to open, {}-click to reveal	{} — انقر مرتين للفتح، وانقر مع {} للإظهار
+	{}: {} left out or changed	{}: تم استبعاد أو تغيير {}
+	… and {} more	… و {} أخرى
+	⌘/Ctrl-drag a pin to record its motion	اسحب دبوساً مع ⌘/Ctrl لتسجيل حركته
+	▣ {}	▣ {}
+	⚠ {} is used by:	⚠ {} مستخدم بواسطة:
