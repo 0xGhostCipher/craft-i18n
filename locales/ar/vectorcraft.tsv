@@ -658,9 +658,9 @@
 @plural	{n} step|{n} steps	{n} خطوة|{n} خطوة|{n} خطوتان|{n} خطوات|{n} خطوةً|{n} خطوة
 @plural	{n} stroke|{n} strokes	{n} حد|{n} حد|{n} حدان|{n} حدود|{n} حدًا|{n} حد
 3d	Bevel	مشطوفة
-3d	Light	فاتح
+3d	Light	إضاءة
 3d	Solid	مصمت
-3d	Space	Space
+3d	Space	تباعد
 @msg	Opened {url}	تم فتح {url}
 axis	Both	كلاهما
 axis	Horizontal	أفقي
@@ -672,7 +672,7 @@ effect	Soft	ناعم
 effect	Vertical	عمودي
 gradient-kind	Radial	شعاعي
 imageTrace	Outline	مخطط تفصيلي
-lighting	Light	فاتح
+lighting	Light	إضاءة
 swatch	Aqua	أزرق مائي
 swatch	Black	أسود
 swatch	Blue	أزرق
